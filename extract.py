@@ -1,4 +1,4 @@
-"""CPOS lead feed engine (version 2.1): finds Canadian businesses likely to take card payments in person.
+"""CPOS lead feed engine (version 2.2): finds Canadian businesses likely to take card payments in person.
 
 Runs on GitHub Actions. Each run:
   1. Knows where Canada's cities, towns and villages are, from Overture Maps' own list of places (the divisions
@@ -755,7 +755,7 @@ def explore_priority(c, types, learned, cfg):
     return pri, why
 
 
-def pick_batch(cands, n, cfg, types, learned, area_used, type_used):
+def pick_batch(cands, n, cfg, types, learned, area_used, type_used, area_cap=None):
     """Best first, without starving anyone: a share for untested types, then weighted turns across the model's kinds
     of business, and within each kind, turns across its Overture types. Turns go by kind first because Overture splits
     some kinds much finer than others (dozens of restaurant types, one clothing store type)."""
@@ -768,6 +768,7 @@ def pick_batch(cands, n, cfg, types, learned, area_used, type_used):
     for t in sorted(by_type, key=lambda t: (-by_type[t][0]["Score"], t)):   # within a kind, its best type first
         by_rule.setdefault(rule_of[t], []).append(t)
     type_cap = max(3, int(math.ceil(cfg["batch_size"] * cfg["per_type_cap_share"])))
+    area_cap = area_cap or cfg["per_area_cap"]
     caps = {}
     for t in by_type:
         caps[t] = type_cap
@@ -778,7 +779,7 @@ def pick_batch(cands, n, cfg, types, learned, area_used, type_used):
         q = by_type.get(t) or []
         while q:
             c = q.pop(0)
-            if area_used.get(c["_aid"], 0) >= cfg["per_area_cap"]:
+            if area_used.get(c["_aid"], 0) >= area_cap:
                 continue
             chosen.append(c)
             area_used[c["_aid"]] = area_used.get(c["_aid"], 0) + 1
@@ -849,7 +850,7 @@ def pick_batch(cands, n, cfg, types, learned, area_used, type_used):
         for c in rest:
             if len(chosen) >= n:
                 break
-            if area_used.get(c["_aid"], 0) >= cfg["per_area_cap"]:
+            if area_used.get(c["_aid"], 0) >= area_cap:
                 continue
             chosen.append(c)
             area_used[c["_aid"]] = area_used.get(c["_aid"], 0) + 1
@@ -918,6 +919,8 @@ def main(core=None, clock=time.time, log=None):
     for g in area_need:
         area_need[g] = min(area_need[g], budget[g]) if targets[g] > 0 else 0
     areas_with = {"seed": 0, "home": 0, "national": 0}
+    small_need = dict((g, int(math.ceil(area_need[g] * cfg["small_town_share"])) if g != "seed" else 0) for g in area_need)
+    small_with = {"seed": 0, "home": 0, "national": 0}
     while areas_done < cfg["max_areas"] and clock() < deadline:
         # the group furthest from having enough candidates goes next, within its share of the areas;
         # a group with nothing left (or no share) gives its share away
@@ -935,7 +938,7 @@ def main(core=None, clock=time.time, log=None):
         want_small = None
         if g != "seed":
             small_have = sum(1 for c in pools[g] if c["_small"])
-            want_small = small_have < targets[g] * cfg["small_town_share"] * cfg["pool_factor"]
+            want_small = small_have < targets[g] * cfg["small_town_share"] * cfg["pool_factor"] or small_with[g] < small_need[g]
         area = planner.next(g, want_small)
         if not area:
             continue
@@ -976,6 +979,8 @@ def main(core=None, clock=time.time, log=None):
         planner.note_gathered(m.get("prov") or area["prov"], a_viable)
         if a_viable:
             areas_with[g] += 1
+            if area["small"]:
+                small_with[g] += 1
         if m.get("grid") and not m.get("prov"):
             provs = [c["_prov"] for c in pools[g] if c["_aid"] == area["aid"]]
             if provs:
@@ -987,13 +992,17 @@ def main(core=None, clock=time.time, log=None):
 
     # choose the batch: each group's share first, then whatever is left from any group
     area_used, type_used, out = {}, {}, []
+    group_cap = {}
     for g in ("seed", "home", "national"):
         want = min(targets[g], n - len(out))
+        # spread a group's picks over the areas it searched: no area gives much more than its fair part
+        n_areas = len(set(c["_aid"] for c in pools[g])) or 1
+        cap = group_cap[g] = min(cfg["per_area_cap"], max(5, int(math.ceil(want * 1.5 / n_areas))))
         got = []
         if g != "seed":   # small towns first get their share, so big cities do not crowd them out
-            got = pick_batch([c for c in pools[g] if c["_small"]], int(round(want * cfg["small_town_share"])), cfg, types, learned, area_used, type_used)
+            got = pick_batch([c for c in pools[g] if c["_small"]], int(round(want * cfg["small_town_share"])), cfg, types, learned, area_used, type_used, cap)
         ids = set(c["OvertureId"] for c in got)
-        got += pick_batch([c for c in pools[g] if c["OvertureId"] not in ids], want - len(got), cfg, types, learned, area_used, type_used)
+        got += pick_batch([c for c in pools[g] if c["OvertureId"] not in ids], want - len(got), cfg, types, learned, area_used, type_used, cap)
         out.extend(got)
         ids = set(c["OvertureId"] for c in got)
         pools[g] = [c for c in pools[g] if c["OvertureId"] not in ids]
@@ -1046,7 +1055,8 @@ def main(core=None, clock=time.time, log=None):
     save_json(MARKETS_FILE, index)
     save_json(TYPES_FILE, types_state)
     report = make_report(stamp, release, cfg, out, pools, excluded, area_log, scanned, clock() - t0, index, types, totals, new_types, planner)
-    report["areas_needed"], report["areas_with_candidates"] = area_need, areas_with
+    report["areas_needed"], report["areas_with_candidates"], report["area_cap_by_group"] = area_need, areas_with, group_cap
+    report["small_town_areas"] = small_with
     save_json(os.path.join(FEED_DIR, "report", "latest.json"), report, indent=1)
     coverage = make_coverage(index, types, totals, cfg, release, planner)
     save_json(os.path.join(FEED_DIR, "coverage.json"), coverage, indent=1)
