@@ -15,7 +15,9 @@ batch in `feed/history/`. The agent adds each batch to its Leads tab once.
   not know yet are tried a few at a time.
 - **How it ranks:** each business gets a score from 0 to 100 with its reasons, marked `[estimate]` (from the model),
   `[listing]` (from the business's own listing) or `[learned]` (from the agent's results). The best go first, but every
-  viable type and region keeps a share, so lower ranked businesses are still reached.
+  viable kind of business and region keeps a share, so lower ranked businesses are still reached. Turns go by kind of
+  business (the model's rules), then by Overture type within it, because Overture splits restaurants into dozens of
+  types and most other kinds into one or two. A listing with no category is judged by its name, and says so.
 - **How it learns:** the agent writes `state/feedback.json` (emails found, replies, per business type and market).
   Types and places that work move up, the others move down, never to zero. A type that does well leads to its related
   types being tried.
