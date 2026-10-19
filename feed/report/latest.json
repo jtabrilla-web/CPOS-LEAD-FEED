@@ -1,1569 +1,1884 @@
 {
  "areas": [
   {
-   "area": "seed#4.4",
+   "area": "seed#3.4",
    "group": "seed",
    "market": "Ottawa",
    "prov": "ON",
-   "seen": 9167,
-   "viable": 3282
+   "seen": 4666,
+   "viable": 1827
   },
   {
-   "area": "mb0b9463214#0",
+   "area": "m671f40b3c8#0",
    "group": "home",
-   "market": "Perth",
+   "market": "Oliver Paipoonge",
    "prov": "ON",
-   "seen": 691,
-   "viable": 343
+   "seen": 78,
+   "viable": 46
   },
   {
-   "area": "m3c217c73cc#0",
+   "area": "m369e42717a#0",
    "group": "national",
-   "market": "Bonnyville",
+   "market": "Creston",
+   "prov": "BC",
+   "seen": 505,
+   "viable": 263
+  },
+  {
+   "area": "mc4141bfd53#1.1",
+   "group": "national",
+   "market": "Sydney",
+   "prov": "NS",
+   "seen": 1544,
+   "viable": 652
+  },
+  {
+   "area": "mcf2db7be72#1.1",
+   "group": "national",
+   "market": "Airdrie",
    "prov": "AB",
-   "seen": 614,
-   "viable": 268
+   "seen": 2371,
+   "viable": 1035
+  },
+  {
+   "area": "seed#4.3",
+   "group": "seed",
+   "market": "Ottawa",
+   "prov": "ON",
+   "seen": 2868,
+   "viable": 14
+  },
+  {
+   "area": "m2292ff6d28#0",
+   "group": "home",
+   "market": "Petrolia",
+   "prov": "ON",
+   "seen": 314,
+   "viable": 139
+  },
+  {
+   "area": "m38d53e714c#1.1",
+   "group": "national",
+   "market": "Brandon",
+   "prov": "MB",
+   "seen": 2007,
+   "viable": 842
+  },
+  {
+   "area": "me80d9e9021#2.2",
+   "group": "national",
+   "market": "Regina",
+   "prov": "SK",
+   "seen": 5644,
+   "viable": 2517
+  },
+  {
+   "area": "seed#3.3",
+   "group": "seed",
+   "market": "Ottawa",
+   "prov": "ON",
+   "seen": 4669,
+   "viable": 1883
+  },
+  {
+   "area": "mb0d8728711#1.1",
+   "group": "home",
+   "market": "Georgina",
+   "prov": "ON",
+   "seen": 73,
+   "viable": 35
+  },
+  {
+   "area": "m9e6059cdc8#3.3",
+   "group": "national",
+   "market": "Vancouver",
+   "prov": "BC",
+   "seen": 25585,
+   "viable": 10921
+  },
+  {
+   "area": "ma4e393e51c#1.1",
+   "group": "national",
+   "market": "Medicine Hat",
+   "prov": "AB",
+   "seen": 2114,
+   "viable": 990
+  },
+  {
+   "area": "seed#4.5",
+   "group": "seed",
+   "market": "Ottawa",
+   "prov": "ON",
+   "seen": 1707,
+   "viable": 750
+  },
+  {
+   "area": "m910d241c95#1.1",
+   "group": "home",
+   "market": "Whitchurch-Stouffville",
+   "prov": "ON",
+   "seen": 100,
+   "viable": 53
+  },
+  {
+   "area": "m4bf5f0993e#3.3",
+   "group": "national",
+   "market": "Halifax",
+   "prov": "NS",
+   "seen": 3836,
+   "viable": 1426
+  },
+  {
+   "area": "m0b1bb52de0#1.1",
+   "group": "national",
+   "market": "Fredericton",
+   "prov": "NB",
+   "seen": 3016,
+   "viable": 1086
+  },
+  {
+   "area": "seed#5.4",
+   "group": "seed",
+   "market": "Ottawa",
+   "prov": "ON",
+   "seen": 2189,
+   "viable": 0
+  },
+  {
+   "area": "seed#3.5",
+   "group": "seed",
+   "market": "Ottawa",
+   "prov": "ON",
+   "seen": 1880,
+   "viable": 871
+  },
+  {
+   "area": "m7c3b5a3f19#1.1",
+   "group": "home",
+   "market": "Cornwall",
+   "prov": "ON",
+   "seen": 1869,
+   "viable": 725
+  },
+  {
+   "area": "m7975787bf4#1.1",
+   "group": "national",
+   "market": "Spruce Grove",
+   "prov": "AB",
+   "seen": 1463,
+   "viable": 613
+  },
+  {
+   "area": "mee1cb1996c#1.1",
+   "group": "national",
+   "market": "St. John's",
+   "prov": "NL",
+   "seen": 2668,
+   "viable": 978
   }
  ],
- "areas_searched": 3,
- "batch_size": 300,
- "candidates": 3893,
- "duplicates_removed": 810,
- "excluded": {
-  "chain or franchise": 920,
-  "closed": 1,
-  "duplicate": 810,
-  "no contact details": 80,
-  "not a merchant prospect": 2492,
-  "province not included (Quebec waits for French outreach)": 136,
-  "rarely takes card payments in person": 819,
-  "restricted industry": 116,
-  "uncertain listing": 1205
+ "areas_needed": {
+  "home": 5,
+  "national": 11,
+  "seed": 5
  },
- "explored": 47,
- "left_for_later": 3773,
+ "areas_searched": 22,
+ "areas_with_candidates": {
+  "home": 5,
+  "national": 11,
+  "seed": 5
+ },
+ "batch_size": 300,
+ "candidates": 27666,
+ "duplicates_removed": 5696,
+ "excluded": {
+  "chain or franchise": 6492,
+  "closed": 7,
+  "duplicate": 5696,
+  "low score": 4,
+  "no contact details": 570,
+  "not a merchant prospect": 10743,
+  "outside Canada": 5,
+  "province not included (Quebec waits for French outreach)": 2419,
+  "rarely takes card payments in person": 8173,
+  "restricted industry": 706,
+  "uncertain listing": 8685
+ },
+ "explored": 60,
+ "left_for_later": 27366,
  "markets_known": 12795,
  "markets_source": "divisions",
  "new_business_types": [
   {
-   "fit": 76,
-   "key": "3d_printing_service",
-   "label": "3d printing service",
-   "rule": "print",
-   "viable": 1
-  },
-  {
-   "fit": 58,
-   "key": "abortion_clinic",
-   "label": "Abortion clinic",
-   "rule": "g_health",
-   "viable": 1
-  },
-  {
-   "fit": 58,
-   "key": "abuse_and_addiction_treatment_center",
-   "label": "Abuse and addiction treatment center",
-   "rule": "g_health",
+   "fit": 84,
+   "key": "academic_bookstore",
+   "label": "Academic bookstore",
+   "rule": "hobby",
    "viable": 5
   },
   {
-   "fit": 32,
-   "key": "accountant",
-   "label": "Accountant",
-   "rule": "accounting",
-   "viable": 21
-  },
-  {
-   "fit": 88,
-   "key": "acupuncture",
-   "label": "Acupuncture",
-   "rule": "rehab",
-   "viable": 6
-  },
-  {
-   "fit": 88,
-   "key": "addiction_rehabilitation_center",
-   "label": "Addiction rehabilitation center",
-   "rule": "rehab",
+   "fit": 94,
+   "key": "acai_bowls",
+   "label": "Acai bowls",
+   "rule": "restaurant",
    "viable": 2
   },
   {
-   "fit": 94,
-   "key": "afghani_restaurant",
-   "label": "Afghani restaurant",
-   "rule": "restaurant",
+   "fit": 60,
+   "key": "adventure_sports_center",
+   "label": "Adventure sports center",
+   "rule": "sports_club",
    "viable": 1
   },
   {
-   "fit": 94,
-   "key": "african_restaurant",
-   "label": "African restaurant",
-   "rule": "restaurant",
-   "viable": 4
+   "fit": 91,
+   "key": "aesthetic_medicine",
+   "label": "Aesthetic medicine",
+   "rule": "salon",
+   "viable": 1
+  },
+  {
+   "fit": 38,
+   "key": "after_school_program",
+   "label": "After school program",
+   "rule": "child_care",
+   "viable": 1
   },
   {
    "fit": 22,
-   "key": "agricultural_cooperative",
-   "label": "Agricultural cooperative",
+   "key": "aggregate_supplier",
+   "label": "Aggregate supplier",
    "rule": "b2b",
-   "viable": 6
-  },
-  {
-   "fit": 76,
-   "key": "air_duct_cleaning_service",
-   "label": "Air duct cleaning service",
-   "rule": "trades",
-   "viable": 2
-  },
-  {
-   "fit": 58,
-   "key": "alcohol_and_drug_treatment_center",
-   "label": "Alcohol and drug treatment center",
-   "rule": "g_health",
    "viable": 1
   },
   {
-   "fit": 58,
-   "key": "allergy_and_immunology",
-   "label": "Allergy and immunology",
-   "rule": "g_health",
+   "fit": 22,
+   "key": "aircraft_manufacturer",
+   "label": "Aircraft manufacturer",
+   "rule": "b2b",
    "viable": 1
   },
   {
-   "fit": 76,
-   "key": "altering_and_remodeling_contractor",
-   "label": "Altering and remodeling contractor",
-   "rule": "trades",
+   "fit": 68,
+   "key": "aircraft_service",
+   "label": "Aircraft service",
+   "rule": "auto_sales",
    "viable": 1
   },
   {
-   "fit": 66,
-   "key": "amateur_sport_league",
-   "label": "Amateur sport league",
-   "rule": "g_sport",
+   "fit": 92,
+   "key": "airport_lounge",
+   "label": "Airport lounge",
+   "rule": "bars",
    "viable": 1
-  },
-  {
-   "fit": 66,
-   "key": "amateur_sport_team",
-   "label": "Amateur sport team",
-   "rule": "g_sport",
-   "viable": 3
-  },
-  {
-   "fit": 40,
-   "key": "ambulance_or_ems_service",
-   "label": "Ambulance or ems service",
-   "rule": "medical_clinic",
-   "viable": 1
-  },
-  {
-   "fit": 94,
-   "key": "american_restaurant",
-   "label": "American restaurant",
-   "rule": "restaurant",
-   "viable": 7
   },
   {
    "fit": 70,
-   "key": "amusement_park",
-   "label": "Amusement park",
+   "key": "amusement_attraction",
+   "label": "Amusement attraction",
    "rule": "entertainment",
+   "viable": 3
+  },
+  {
+   "fit": 58,
+   "key": "anesthesiology",
+   "label": "Anesthesiology",
+   "rule": "g_health",
+   "viable": 1
+  },
+  {
+   "fit": 55,
+   "key": "animation_studio",
+   "label": "Animation studio",
+   "rule": "g_services",
+   "viable": 14
+  },
+  {
+   "fit": 22,
+   "key": "apparel_manufacturer",
+   "label": "Apparel manufacturer",
+   "rule": "b2b",
+   "viable": 11
+  },
+  {
+   "fit": 22,
+   "key": "appliance_manufacturer",
+   "label": "Appliance manufacturer",
+   "rule": "b2b",
    "viable": 2
   },
   {
-   "fit": 88,
-   "key": "animal_or_pet_service",
-   "label": "Animal or pet service",
-   "rule": "pet_services",
-   "viable": 3
+   "fit": 48,
+   "key": "aquarium",
+   "label": "Aquarium",
+   "rule": "culture",
+   "viable": 2
   },
   {
-   "fit": 84,
-   "key": "antique_store",
-   "label": "Antique store",
-   "rule": "hobby",
-   "viable": 3
-  },
-  {
-   "fit": 80,
-   "key": "appliance_repair_service",
-   "label": "Appliance repair service",
-   "rule": "repair",
+   "fit": 85,
+   "key": "aquatic_pet_store",
+   "label": "Aquatic pet store",
+   "rule": "pet_store",
    "viable": 4
   },
   {
-   "fit": 80,
-   "key": "appliance_store",
-   "label": "Appliance store",
-   "rule": "home_goods",
-   "viable": 5
-  },
-  {
    "fit": 94,
-   "key": "armenian_restaurant",
-   "label": "Armenian restaurant",
+   "key": "arabian_restaurant",
+   "label": "Arabian restaurant",
    "rule": "restaurant",
    "viable": 1
   },
   {
-   "fit": 48,
-   "key": "art_gallery",
-   "label": "Art gallery",
-   "rule": "culture",
-   "viable": 47
-  },
-  {
-   "fit": 48,
-   "key": "art_museum",
-   "label": "Art museum",
-   "rule": "culture",
-   "viable": 2
-  },
-  {
-   "fit": 74,
-   "key": "art_restoration_service",
-   "label": "Art restoration service",
-   "rule": "cleaning",
+   "fit": 78,
+   "key": "archery_store",
+   "label": "Archery store",
+   "rule": "golf_ski",
    "viable": 1
   },
   {
-   "fit": 62,
-   "key": "art_school",
-   "label": "Art school",
-   "rule": "lessons",
-   "viable": 5
-  },
-  {
-   "fit": 62,
-   "key": "arts_and_entertainment",
-   "label": "Arts and entertainment",
-   "rule": "g_arts",
-   "viable": 22
+   "fit": 58,
+   "key": "aromatherapy",
+   "label": "Aromatherapy",
+   "rule": "g_health",
+   "viable": 2
   },
   {
    "fit": 84,
-   "key": "arts_crafts_and_hobby_store",
-   "label": "Arts crafts and hobby store",
+   "key": "art_supply_store",
+   "label": "Art supply store",
    "rule": "hobby",
+   "viable": 5
+  },
+  {
+   "fit": 84,
+   "key": "arts_and_crafts_space",
+   "label": "Arts and crafts space",
+   "rule": "hobby",
+   "viable": 3
+  },
+  {
+   "fit": 48,
+   "key": "asian_art_museum",
+   "label": "Asian art museum",
+   "rule": "culture",
+   "viable": 1
+  },
+  {
+   "fit": 85,
+   "key": "asian_grocery_store",
+   "label": "Asian grocery store",
+   "rule": "food_retail",
+   "viable": 1
+  },
+  {
+   "fit": 62,
+   "key": "astrological_advising",
+   "label": "Astrological advising",
+   "rule": "g_arts",
+   "viable": 4
+  },
+  {
+   "fit": 65,
+   "key": "audiovisual_equipment_rental",
+   "label": "Audiovisual equipment rental",
+   "rule": "rentals_auto",
+   "viable": 12
+  },
+  {
+   "fit": 94,
+   "key": "austrian_restaurant",
+   "label": "Austrian restaurant",
+   "rule": "restaurant",
+   "viable": 1
+  },
+  {
+   "fit": 78,
+   "key": "auto_company",
+   "label": "Auto company",
+   "rule": "g_auto",
+   "viable": 2
+  },
+  {
+   "fit": 90,
+   "key": "auto_electrical_repair",
+   "label": "Auto electrical repair",
+   "rule": "auto_service",
+   "viable": 1
+  },
+  {
+   "fit": 78,
+   "key": "auto_loan_provider",
+   "label": "Auto loan provider",
+   "rule": "g_auto",
    "viable": 9
   },
   {
-   "fit": 94,
-   "key": "asian_fusion_restaurant",
-   "label": "Asian fusion restaurant",
-   "rule": "restaurant",
+   "fit": 22,
+   "key": "auto_manufacturer",
+   "label": "Auto manufacturer",
+   "rule": "b2b",
    "viable": 2
   },
   {
-   "fit": 94,
-   "key": "asian_restaurant",
-   "label": "Asian restaurant",
-   "rule": "restaurant",
-   "viable": 6
+   "fit": 78,
+   "key": "auto_security",
+   "label": "Auto security",
+   "rule": "g_auto",
+   "viable": 9
   },
   {
-   "fit": 28,
-   "key": "attorney_or_law_firm",
-   "label": "Attorney or law firm",
-   "rule": "legal",
-   "viable": 88
-  },
-  {
-   "fit": 76,
-   "key": "auction_house",
-   "label": "Auction house",
-   "rule": "retail_generic",
-   "viable": 3
+   "fit": 22,
+   "key": "awning_supplier",
+   "label": "Awning supplier",
+   "rule": "b2b",
+   "viable": 1
   },
   {
    "fit": 78,
-   "key": "audio_visual_equipment_store",
-   "label": "Audio visual equipment store",
+   "key": "b2b_audio_visual_production",
+   "label": "B2b audio visual production",
    "rule": "electronics",
-   "viable": 1
-  },
-  {
-   "fit": 86,
-   "key": "audiology",
-   "label": "Audiology",
-   "rule": "eye_ear",
-   "viable": 3
-  },
-  {
-   "fit": 90,
-   "key": "auto_body_shop",
-   "label": "Auto body shop",
-   "rule": "auto_service",
-   "viable": 5
-  },
-  {
-   "fit": 78,
-   "key": "auto_customization",
-   "label": "Auto customization",
-   "rule": "g_auto",
-   "viable": 1
-  },
-  {
-   "fit": 68,
-   "key": "auto_dealer",
-   "label": "Auto dealer",
-   "rule": "auto_sales",
-   "viable": 20
-  },
-  {
-   "fit": 90,
-   "key": "auto_detailing",
-   "label": "Auto detailing",
-   "rule": "auto_service",
-   "viable": 3
-  },
-  {
-   "fit": 90,
-   "key": "auto_glass_service",
-   "label": "Auto glass service",
-   "rule": "auto_service",
-   "viable": 6
-  },
-  {
-   "fit": 78,
-   "key": "auto_leasing",
-   "label": "Auto leasing",
-   "rule": "g_auto",
-   "viable": 1
-  },
-  {
-   "fit": 68,
-   "key": "auto_parts_store",
-   "label": "Auto parts store",
-   "rule": "auto_sales",
-   "viable": 5
-  },
-  {
-   "fit": 74,
-   "key": "auto_restoration_service",
-   "label": "Auto restoration service",
-   "rule": "cleaning",
-   "viable": 1
-  },
-  {
-   "fit": 90,
-   "key": "auto_upholstery",
-   "label": "Auto upholstery",
-   "rule": "auto_service",
-   "viable": 1
-  },
-  {
-   "fit": 78,
-   "key": "automation_service",
-   "label": "Automation service",
-   "rule": "g_auto",
-   "viable": 1
-  },
-  {
-   "fit": 78,
-   "key": "automobile_registration_service",
-   "label": "Automobile registration service",
-   "rule": "g_auto",
-   "viable": 2
-  },
-  {
-   "fit": 90,
-   "key": "automotive_repair",
-   "label": "Automotive repair",
-   "rule": "auto_service",
-   "viable": 36
-  },
-  {
-   "fit": 90,
-   "key": "automotive_service",
-   "label": "Automotive service",
-   "rule": "auto_service",
    "viable": 12
   },
   {
    "fit": 25,
-   "key": "b2b_business_management_service",
-   "label": "B2b business management service",
-   "rule": "g_professional",
-   "viable": 23
-  },
-  {
-   "fit": 40,
-   "key": "b2b_clinical_lab",
-   "label": "B2b clinical lab",
-   "rule": "medical_clinic",
-   "viable": 4
-  },
-  {
-   "fit": 22,
-   "key": "b2b_energy_and_utility_service",
-   "label": "B2b energy and utility service",
-   "rule": "b2b",
-   "viable": 1
-  },
-  {
-   "fit": 25,
-   "key": "b2b_environmental_service",
-   "label": "B2b environmental service",
+   "key": "b2b_background_check_service",
+   "label": "B2b background check service",
    "rule": "g_professional",
    "viable": 1
   },
   {
-   "fit": 86,
-   "key": "b2b_food_products",
-   "label": "B2b food products",
-   "rule": "g_food",
-   "viable": 1
-  },
-  {
-   "fit": 25,
-   "key": "b2b_human_resource_service",
-   "label": "B2b human resource service",
-   "rule": "g_professional",
-   "viable": 3
-  },
-  {
-   "fit": 22,
-   "key": "b2b_mining",
-   "label": "B2b mining",
-   "rule": "b2b",
-   "viable": 2
-  },
-  {
-   "fit": 22,
-   "key": "b2b_oil_and_gas",
-   "label": "B2b oil and gas",
-   "rule": "b2b",
-   "viable": 3
-  },
-  {
-   "fit": 22,
-   "key": "b2b_oil_and_gas_equipment",
-   "label": "B2b oil and gas equipment",
-   "rule": "b2b",
-   "viable": 1
-  },
-  {
-   "fit": 22,
-   "key": "b2b_oil_and_gas_exploration_and_development",
-   "label": "B2b oil and gas exploration and development",
-   "rule": "b2b",
-   "viable": 1
-  },
-  {
-   "fit": 25,
-   "key": "b2b_radio_and_television_commercials",
-   "label": "B2b radio and television commercials",
-   "rule": "g_professional",
-   "viable": 2
-  },
-  {
-   "fit": 25,
-   "key": "b2b_science_and_technology_service",
-   "label": "B2b science and technology service",
-   "rule": "g_professional",
-   "viable": 1
-  },
-  {
-   "fit": 25,
-   "key": "b2b_service",
-   "label": "B2b service",
-   "rule": "g_professional",
-   "viable": 15
-  },
-  {
-   "fit": 80,
-   "key": "b2b_surgical_appliances_and_supplies",
-   "label": "B2b surgical appliances and supplies",
-   "rule": "home_goods",
-   "viable": 3
-  },
-  {
-   "fit": 66,
-   "key": "b2b_transportation_and_storage_service",
-   "label": "B2b transportation and storage service",
-   "rule": "courier",
-   "viable": 1
-  },
-  {
-   "fit": 84,
-   "key": "baby_gear_and_nursery_store",
-   "label": "Baby gear and nursery store",
-   "rule": "garden_center",
-   "viable": 1
-  },
-  {
-   "fit": 93,
-   "key": "bagel_shop",
-   "label": "Bagel shop",
-   "rule": "cafe",
-   "viable": 2
-  },
-  {
-   "fit": 93,
-   "key": "bakery",
-   "label": "Bakery",
-   "rule": "cafe",
-   "viable": 33
-  },
-  {
-   "fit": 94,
-   "key": "bangladeshi_restaurant",
-   "label": "Bangladeshi restaurant",
-   "rule": "restaurant",
-   "viable": 1
-  },
-  {
-   "fit": 92,
-   "key": "bar",
-   "label": "Bar",
-   "rule": "bars",
-   "viable": 31
-  },
-  {
-   "fit": 92,
-   "key": "bar_and_grill_restaurant",
-   "label": "Bar and grill restaurant",
-   "rule": "bars",
-   "viable": 16
-  },
-  {
-   "fit": 94,
-   "key": "barbecue_restaurant",
-   "label": "Barbecue restaurant",
-   "rule": "restaurant",
-   "viable": 8
-  },
-  {
-   "fit": 91,
-   "key": "barber",
-   "label": "Barber",
-   "rule": "salon",
-   "viable": 46
-  },
-  {
-   "fit": 76,
-   "key": "bathroom_remodeling",
-   "label": "Bathroom remodeling",
-   "rule": "trades",
-   "viable": 1
-  },
-  {
-   "fit": 80,
-   "key": "bathtub_and_sink_repair",
-   "label": "Bathtub and sink repair",
-   "rule": "repair",
-   "viable": 1
-  },
-  {
-   "fit": 91,
-   "key": "beauty_product_supplier",
-   "label": "Beauty product supplier",
-   "rule": "salon",
-   "viable": 2
-  },
-  {
-   "fit": 91,
-   "key": "beauty_salon",
-   "label": "Beauty salon",
-   "rule": "salon",
-   "viable": 70
-  },
-  {
-   "fit": 91,
-   "key": "beauty_supply_store",
-   "label": "Beauty supply store",
-   "rule": "salon",
-   "viable": 3
-  },
-  {
-   "fit": 72,
-   "key": "bed_and_breakfast",
-   "label": "Bed and breakfast",
-   "rule": "lodging",
-   "viable": 19
-  },
-  {
-   "fit": 92,
-   "key": "beer_bar",
-   "label": "Beer bar",
-   "rule": "bars",
-   "viable": 1
-  },
-  {
-   "fit": 76,
-   "key": "beer_wine_spirits_store",
-   "label": "Beer wine spirits store",
-   "rule": "retail_generic",
-   "viable": 4
-  },
-  {
-   "fit": 55,
-   "key": "behavioral_or_mental_health_clinic",
-   "label": "Behavioral or mental health clinic",
-   "rule": "counselling",
-   "viable": 5
-  },
-  {
-   "fit": 22,
-   "key": "beverage_supplier",
-   "label": "Beverage supplier",
-   "rule": "b2b",
-   "viable": 1
-  },
-  {
-   "fit": 65,
-   "key": "bike_rental",
-   "label": "Bike rental",
-   "rule": "rentals_auto",
-   "viable": 1
-  },
-  {
-   "fit": 80,
-   "key": "bike_repair_maintenance",
-   "label": "Bike repair maintenance",
-   "rule": "repair",
-   "viable": 2
-  },
-  {
-   "fit": 84,
-   "key": "bike_store",
-   "label": "Bike store",
-   "rule": "sporting",
+   "fit": 74,
+   "key": "b2b_cleaning_and_waste_management",
+   "label": "B2b cleaning and waste management",
+   "rule": "cleaning",
    "viable": 9
   },
   {
+   "fit": 90,
+   "key": "b2b_dental_lab",
+   "label": "B2b dental lab",
+   "rule": "dental",
+   "viable": 4
+  },
+  {
+   "fit": 22,
+   "key": "b2b_industrial_and_machine_service",
+   "label": "B2b industrial and machine service",
+   "rule": "b2b",
+   "viable": 1
+  },
+  {
    "fit": 25,
-   "key": "biotechnology_company",
-   "label": "Biotechnology company",
+   "key": "b2b_international_trade_service",
+   "label": "B2b international trade service",
+   "rule": "g_professional",
+   "viable": 3
+  },
+  {
+   "fit": 58,
+   "key": "b2b_medical_support_service",
+   "label": "B2b medical support service",
+   "rule": "g_health",
+   "viable": 1
+  },
+  {
+   "fit": 25,
+   "key": "b2b_power_plants_and_power_plant_service",
+   "label": "B2b power plants and power plant service",
+   "rule": "g_professional",
+   "viable": 1
+  },
+  {
+   "fit": 76,
+   "key": "b2b_promotional_products_and_services",
+   "label": "B2b promotional products and services",
+   "rule": "print",
+   "viable": 13
+  },
+  {
+   "fit": 66,
+   "key": "b2b_records_storage_service",
+   "label": "B2b records storage service",
+   "rule": "courier",
+   "viable": 3
+  },
+  {
+   "fit": 25,
+   "key": "b2b_scientific_equipment",
+   "label": "B2b scientific equipment",
    "rule": "g_professional",
    "viable": 2
   },
   {
-   "fit": 94,
-   "key": "bistro",
-   "label": "Bistro",
-   "rule": "restaurant",
-   "viable": 3
-  },
-  {
-   "fit": 65,
-   "key": "boat_rental_and_training",
-   "label": "Boat rental and training",
-   "rule": "rentals_auto",
+   "fit": 25,
+   "key": "b2b_secretarial_service",
+   "label": "B2b secretarial service",
+   "rule": "g_professional",
    "viable": 1
   },
   {
-   "fit": 68,
-   "key": "boat_service",
-   "label": "Boat service",
-   "rule": "auto_sales",
-   "viable": 1
-  },
-  {
-   "fit": 78,
-   "key": "boat_tour",
-   "label": "Boat tour",
-   "rule": "golf_ski",
+   "fit": 76,
+   "key": "b2b_signage_service",
+   "label": "B2b signage service",
+   "rule": "print",
    "viable": 3
   },
   {
-   "fit": 46,
-   "key": "bookkeeper",
-   "label": "Bookkeeper",
-   "rule": "tax_notary",
+   "fit": 25,
+   "key": "b2b_telemarketing_service",
+   "label": "B2b telemarketing service",
+   "rule": "g_professional",
    "viable": 2
   },
   {
-   "fit": 84,
-   "key": "bookstore",
-   "label": "Bookstore",
-   "rule": "hobby",
-   "viable": 16
+   "fit": 60,
+   "key": "badminton_court",
+   "label": "Badminton court",
+   "rule": "sports_club",
+   "viable": 4
+  },
+  {
+   "fit": 25,
+   "key": "bags_luggage_company",
+   "label": "Bags luggage company",
+   "rule": "g_professional",
+   "viable": 2
   },
   {
    "fit": 82,
-   "key": "boot_camp",
-   "label": "Boot camp",
+   "key": "barre_class",
+   "label": "Barre class",
    "rule": "fitness",
    "viable": 1
   },
   {
-   "fit": 62,
-   "key": "bounce_house_rental",
-   "label": "Bounce house rental",
-   "rule": "g_arts",
-   "viable": 1
-  },
-  {
-   "fit": 70,
-   "key": "bowling_alley",
-   "label": "Bowling alley",
-   "rule": "entertainment",
-   "viable": 4
-  },
-  {
-   "fit": 80,
-   "key": "boxing_class",
-   "label": "Boxing class",
-   "rule": "martial_arts",
-   "viable": 2
-  },
-  {
-   "fit": 90,
-   "key": "brake_service_and_repair",
-   "label": "Brake service and repair",
-   "rule": "auto_service",
-   "viable": 2
-  },
-  {
-   "fit": 94,
-   "key": "breakfast_and_brunch_restaurant",
-   "label": "Breakfast and brunch restaurant",
-   "rule": "restaurant",
-   "viable": 5
-  },
-  {
-   "fit": 92,
-   "key": "brewery",
-   "label": "Brewery",
-   "rule": "bars",
-   "viable": 10
-  },
-  {
-   "fit": 72,
-   "key": "bridal_shop",
-   "label": "Bridal shop",
-   "rule": "photo_events",
-   "viable": 3
-  },
-  {
-   "fit": 93,
-   "key": "bubble_tea_shop",
-   "label": "Bubble tea shop",
-   "rule": "cafe",
-   "viable": 10
-  },
-  {
-   "fit": 94,
-   "key": "buffet_restaurant",
-   "label": "Buffet restaurant",
-   "rule": "restaurant",
-   "viable": 2
-  },
-  {
-   "fit": 45,
-   "key": "builder",
-   "label": "Builder",
-   "rule": "construction",
-   "viable": 2
-  },
-  {
-   "fit": 76,
-   "key": "building_contractor",
-   "label": "Building contractor",
-   "rule": "trades",
-   "viable": 1
-  },
-  {
-   "fit": 45,
-   "key": "building_or_construction_service",
-   "label": "Building or construction service",
-   "rule": "construction",
-   "viable": 18
-  },
-  {
-   "fit": 80,
-   "key": "building_supply_store",
-   "label": "Building supply store",
-   "rule": "home_goods",
-   "viable": 34
-  },
-  {
-   "fit": 94,
-   "key": "burger_restaurant",
-   "label": "Burger restaurant",
-   "rule": "restaurant",
-   "viable": 19
-  },
-  {
-   "fit": 28,
-   "key": "business_law",
-   "label": "Business law",
-   "rule": "legal",
-   "viable": 2
-  },
-  {
-   "fit": 85,
-   "key": "butcher_shop",
-   "label": "Butcher shop",
-   "rule": "food_retail",
-   "viable": 6
-  },
-  {
-   "fit": 93,
-   "key": "cafe",
-   "label": "Cafe",
-   "rule": "cafe",
-   "viable": 55
-  },
-  {
-   "fit": 72,
-   "key": "camera_and_photography_store",
-   "label": "Camera and photography store",
-   "rule": "photo_events",
-   "viable": 4
-  },
-  {
-   "fit": 72,
-   "key": "campground",
-   "label": "Campground",
-   "rule": "lodging",
-   "viable": 4
-  },
-  {
-   "fit": 94,
-   "key": "canadian_restaurant",
-   "label": "Canadian restaurant",
-   "rule": "restaurant",
-   "viable": 13
-  },
-  {
-   "fit": 93,
-   "key": "candy_store",
-   "label": "Candy store",
-   "rule": "cafe",
-   "viable": 4
-  },
-  {
-   "fit": 78,
-   "key": "car_auction",
-   "label": "Car auction",
-   "rule": "g_auto",
-   "viable": 1
-  },
-  {
-   "fit": 65,
-   "key": "car_rental_service",
-   "label": "Car rental service",
-   "rule": "rentals_auto",
-   "viable": 3
-  },
-  {
-   "fit": 90,
-   "key": "car_wash",
-   "label": "Car wash",
-   "rule": "auto_service",
-   "viable": 12
-  },
-  {
-   "fit": 76,
-   "key": "car_window_tinting",
-   "label": "Car window tinting",
-   "rule": "trades",
-   "viable": 1
-  },
-  {
-   "fit": 55,
-   "key": "career_counseling",
-   "label": "Career counseling",
-   "rule": "counselling",
-   "viable": 4
-  },
-  {
-   "fit": 94,
-   "key": "caribbean_restaurant",
-   "label": "Caribbean restaurant",
-   "rule": "restaurant",
-   "viable": 9
-  },
-  {
-   "fit": 76,
-   "key": "carpenter",
-   "label": "Carpenter",
-   "rule": "trades",
-   "viable": 2
-  },
-  {
-   "fit": 74,
-   "key": "carpet_cleaning",
-   "label": "Carpet cleaning",
-   "rule": "cleaning",
-   "viable": 2
-  },
-  {
-   "fit": 74,
-   "key": "carpet_installation",
-   "label": "Carpet installation",
-   "rule": "cleaning",
-   "viable": 1
-  },
-  {
-   "fit": 74,
-   "key": "carpet_store",
-   "label": "Carpet store",
-   "rule": "cleaning",
-   "viable": 5
-  },
-  {
-   "fit": 78,
-   "key": "caterer",
-   "label": "Caterer",
-   "rule": "catering",
+   "fit": 66,
+   "key": "baseball_field",
+   "label": "Baseball field",
+   "rule": "g_sport",
    "viable": 11
   },
   {
-   "fit": 85,
-   "key": "cheese_shop",
-   "label": "Cheese shop",
-   "rule": "food_retail",
+   "fit": 60,
+   "key": "basketball_court",
+   "label": "Basketball court",
+   "rule": "sports_club",
    "viable": 2
   },
   {
-   "fit": 22,
-   "key": "chemical_plant",
-   "label": "Chemical plant",
-   "rule": "b2b",
-   "viable": 2
+   "fit": 76,
+   "key": "battery_store",
+   "label": "Battery store",
+   "rule": "retail_generic",
+   "viable": 5
   },
   {
-   "fit": 94,
-   "key": "chicken_restaurant",
-   "label": "Chicken restaurant",
-   "rule": "restaurant",
-   "viable": 1
+   "fit": 60,
+   "key": "batting_cage",
+   "label": "Batting cage",
+   "rule": "sports_club",
+   "viable": 3
   },
   {
-   "fit": 38,
-   "key": "child_care_and_day_care",
-   "label": "Child care and day care",
-   "rule": "child_care",
-   "viable": 7
-  },
-  {
-   "fit": 86,
-   "key": "childrens_clothing_store",
-   "label": "Childrens clothing store",
-   "rule": "fashion",
-   "viable": 7
-  },
-  {
-   "fit": 94,
-   "key": "chinese_restaurant",
-   "label": "Chinese restaurant",
-   "rule": "restaurant",
-   "viable": 14
-  },
-  {
-   "fit": 88,
-   "key": "chiropractic",
-   "label": "Chiropractic",
-   "rule": "rehab",
-   "viable": 28
-  },
-  {
-   "fit": 93,
-   "key": "chocolatier",
-   "label": "Chocolatier",
-   "rule": "cafe",
-   "viable": 6
-  },
-  {
-   "fit": 70,
-   "key": "choir",
-   "label": "Choir",
-   "rule": "entertainment",
-   "viable": 2
-  },
-  {
-   "fit": 74,
-   "key": "cleaning_service",
-   "label": "Cleaning service",
-   "rule": "cleaning",
-   "viable": 10
-  },
-  {
-   "fit": 86,
-   "key": "clothing_store",
-   "label": "Clothing store",
-   "rule": "fashion",
-   "viable": 71
-  },
-  {
-   "fit": 72,
-   "key": "clown",
-   "label": "Clown",
-   "rule": "photo_events",
-   "viable": 1
-  },
-  {
-   "fit": 92,
-   "key": "cocktail_bar",
-   "label": "Cocktail bar",
-   "rule": "bars",
-   "viable": 15
-  },
-  {
-   "fit": 93,
-   "key": "coffee_shop",
-   "label": "Coffee shop",
-   "rule": "cafe",
-   "viable": 25
-  },
-  {
-   "fit": 70,
-   "key": "comedy_club",
-   "label": "Comedy club",
-   "rule": "entertainment",
+   "fit": 76,
+   "key": "bedding_and_bath_store",
+   "label": "Bedding and bath store",
+   "rule": "retail_generic",
    "viable": 2
   },
   {
    "fit": 94,
-   "key": "comfort_food_restaurant",
-   "label": "Comfort food restaurant",
+   "key": "belgian_restaurant",
+   "label": "Belgian restaurant",
    "rule": "restaurant",
-   "viable": 2
+   "viable": 4
   },
   {
    "fit": 84,
-   "key": "comic_books_store",
-   "label": "Comic books store",
-   "rule": "hobby",
+   "key": "bike_tour",
+   "label": "Bike tour",
+   "rule": "sporting",
    "viable": 2
   },
   {
-   "fit": 22,
-   "key": "commercial_industrial",
-   "label": "Commercial industrial",
-   "rule": "b2b",
+   "fit": 58,
+   "key": "blood_and_plasma_donation_center",
+   "label": "Blood and plasma donation center",
+   "rule": "g_health",
+   "viable": 9
+  },
+  {
+   "fit": 91,
+   "key": "blow_dry_blow_out_service",
+   "label": "Blow dry blow out service",
+   "rule": "salon",
    "viable": 1
   },
   {
+   "fit": 62,
+   "key": "boat_charter",
+   "label": "Boat charter",
+   "rule": "g_arts",
+   "viable": 3
+  },
+  {
+   "fit": 76,
+   "key": "boat_parts_store",
+   "label": "Boat parts store",
+   "rule": "retail_generic",
+   "viable": 6
+  },
+  {
    "fit": 55,
-   "key": "commercial_refrigeration",
-   "label": "Commercial refrigeration",
+   "key": "bookbinding",
+   "label": "Bookbinding",
    "rule": "g_services",
    "viable": 1
   },
   {
-   "fit": 58,
-   "key": "complementary_and_alternative_medicine",
-   "label": "Complementary and alternative medicine",
-   "rule": "g_health",
-   "viable": 3
-  },
-  {
-   "fit": 78,
-   "key": "computer_coaching",
-   "label": "Computer coaching",
-   "rule": "electronics",
-   "viable": 3
-  },
-  {
-   "fit": 80,
-   "key": "computer_hardware_company",
-   "label": "Computer hardware company",
-   "rule": "home_goods",
-   "viable": 1
-  },
-  {
-   "fit": 78,
-   "key": "computer_store",
-   "label": "Computer store",
-   "rule": "electronics",
+   "fit": 84,
+   "key": "books_music_and_video_store",
+   "label": "Books music and video store",
+   "rule": "hobby",
    "viable": 4
   },
   {
-   "fit": 22,
-   "key": "computer_wholesaler",
-   "label": "Computer wholesaler",
-   "rule": "b2b",
-   "viable": 2
-  },
-  {
-   "fit": 76,
-   "key": "contractor",
-   "label": "Contractor",
-   "rule": "trades",
-   "viable": 46
-  },
-  {
-   "fit": 82,
-   "key": "convenience_store",
-   "label": "Convenience store",
-   "rule": "convenience",
-   "viable": 25
-  },
-  {
-   "fit": 62,
-   "key": "cooking_school",
-   "label": "Cooking school",
-   "rule": "lessons",
-   "viable": 1
-  },
-  {
    "fit": 25,
-   "key": "corporate_or_business_office",
-   "label": "Corporate or business office",
+   "key": "bottled_water_company",
+   "label": "Bottled water company",
    "rule": "g_professional",
-   "viable": 49
-  },
-  {
-   "fit": 90,
-   "key": "cosmetic_dentistry",
-   "label": "Cosmetic dentistry",
-   "rule": "dental",
-   "viable": 3
-  },
-  {
-   "fit": 72,
-   "key": "cosmetics_and_fragrance_store",
-   "label": "Cosmetics and fragrance store",
-   "rule": "cosmetic_med",
-   "viable": 5
-  },
-  {
-   "fit": 86,
-   "key": "costume_store",
-   "label": "Costume store",
-   "rule": "fashion",
-   "viable": 1
-  },
-  {
-   "fit": 72,
-   "key": "cottage",
-   "label": "Cottage",
-   "rule": "lodging",
-   "viable": 3
-  },
-  {
-   "fit": 55,
-   "key": "counseling",
-   "label": "Counseling",
-   "rule": "counselling",
-   "viable": 17
-  },
-  {
-   "fit": 76,
-   "key": "countertop_installation",
-   "label": "Countertop installation",
-   "rule": "trades",
-   "viable": 1
-  },
-  {
-   "fit": 66,
-   "key": "courier_and_delivery_service",
-   "label": "Courier and delivery service",
-   "rule": "courier",
-   "viable": 9
-  },
-  {
-   "fit": 25,
-   "key": "coworking_space",
-   "label": "Coworking space",
-   "rule": "g_professional",
-   "viable": 3
-  },
-  {
-   "fit": 45,
-   "key": "cremation_service",
-   "label": "Cremation service",
-   "rule": "funeral",
-   "viable": 2
-  },
-  {
-   "fit": 28,
-   "key": "criminal_defense_law",
-   "label": "Criminal defense law",
-   "rule": "legal",
-   "viable": 22
-  },
-  {
-   "fit": 55,
-   "key": "crisis_intervention_service",
-   "label": "Crisis intervention service",
-   "rule": "counselling",
-   "viable": 2
-  },
-  {
-   "fit": 94,
-   "key": "cuban_restaurant",
-   "label": "Cuban restaurant",
-   "rule": "restaurant",
-   "viable": 1
-  },
-  {
-   "fit": 76,
-   "key": "cupcake_shop",
-   "label": "Cupcake shop",
-   "rule": "retail_generic",
-   "viable": 2
-  },
-  {
-   "fit": 76,
-   "key": "custom_t_shirt_store",
-   "label": "Custom t shirt store",
-   "rule": "retail_generic",
-   "viable": 1
-  },
-  {
-   "fit": 76,
-   "key": "customized_merchandise_store",
-   "label": "Customized merchandise store",
-   "rule": "retail_generic",
-   "viable": 1
-  },
-  {
-   "fit": 74,
-   "key": "damage_restoration",
-   "label": "Damage restoration",
-   "rule": "cleaning",
-   "viable": 3
-  },
-  {
-   "fit": 62,
-   "key": "dance_club",
-   "label": "Dance club",
-   "rule": "g_arts",
-   "viable": 22
-  },
-  {
-   "fit": 62,
-   "key": "dance_studio",
-   "label": "Dance studio",
-   "rule": "lessons",
-   "viable": 30
-  },
-  {
-   "fit": 38,
-   "key": "day_care_preschool",
-   "label": "Day care preschool",
-   "rule": "child_care",
-   "viable": 8
-  },
-  {
-   "fit": 90,
-   "key": "day_spa",
-   "label": "Day spa",
-   "rule": "spa",
-   "viable": 1
-  },
-  {
-   "fit": 94,
-   "key": "delicatessen",
-   "label": "Delicatessen",
-   "rule": "restaurant",
-   "viable": 8
-  },
-  {
-   "fit": 90,
-   "key": "dental_clinic",
-   "label": "Dental clinic",
-   "rule": "dental",
-   "viable": 31
-  },
-  {
-   "fit": 76,
-   "key": "department_store",
-   "label": "Department store",
-   "rule": "retail_generic",
-   "viable": 6
-  },
-  {
-   "fit": 72,
-   "key": "dermatology",
-   "label": "Dermatology",
-   "rule": "cosmetic_med",
-   "viable": 2
-  },
-  {
-   "fit": 86,
-   "key": "designer_clothing",
-   "label": "Designer clothing",
-   "rule": "fashion",
-   "viable": 4
-  },
-  {
-   "fit": 93,
-   "key": "dessert_shop",
-   "label": "Dessert shop",
-   "rule": "cafe",
    "viable": 13
   },
   {
-   "fit": 40,
-   "key": "diagnostic_imaging",
-   "label": "Diagnostic imaging",
-   "rule": "medical_clinic",
-   "viable": 3
+   "fit": 72,
+   "key": "boudoir_photography_service",
+   "label": "Boudoir photography service",
+   "rule": "photo_events",
+   "viable": 2
+  },
+  {
+   "fit": 80,
+   "key": "boxing_gym",
+   "label": "Boxing gym",
+   "rule": "martial_arts",
+   "viable": 4
   },
   {
    "fit": 94,
-   "key": "dim_sum_restaurant",
-   "label": "Dim sum restaurant",
+   "key": "brasserie",
+   "label": "Brasserie",
    "rule": "restaurant",
    "viable": 1
   },
   {
    "fit": 94,
-   "key": "diner",
-   "label": "Diner",
+   "key": "brazilian_restaurant",
+   "label": "Brazilian restaurant",
    "rule": "restaurant",
-   "viable": 36
-  },
-  {
-   "fit": 28,
-   "key": "disability_law",
-   "label": "Disability law",
-   "rule": "legal",
-   "viable": 2
+   "viable": 3
   },
   {
    "fit": 76,
-   "key": "discount_store",
-   "label": "Discount store",
+   "key": "brewing_supply_store",
+   "label": "Brewing supply store",
    "rule": "retail_generic",
-   "viable": 2
-  },
-  {
-   "fit": 92,
-   "key": "distillery",
-   "label": "Distillery",
-   "rule": "bars",
-   "viable": 2
-  },
-  {
-   "fit": 22,
-   "key": "distribution_service",
-   "label": "Distribution service",
-   "rule": "b2b",
-   "viable": 2
-  },
-  {
-   "fit": 92,
-   "key": "dive_bar",
-   "label": "Dive bar",
-   "rule": "bars",
-   "viable": 1
-  },
-  {
-   "fit": 28,
-   "key": "divorce_and_family_law",
-   "label": "Divorce and family law",
-   "rule": "legal",
-   "viable": 16
-  },
-  {
-   "fit": 72,
-   "key": "dj_service",
-   "label": "Dj service",
-   "rule": "photo_events",
-   "viable": 1
-  },
-  {
-   "fit": 40,
-   "key": "doctors_office",
-   "label": "Doctors office",
-   "rule": "medical_clinic",
-   "viable": 15
-  },
-  {
-   "fit": 88,
-   "key": "dog_trainer",
-   "label": "Dog trainer",
-   "rule": "pet_services",
-   "viable": 1
-  },
-  {
-   "fit": 88,
-   "key": "dog_walker",
-   "label": "Dog walker",
-   "rule": "pet_services",
    "viable": 1
   },
   {
    "fit": 94,
-   "key": "doner_kebab_restaurant",
-   "label": "Doner kebab restaurant",
+   "key": "british_restaurant",
+   "label": "British restaurant",
    "rule": "restaurant",
-   "viable": 2
+   "viable": 1
   },
   {
-   "fit": 93,
-   "key": "donut_shop",
-   "label": "Donut shop",
-   "rule": "cafe",
-   "viable": 2
-  },
-  {
-   "fit": 62,
-   "key": "driving_school",
-   "label": "Driving school",
-   "rule": "lessons",
-   "viable": 3
-  },
-  {
-   "fit": 74,
-   "key": "drugstore",
-   "label": "Drugstore",
-   "rule": "pharmacy",
+   "fit": 94,
+   "key": "burmese_restaurant",
+   "label": "Burmese restaurant",
+   "rule": "restaurant",
    "viable": 1
   },
   {
    "fit": 84,
-   "key": "dry_cleaning",
-   "label": "Dry cleaning",
-   "rule": "cleaners",
-   "viable": 6
+   "key": "business_office_supplies_and_stationery",
+   "label": "Business office supplies and stationery",
+   "rule": "hobby",
+   "viable": 3
+  },
+  {
+   "fit": 72,
+   "key": "cabin",
+   "label": "Cabin",
+   "rule": "lodging",
+   "viable": 3
+  },
+  {
+   "fit": 72,
+   "key": "cabinet_sales_service",
+   "label": "Cabinet sales service",
+   "rule": "lodging",
+   "viable": 7
+  },
+  {
+   "fit": 93,
+   "key": "cafeteria",
+   "label": "Cafeteria",
+   "rule": "cafe",
+   "viable": 2
+  },
+  {
+   "fit": 94,
+   "key": "cajun_and_creole_restaurant",
+   "label": "Cajun and creole restaurant",
+   "rule": "restaurant",
+   "viable": 3
+  },
+  {
+   "fit": 94,
+   "key": "cambodian_restaurant",
+   "label": "Cambodian restaurant",
+   "rule": "restaurant",
+   "viable": 1
   },
   {
    "fit": 76,
-   "key": "drywall_service",
-   "label": "Drywall service",
+   "key": "candle_store",
+   "label": "Candle store",
+   "rule": "retail_generic",
+   "viable": 2
+  },
+  {
+   "fit": 65,
+   "key": "canoe_and_kayak_hire_service",
+   "label": "Canoe and kayak hire service",
+   "rule": "rentals_auto",
+   "viable": 12
+  },
+  {
+   "fit": 78,
+   "key": "car_buyer",
+   "label": "Car buyer",
+   "rule": "g_auto",
+   "viable": 2
+  },
+  {
+   "fit": 78,
+   "key": "car_sharing",
+   "label": "Car sharing",
+   "rule": "g_auto",
+   "viable": 4
+  },
+  {
+   "fit": 78,
+   "key": "car_stereo_installation",
+   "label": "Car stereo installation",
+   "rule": "g_auto",
+   "viable": 2
+  },
+  {
+   "fit": 76,
+   "key": "car_stereo_store",
+   "label": "Car stereo store",
+   "rule": "retail_generic",
+   "viable": 5
+  },
+  {
+   "fit": 82,
+   "key": "cardio_class",
+   "label": "Cardio class",
+   "rule": "fitness",
+   "viable": 2
+  },
+  {
+   "fit": 58,
+   "key": "cardiology",
+   "label": "Cardiology",
+   "rule": "g_health",
+   "viable": 2
+  },
+  {
+   "fit": 84,
+   "key": "cards_and_stationery_store",
+   "label": "Cards and stationery store",
+   "rule": "hobby",
+   "viable": 9
+  },
+  {
+   "fit": 80,
+   "key": "ceiling_and_roofing_repair_and_service",
+   "label": "Ceiling and roofing repair and service",
+   "rule": "repair",
+   "viable": 1
+  },
+  {
+   "fit": 80,
+   "key": "ceiling_service",
+   "label": "Ceiling service",
+   "rule": "repair",
+   "viable": 1
+  },
+  {
+   "fit": 22,
+   "key": "cement_supplier",
+   "label": "Cement supplier",
+   "rule": "b2b",
+   "viable": 1
+  },
+  {
+   "fit": 55,
+   "key": "child_psychiatry",
+   "label": "Child psychiatry",
+   "rule": "counselling",
+   "viable": 1
+  },
+  {
+   "fit": 76,
+   "key": "christmas_tree_store",
+   "label": "Christmas tree store",
+   "rule": "retail_generic",
+   "viable": 5
+  },
+  {
+   "fit": 92,
+   "key": "cidery",
+   "label": "Cidery",
+   "rule": "bars",
+   "viable": 1
+  },
+  {
+   "fit": 70,
+   "key": "circus_venue",
+   "label": "Circus venue",
+   "rule": "entertainment",
+   "viable": 8
+  },
+  {
+   "fit": 45,
+   "key": "civil_engineer",
+   "label": "Civil engineer",
+   "rule": "construction",
+   "viable": 4
+  },
+  {
+   "fit": 74,
+   "key": "cleaning_products_supplier",
+   "label": "Cleaning products supplier",
+   "rule": "cleaning",
+   "viable": 2
+  },
+  {
+   "fit": 80,
+   "key": "clock_repair_service",
+   "label": "Clock repair service",
+   "rule": "repair",
+   "viable": 1
+  },
+  {
+   "fit": 86,
+   "key": "clothing_company",
+   "label": "Clothing company",
+   "rule": "fashion",
+   "viable": 6
+  },
+  {
+   "fit": 86,
+   "key": "clothing_rental",
+   "label": "Clothing rental",
+   "rule": "fashion",
+   "viable": 6
+  },
+  {
+   "fit": 93,
+   "key": "coffee_roastery",
+   "label": "Coffee roastery",
+   "rule": "cafe",
+   "viable": 1
+  },
+  {
+   "fit": 94,
+   "key": "colombian_restaurant",
+   "label": "Colombian restaurant",
+   "rule": "restaurant",
+   "viable": 2
+  },
+  {
+   "fit": 76,
+   "key": "commercial_printer",
+   "label": "Commercial printer",
+   "rule": "print",
+   "viable": 2
+  },
+  {
+   "fit": 68,
+   "key": "commercial_vehicle_dealer",
+   "label": "Commercial vehicle dealer",
+   "rule": "auto_sales",
+   "viable": 7
+  },
+  {
+   "fit": 55,
+   "key": "commissioned_artist",
+   "label": "Commissioned artist",
+   "rule": "g_services",
+   "viable": 2
+  },
+  {
+   "fit": 48,
+   "key": "community_museum",
+   "label": "Community museum",
+   "rule": "culture",
+   "viable": 3
+  },
+  {
+   "fit": 45,
+   "key": "construction_management",
+   "label": "Construction management",
+   "rule": "construction",
+   "viable": 1
+  },
+  {
+   "fit": 48,
+   "key": "contemporary_art_museum",
+   "label": "Contemporary art museum",
+   "rule": "culture",
+   "viable": 1
+  },
+  {
+   "fit": 28,
+   "key": "contract_law",
+   "label": "Contract law",
+   "rule": "legal",
+   "viable": 1
+  },
+  {
+   "fit": 62,
+   "key": "cooking_classes",
+   "label": "Cooking classes",
+   "rule": "lessons",
+   "viable": 2
+  },
+  {
+   "fit": 72,
+   "key": "cosmetic_products_manufacturer",
+   "label": "Cosmetic products manufacturer",
+   "rule": "cosmetic_med",
+   "viable": 1
+  },
+  {
+   "fit": 72,
+   "key": "cosmetic_surgery",
+   "label": "Cosmetic surgery",
+   "rule": "cosmetic_med",
+   "viable": 3
+  },
+  {
+   "fit": 70,
+   "key": "country_dance_hall",
+   "label": "Country dance hall",
+   "rule": "entertainment",
+   "viable": 1
+  },
+  {
+   "fit": 28,
+   "key": "court_reporter",
+   "label": "Court reporter",
+   "rule": "legal",
+   "viable": 4
+  },
+  {
+   "fit": 60,
+   "key": "cricket_ground",
+   "label": "Cricket ground",
+   "rule": "sports_club",
+   "viable": 1
+  },
+  {
+   "fit": 22,
+   "key": "dairy_farm",
+   "label": "Dairy farm",
+   "rule": "b2b",
+   "viable": 1
+  },
+  {
+   "fit": 76,
+   "key": "dancewear_store",
+   "label": "Dancewear store",
+   "rule": "retail_generic",
+   "viable": 7
+  },
+  {
+   "fit": 76,
+   "key": "deck_and_railing_sales_service",
+   "label": "Deck and railing sales service",
+   "rule": "trades",
+   "viable": 4
+  },
+  {
+   "fit": 45,
+   "key": "demolition_service",
+   "label": "Demolition service",
+   "rule": "construction",
+   "viable": 3
+  },
+  {
+   "fit": 76,
+   "key": "denim_wear_store",
+   "label": "Denim wear store",
+   "rule": "retail_generic",
+   "viable": 1
+  },
+  {
+   "fit": 68,
+   "key": "department_of_motor_vehicles",
+   "label": "Department of motor vehicles",
+   "rule": "auto_sales",
+   "viable": 8
+  },
+  {
+   "fit": 55,
+   "key": "digitizing_service",
+   "label": "Digitizing service",
+   "rule": "g_services",
+   "viable": 2
+  },
+  {
+   "fit": 70,
+   "key": "dinner_theater",
+   "label": "Dinner theater",
+   "rule": "entertainment",
+   "viable": 1
+  },
+  {
+   "fit": 78,
+   "key": "disc_golf_course",
+   "label": "Disc golf course",
+   "rule": "golf_ski",
+   "viable": 4
+  },
+  {
+   "fit": 76,
+   "key": "door_sales_service",
+   "label": "Door sales service",
+   "rule": "trades",
+   "viable": 11
+  },
+  {
+   "fit": 78,
+   "key": "driving_range",
+   "label": "Driving range",
+   "rule": "golf_ski",
+   "viable": 5
+  },
+  {
+   "fit": 76,
+   "key": "drone_store",
+   "label": "Drone store",
+   "rule": "retail_generic",
+   "viable": 1
+  },
+  {
+   "fit": 94,
+   "key": "dumpling_restaurant",
+   "label": "Dumpling restaurant",
+   "rule": "restaurant",
+   "viable": 1
+  },
+  {
+   "fit": 74,
+   "key": "dumpster_rental",
+   "label": "Dumpster rental",
+   "rule": "cleaning",
+   "viable": 3
+  },
+  {
+   "fit": 58,
+   "key": "ear_nose_and_throat",
+   "label": "Ear nose and throat",
+   "rule": "g_health",
+   "viable": 3
+  },
+  {
+   "fit": 94,
+   "key": "eastern_european_restaurant",
+   "label": "Eastern european restaurant",
+   "rule": "restaurant",
+   "viable": 2
+  },
+  {
+   "fit": 76,
+   "key": "educational_supply_store",
+   "label": "Educational supply store",
+   "rule": "retail_generic",
+   "viable": 4
+  },
+  {
+   "fit": 94,
+   "key": "egyptian_restaurant",
+   "label": "Egyptian restaurant",
+   "rule": "restaurant",
+   "viable": 2
+  },
+  {
+   "fit": 22,
+   "key": "electronic_equipment_supplier",
+   "label": "Electronic equipment supplier",
+   "rule": "b2b",
+   "viable": 15
+  },
+  {
+   "fit": 80,
+   "key": "electronics_repair_shop",
+   "label": "Electronics repair shop",
+   "rule": "repair",
+   "viable": 2
+  },
+  {
+   "fit": 76,
+   "key": "embroidery_and_crochet_store",
+   "label": "Embroidery and crochet store",
+   "rule": "print",
+   "viable": 2
+  },
+  {
+   "fit": 40,
+   "key": "emergency_department",
+   "label": "Emergency department",
+   "rule": "medical_clinic",
+   "viable": 4
+  },
+  {
+   "fit": 90,
+   "key": "emissions_inspection",
+   "label": "Emissions inspection",
+   "rule": "auto_service",
+   "viable": 1
+  },
+  {
+   "fit": 90,
+   "key": "endodontics",
+   "label": "Endodontics",
+   "rule": "dental",
+   "viable": 10
+  },
+  {
+   "fit": 22,
+   "key": "energy_management_service",
+   "label": "Energy management service",
+   "rule": "b2b",
+   "viable": 1
+  },
+  {
+   "fit": 76,
+   "key": "engraving",
+   "label": "Engraving",
+   "rule": "print",
+   "viable": 1
+  },
+  {
+   "fit": 55,
+   "key": "environmental_abatement_service",
+   "label": "Environmental abatement service",
+   "rule": "g_services",
+   "viable": 1
+  },
+  {
+   "fit": 22,
+   "key": "exporter",
+   "label": "Exporter",
+   "rule": "b2b",
+   "viable": 3
+  },
+  {
+   "fit": 91,
+   "key": "eyelash_service",
+   "label": "Eyelash service",
+   "rule": "salon",
+   "viable": 6
+  },
+  {
+   "fit": 22,
+   "key": "fabric_wholesaler",
+   "label": "Fabric wholesaler",
+   "rule": "b2b",
+   "viable": 1
+  },
+  {
+   "fit": 94,
+   "key": "falafel_restaurant",
+   "label": "Falafel restaurant",
+   "rule": "restaurant",
+   "viable": 8
+  },
+  {
+   "fit": 76,
+   "key": "farming_equipment_store",
+   "label": "Farming equipment store",
+   "rule": "retail_generic",
+   "viable": 1
+  },
+  {
+   "fit": 22,
+   "key": "fastener_supplier",
+   "label": "Fastener supplier",
+   "rule": "b2b",
+   "viable": 1
+  },
+  {
+   "fit": 60,
+   "key": "fencing_club",
+   "label": "Fencing club",
+   "rule": "sports_club",
+   "viable": 3
+  },
+  {
+   "fit": 76,
+   "key": "feng_shui",
+   "label": "Feng shui",
    "rule": "trades",
    "viable": 1
   },
   {
    "fit": 25,
-   "key": "editorial_service",
-   "label": "Editorial service",
+   "key": "ferry_boat_company",
+   "label": "Ferry boat company",
    "rule": "g_professional",
+   "viable": 3
+  },
+  {
+   "fit": 60,
+   "key": "ferry_service",
+   "label": "Ferry service",
+   "rule": "g_lodging",
+   "viable": 2
+  },
+  {
+   "fit": 72,
+   "key": "fertility_clinic",
+   "label": "Fertility clinic",
+   "rule": "cosmetic_med",
+   "viable": 7
+  },
+  {
+   "fit": 76,
+   "key": "fertilizer_store",
+   "label": "Fertilizer store",
+   "rule": "retail_generic",
    "viable": 1
   },
   {
+   "fit": 62,
+   "key": "festival_venue",
+   "label": "Festival venue",
+   "rule": "g_arts",
+   "viable": 1
+  },
+  {
+   "fit": 74,
+   "key": "fire_and_water_damage_restoration",
+   "label": "Fire and water damage restoration",
+   "rule": "cleaning",
+   "viable": 17
+  },
+  {
+   "fit": 76,
+   "key": "firewood",
+   "label": "Firewood",
+   "rule": "trades",
+   "viable": 2
+  },
+  {
+   "fit": 78,
+   "key": "fishing_charter",
+   "label": "Fishing charter",
+   "rule": "golf_ski",
+   "viable": 6
+  },
+  {
+   "fit": 60,
+   "key": "fishing_club",
+   "label": "Fishing club",
+   "rule": "sports_club",
+   "viable": 1
+  },
+  {
+   "fit": 82,
+   "key": "fitness_equipment_wholesaler",
+   "label": "Fitness equipment wholesaler",
+   "rule": "fitness",
+   "viable": 1
+  },
+  {
+   "fit": 82,
+   "key": "fitness_exercise_store",
+   "label": "Fitness exercise store",
+   "rule": "fitness",
+   "viable": 5
+  },
+  {
+   "fit": 76,
+   "key": "flooring_store",
+   "label": "Flooring store",
+   "rule": "trades",
+   "viable": 8
+  },
+  {
+   "fit": 22,
+   "key": "food_and_beverage_exporter",
+   "label": "Food and beverage exporter",
+   "rule": "b2b",
+   "viable": 2
+  },
+  {
+   "fit": 88,
+   "key": "foot_care",
+   "label": "Foot care",
+   "rule": "rehab",
+   "viable": 1
+  },
+  {
+   "fit": 60,
+   "key": "football_stadium",
+   "label": "Football stadium",
+   "rule": "sports_club",
+   "viable": 3
+  },
+  {
+   "fit": 68,
+   "key": "forklift_dealer",
+   "label": "Forklift dealer",
+   "rule": "auto_sales",
+   "viable": 4
+  },
+  {
    "fit": 80,
-   "key": "electrical_supply_store",
-   "label": "Electrical supply store",
+   "key": "foundation_repair",
+   "label": "Foundation repair",
+   "rule": "repair",
+   "viable": 2
+  },
+  {
+   "fit": 30,
+   "key": "freight_forwarding_agency",
+   "label": "Freight forwarding agency",
+   "rule": "freight",
+   "viable": 4
+  },
+  {
+   "fit": 86,
+   "key": "furniture_accessory_store",
+   "label": "Furniture accessory store",
+   "rule": "fashion",
+   "viable": 2
+  },
+  {
+   "fit": 22,
+   "key": "furniture_manufacturer",
+   "label": "Furniture manufacturer",
+   "rule": "b2b",
+   "viable": 2
+  },
+  {
+   "fit": 80,
+   "key": "furniture_rental_service",
+   "label": "Furniture rental service",
    "rule": "home_goods",
    "viable": 2
   },
   {
+   "fit": 80,
+   "key": "furniture_repair",
+   "label": "Furniture repair",
+   "rule": "repair",
+   "viable": 2
+  },
+  {
+   "fit": 80,
+   "key": "furniture_reupholstery",
+   "label": "Furniture reupholstery",
+   "rule": "home_goods",
+   "viable": 6
+  },
+  {
+   "fit": 22,
+   "key": "furniture_wholesaler",
+   "label": "Furniture wholesaler",
+   "rule": "b2b",
+   "viable": 1
+  },
+  {
+   "fit": 58,
+   "key": "gastroenterology",
+   "label": "Gastroenterology",
+   "rule": "g_health",
+   "viable": 2
+  },
+  {
    "fit": 76,
-   "key": "electrician",
-   "label": "Electrician",
+   "key": "gemstone_and_mineral_store",
+   "label": "Gemstone and mineral store",
+   "rule": "retail_generic",
+   "viable": 2
+  },
+  {
+   "fit": 55,
+   "key": "genealogist",
+   "label": "Genealogist",
+   "rule": "g_services",
+   "viable": 4
+  },
+  {
+   "fit": 25,
+   "key": "geological_service",
+   "label": "Geological service",
+   "rule": "g_professional",
+   "viable": 5
+  },
+  {
+   "fit": 58,
+   "key": "gerontology",
+   "label": "Gerontology",
+   "rule": "g_health",
+   "viable": 1
+  },
+  {
+   "fit": 84,
+   "key": "glass_blowing_venue",
+   "label": "Glass blowing venue",
+   "rule": "hobby",
+   "viable": 4
+  },
+  {
+   "fit": 22,
+   "key": "glass_manufacturer",
+   "label": "Glass manufacturer",
+   "rule": "b2b",
+   "viable": 2
+  },
+  {
+   "fit": 94,
+   "key": "gluten_free_restaurant",
+   "label": "Gluten free restaurant",
+   "rule": "restaurant",
+   "viable": 5
+  },
+  {
+   "fit": 70,
+   "key": "go_kart_club",
+   "label": "Go kart club",
+   "rule": "entertainment",
+   "viable": 2
+  },
+  {
+   "fit": 78,
+   "key": "golf_cart_dealer",
+   "label": "Golf cart dealer",
+   "rule": "golf_ski",
+   "viable": 2
+  },
+  {
+   "fit": 78,
+   "key": "golf_club",
+   "label": "Golf club",
+   "rule": "golf_ski",
+   "viable": 4
+  },
+  {
+   "fit": 78,
+   "key": "golf_instructor",
+   "label": "Golf instructor",
+   "rule": "golf_ski",
+   "viable": 4
+  },
+  {
+   "fit": 22,
+   "key": "grain_elevator",
+   "label": "Grain elevator",
+   "rule": "b2b",
+   "viable": 1
+  },
+  {
+   "fit": 94,
+   "key": "grilling_equipment_store",
+   "label": "Grilling equipment store",
+   "rule": "restaurant",
+   "viable": 1
+  },
+  {
+   "fit": 72,
+   "key": "guest_house",
+   "label": "Guest house",
+   "rule": "lodging",
+   "viable": 1
+  },
+  {
+   "fit": 76,
+   "key": "guitar_store",
+   "label": "Guitar store",
+   "rule": "retail_generic",
+   "viable": 3
+  },
+  {
+   "fit": 76,
+   "key": "gun_and_ammo_store",
+   "label": "Gun and ammo store",
+   "rule": "retail_generic",
+   "viable": 3
+  },
+  {
+   "fit": 91,
+   "key": "hair_loss_center",
+   "label": "Hair loss center",
+   "rule": "salon",
+   "viable": 3
+  },
+  {
+   "fit": 86,
+   "key": "handbag_store",
+   "label": "Handbag store",
+   "rule": "fashion",
+   "viable": 1
+  },
+  {
+   "fit": 22,
+   "key": "hazardous_waste_disposal",
+   "label": "Hazardous waste disposal",
+   "rule": "b2b",
+   "viable": 1
+  },
+  {
+   "fit": 58,
+   "key": "health_coaching",
+   "label": "Health coaching",
+   "rule": "g_health",
+   "viable": 10
+  },
+  {
+   "fit": 58,
+   "key": "hematology",
+   "label": "Hematology",
+   "rule": "g_health",
+   "viable": 1
+  },
+  {
+   "fit": 78,
+   "key": "historical_tour",
+   "label": "Historical tour",
+   "rule": "golf_ski",
+   "viable": 3
+  },
+  {
+   "fit": 60,
+   "key": "hockey_arena",
+   "label": "Hockey arena",
+   "rule": "sports_club",
+   "viable": 10
+  },
+  {
+   "fit": 60,
+   "key": "hockey_field",
+   "label": "Hockey field",
+   "rule": "sports_club",
+   "viable": 4
+  },
+  {
+   "fit": 76,
+   "key": "holiday_decor_store",
+   "label": "Holiday decor store",
+   "rule": "retail_generic",
+   "viable": 3
+  },
+  {
+   "fit": 70,
+   "key": "home_theater_systems_stores",
+   "label": "Home theater systems stores",
+   "rule": "entertainment",
+   "viable": 2
+  },
+  {
+   "fit": 76,
+   "key": "home_window_tinting",
+   "label": "Home window tinting",
    "rule": "trades",
-   "viable": 8
+   "viable": 1
+  },
+  {
+   "fit": 88,
+   "key": "homeopathy",
+   "label": "Homeopathy",
+   "rule": "rehab",
+   "viable": 3
   }
  ],
- "new_types_left_out": 248,
- "picked": 120,
+ "new_types_left_out": 105,
+ "picked": 300,
  "picked_by": {
   "group": {
-   "home": 40,
-   "national": 40,
-   "seed": 40
+   "home": 90,
+   "national": 120,
+   "seed": 90
+  },
+  "kind": {
+   "accounting": 2,
+   "auto_sales": 3,
+   "auto_service": 9,
+   "bars": 10,
+   "beauty_retail": 2,
+   "cafe": 11,
+   "catering": 3,
+   "child_care": 2,
+   "cleaners": 5,
+   "cleaning": 2,
+   "construction": 3,
+   "convenience": 5,
+   "cosmetic_med": 2,
+   "counselling": 2,
+   "courier": 2,
+   "culture": 2,
+   "dental": 9,
+   "electronics": 4,
+   "entertainment": 2,
+   "eye_ear": 7,
+   "fashion": 7,
+   "fitness": 5,
+   "florist": 7,
+   "food_retail": 6,
+   "food_truck": 7,
+   "freight": 2,
+   "funeral": 3,
+   "g_arts": 3,
+   "g_auto": 3,
+   "g_food": 4,
+   "g_health": 3,
+   "g_home": 2,
+   "g_lodging": 2,
+   "g_pets": 2,
+   "g_professional": 2,
+   "g_services": 2,
+   "g_shopping": 1,
+   "g_sport": 2,
+   "garden_center": 5,
+   "golf_ski": 4,
+   "hobby": 5,
+   "home_goods": 4,
+   "landscaping": 4,
+   "legal": 1,
+   "lessons": 3,
+   "liquor": 2,
+   "lodging": 3,
+   "markets": 3,
+   "martial_arts": 5,
+   "medical_clinic": 2,
+   "pet_services": 7,
+   "pet_store": 5,
+   "pharmacy": 3,
+   "photo_events": 2,
+   "print": 3,
+   "rehab": 8,
+   "rentals_auto": 2,
+   "repair": 5,
+   "restaurant": 11,
+   "retail_generic": 3,
+   "salon": 11,
+   "spa": 9,
+   "sporting": 5,
+   "sports_club": 2,
+   "tattoo": 7,
+   "tax_notary": 2,
+   "taxi": 4,
+   "towing": 3,
+   "trades": 3,
+   "travel": 3,
+   "unknown": 3,
+   "vet": 8
   },
   "province": {
-   "AB": 40,
-   "ON": 80
+   "AB": 13,
+   "BC": 77,
+   "MB": 2,
+   "NB": 3,
+   "NL": 5,
+   "NS": 8,
+   "ON": 180,
+   "SK": 12
   },
   "sector": {
-   "automotive": 8,
-   "dental": 2,
-   "restaurant": 88,
-   "salon": 16,
-   "spa": 3,
-   "vet": 1,
-   "wellness": 2
+   "automotive": 15,
+   "dental": 9,
+   "landscaper": 9,
+   "other": 45,
+   "professional": 7,
+   "restaurant": 46,
+   "retail": 64,
+   "salon": 18,
+   "spa": 9,
+   "trades": 10,
+   "transport": 13,
+   "vet": 17,
+   "wellness": 38
   },
-  "small_town": 80,
+  "small_town": 79,
   "terminal": {
-   "countertop": 22,
-   "mobile": 1,
-   "portable": 97
+   "countertop": 189,
+   "mobile": 41,
+   "portable": 70
   },
   "type": {
-   "acupuncture": 1,
-   "afghani_restaurant": 1,
-   "african_restaurant": 1,
-   "american_restaurant": 3,
-   "armenian_restaurant": 1,
+   "abuse_and_addiction_treatment_center": 2,
+   "acai_bowls": 1,
+   "accountant": 2,
+   "acupuncture": 4,
+   "aesthetic_medicine": 1,
+   "afghani_restaurant": 3,
+   "airport_lounge": 1,
+   "airport_shuttle": 1,
+   "amateur_sport_league": 1,
+   "amateur_sport_team": 1,
+   "american_restaurant": 1,
+   "amusement_park": 1,
+   "animal_or_pet_service": 4,
+   "animation_studio": 1,
+   "antique_store": 2,
+   "appliance_repair_service": 1,
+   "appliance_store": 2,
+   "aquarium": 1,
+   "art_gallery": 1,
+   "art_school": 2,
+   "arts_and_entertainment": 3,
+   "arts_crafts_and_hobby_store": 1,
    "asian_fusion_restaurant": 1,
-   "asian_restaurant": 3,
-   "auto_body_shop": 2,
-   "auto_glass_service": 1,
-   "auto_upholstery": 1,
+   "attorney_or_law_firm": 1,
+   "auction_house": 2,
+   "audio_visual_equipment_store": 2,
+   "audiology": 5,
+   "auto_body_shop": 7,
+   "auto_customization": 3,
+   "auto_dealer": 3,
    "automotive_repair": 1,
-   "automotive_service": 1,
-   "bakery": 2,
-   "bangladeshi_restaurant": 1,
-   "bar": 1,
-   "bar_and_grill_restaurant": 3,
+   "b2b_dental_lab": 1,
+   "b2b_food_products": 1,
+   "b2b_science_and_technology_service": 1,
+   "bagel_shop": 4,
+   "bakery": 6,
+   "bar": 6,
    "barbecue_restaurant": 1,
-   "barber": 3,
-   "beauty_salon": 3,
-   "bistro": 2,
-   "breakfast_and_brunch_restaurant": 2,
-   "brewery": 2,
-   "bubble_tea_shop": 1,
-   "buffet_restaurant": 1,
-   "burger_restaurant": 5,
-   "cafe": 2,
-   "canadian_restaurant": 2,
+   "barber": 6,
+   "beauty_salon": 4,
+   "bed_and_breakfast": 3,
+   "bike_rental": 2,
+   "bike_repair_maintenance": 1,
+   "bike_store": 3,
+   "boat_tour": 1,
+   "bookstore": 1,
+   "boot_camp": 1,
+   "boxing_class": 2,
+   "brewery": 3,
+   "bridal_shop": 2,
+   "british_restaurant": 1,
+   "building_or_construction_service": 3,
+   "building_supply_store": 1,
+   "burger_restaurant": 1,
+   "butcher_shop": 5,
    "candy_store": 1,
-   "car_wash": 1,
-   "caribbean_restaurant": 1,
-   "chicken_restaurant": 1,
-   "chinese_restaurant": 3,
-   "chiropractic": 1,
-   "chocolatier": 1,
-   "coffee_shop": 1,
-   "comfort_food_restaurant": 1,
-   "cosmetic_dentistry": 1,
-   "cuban_restaurant": 1,
-   "delicatessen": 2,
-   "dental_clinic": 1,
-   "diner": 3,
-   "distillery": 1,
-   "donut_shop": 1,
-   "european_restaurant": 1,
-   "food_court": 1,
-   "food_truck_stand": 1,
-   "french_restaurant": 1,
-   "gastropub": 2,
-   "german_restaurant": 1,
-   "greek_restaurant": 1,
-   "hair_salon": 4,
-   "halal_restaurant": 1,
-   "indian_restaurant": 1,
-   "italian_restaurant": 2,
+   "career_counseling": 1,
+   "carpet_store": 2,
+   "caterer": 3,
+   "childrens_clothing_store": 4,
+   "chiropractic": 3,
+   "circus_venue": 1,
+   "clothing_store": 1,
+   "computer_store": 1,
+   "contractor": 2,
+   "convenience_store": 2,
+   "cosmetic_dentistry": 4,
+   "counseling": 1,
+   "dance_studio": 1,
+   "day_care_preschool": 2,
+   "day_spa": 8,
+   "dental_clinic": 3,
+   "dermatology": 2,
+   "doctors_office": 1,
+   "dry_cleaning": 3,
+   "electronics_store": 1,
+   "equestrian_facility": 1,
+   "eyewear_store": 1,
+   "fabric_store": 1,
+   "family_practice": 1,
+   "fitness_trainer": 1,
+   "flea_market": 2,
+   "florist": 2,
+   "flowers_and_gifts_store": 5,
+   "food_and_drink": 2,
+   "food_delivery_service": 2,
+   "food_tour": 1,
+   "food_truck_stand": 7,
+   "freight_and_cargo_service": 2,
+   "funeral_service": 3,
+   "furniture_store": 1,
+   "gas_station": 2,
+   "general_dentistry": 1,
+   "glass_and_mirror_sales_service": 1,
+   "gym": 3,
+   "hardware_home_and_garden_store": 1,
+   "health_food_store": 1,
+   "hockey_field": 1,
+   "horse_boarding": 1,
+   "it_service_and_computer_repair": 2,
+   "jewelry_store": 2,
+   "kids_recreation_and_party": 1,
+   "landscaping": 4,
+   "laundromat": 1,
+   "liquor_store": 2,
+   "lodging": 2,
+   "marina": 1,
+   "martial_arts_club": 3,
    "massage_therapy": 1,
-   "medical_spa": 1,
-   "mexican_restaurant": 1,
-   "middle_eastern_restaurant": 1,
-   "nail_salon": 2,
-   "personal_or_beauty_service": 2,
-   "pizza_restaurant": 4,
-   "poke_restaurant": 1,
-   "pub": 2,
-   "ramen_restaurant": 1,
-   "restaurant": 2,
-   "sandwich_shop": 1,
-   "skin_care_and_makeup": 1,
-   "smoothie_juice_bar": 1,
-   "spa": 1,
-   "sports_bar": 2,
-   "steakhouse": 1,
-   "sushi_restaurant": 2,
-   "taco_restaurant": 1,
-   "tattoo_and_piercing": 1,
-   "thai_restaurant": 1,
+   "medical_supply_store": 2,
+   "miniature_golf_course": 1,
+   "music_and_dvd_store": 1,
+   "music_production": 1,
+   "naturopathic_medicine": 1,
+   "no_category_g_home": 2,
+   "no_category_g_shopping": 1,
+   "no_category_repair": 1,
+   "no_category_vet": 1,
+   "notary_public": 2,
+   "nursery_and_gardening_store": 4,
+   "optometry": 1,
+   "outdoor_store": 1,
+   "outpatient_care_facility": 1,
+   "permanent_makeup": 1,
+   "pet_breeder": 2,
+   "pet_groomer": 2,
+   "pet_store": 5,
+   "pharmacy": 1,
+   "pizza_restaurant": 1,
+   "pop_up_store": 1,
+   "printing_service": 3,
+   "professional_service": 1,
+   "shoe_repair": 1,
+   "sporting_goods_store": 1,
+   "tattoo_and_piercing": 6,
+   "taxi_service": 2,
+   "taxidermist": 1,
    "theme_restaurant": 1,
-   "tire_shop": 1,
-   "vegan_restaurant": 1,
-   "veterinarian": 1,
-   "wine_bar": 1
+   "tire_dealer_and_repair": 1,
+   "towing_service": 3,
+   "travel_service": 3,
+   "truck_gas_station": 1,
+   "unknown": 3,
+   "veterinarian": 7,
+   "vitamin_and_supplement_store": 2
   }
  },
- "places_scanned": 10472,
+ "places_scanned": 71166,
  "release": "2026-09-23.1",
  "score": {
-  "lowest": 73,
-  "median": 91,
-  "top": 95
+  "lowest": 47,
+  "median": 87,
+  "top": 96
  },
- "seconds": 9,
+ "seconds": 42,
  "settings": {
   "explore_share": 0.2,
   "home_province": "ON",
@@ -1579,5 +1894,5 @@
   },
   "small_town_share": 0.3
  },
- "stamp": "2026-10-19-1844"
+ "stamp": "2026-10-19-1906"
 }
