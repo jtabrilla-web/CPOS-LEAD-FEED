@@ -1,0 +1,57 @@
+# CPOS lead feed: picks new Ontario businesses from Overture Maps twice a week and saves them in feed/history/.
+# The outreach agent put this file here itself. It reads each new batch and adds it to its Leads tab, and it starts
+# an extra run (the Run workflow button below) when its leads run low and no batch is waiting.
+name: Lead feed
+
+on:
+  schedule:
+    - cron: "17 11 * * 0,3"   # Sundays and Wednesdays, about 7am Ottawa time
+  workflow_dispatch:           # the "Run workflow" button
+    inputs:
+      batch_size:
+        description: "How many new businesses (default 300)"
+        required: false
+        default: "300"
+      cities:
+        description: "Only these cities, comma separated (blank = Ottawa first, then the rest of Ontario)"
+        required: false
+        default: ""
+
+permissions:
+  contents: write              # to save the new file in this repo
+
+concurrency:
+  group: lead-feed
+  cancel-in-progress: false
+
+jobs:
+  feed:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+
+      - name: Install the Overture reader
+        run: pip install overturemaps==1.0.2
+
+      - name: Pick new businesses
+        env:
+          BATCH_SIZE: ${{ github.event.inputs.batch_size || '300' }}
+          CITIES: ${{ github.event.inputs.cities || '' }}
+        run: python extract.py
+
+      - name: Save the batch
+        run: |
+          git config user.name "lead-feed-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add feed state
+          if git diff --cached --quiet; then
+            echo "Nothing new to save."
+          else
+            git commit -m "Lead feed $(date -u +%F)"
+            git push
+          fi
