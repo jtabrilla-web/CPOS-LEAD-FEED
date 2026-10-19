@@ -1,4 +1,4 @@
-"""CPOS lead feed engine (version 2): finds Canadian businesses likely to take card payments in person.
+"""CPOS lead feed engine (version 2.1): finds Canadian businesses likely to take card payments in person.
 
 Runs on GitHub Actions. Each run:
   1. Knows where Canada's cities, towns and villages are, from Overture Maps' own list of places (the divisions
@@ -259,6 +259,14 @@ class Model:
                     return r
         return self.default
 
+    def business_from_name(self, name):
+        """For a listing with no category: the first business rule its name matches (never an exclusion: 'Bank Street Brakes' is a garage)."""
+        n = norm(name)
+        for r, rx in self.rules:
+            if r["kind"] == "business" and r["id"] != self.default["id"] and rx.search(n):
+                return r
+        return None
+
 
 def category_of(row):
     """The business type: Overture's most specific category, its parent path and the basic category."""
@@ -491,7 +499,13 @@ def evaluate(row, model, learned, cfg, market_id, market, known, sent, types):
     names = row.get("names") or {}
     name = ((names.get("primary") if isinstance(names, dict) else str(names)) or "").strip()
     key, path, tokens, alts = category_of(row)
-    t = types.setdefault(key, {"label": label_of(key), "path": path, "first_seen": now_iso(), "seen": 0, "viable": 0, "picked": 0, "excluded": 0, "prov": {}})
+    guess = None
+    if key == "unknown" and name:   # no category in the listing: the name often says what the business is
+        guess = model.business_from_name(name)
+        if guess:
+            key, tokens = "no_category_" + guess["id"], [name]
+    t = types.setdefault(key, {"label": ("No category, the name suggests: " + guess["label"]) if guess else label_of(key), "path": path,
+                               "first_seen": now_iso(), "seen": 0, "viable": 0, "picked": 0, "excluded": 0, "prov": {}})
     t["seen"] += 1
     if path and len(path) > len(t.get("path") or []):
         t["path"] = path
@@ -510,6 +524,8 @@ def evaluate(row, model, learned, cfg, market_id, market, known, sent, types):
     pv = t["prov"].setdefault(prov or "?", {"seen": 0, "viable": 0, "picked": 0})
     pv["seen"] += 1
     rule = model.classify(tokens, name, alts)
+    if guess and rule["kind"] != "restricted":
+        rule = guess   # the name's business match, not an exclusion its words happen to contain
     t["rule"], t["fit"], t["terminal"], t["family"], t["kind"] = rule["id"], rule["fit"], rule["terminal"], rule["family"], rule["kind"]
     if rule["kind"] == "restricted":
         t["excluded"] += 1
@@ -551,6 +567,8 @@ def evaluate(row, model, learned, cfg, market_id, market, known, sent, types):
     base = rule["fit"] * 0.55
     score += base
     reasons.append("%s: %s (%d) [estimate]" % (rule["label"], rule["why"], rule["fit"]))
+    if guess:
+        reasons.append("the listing has no category; the type is guessed from the business name [estimate]")
     freeform = str(addr.get("freeform") or "")
     if freeform and STREET_RE.search(freeform):
         score += 12
@@ -593,7 +611,7 @@ def evaluate(row, model, learned, cfg, market_id, market, known, sent, types):
         "Company": name[:120], "Category": cat_words, "Website": website, "Email": email, "Phone": phone, "Address": a_line,
         "City": city, "Province": prov, "Instagram": ig, "Sector": rule["family"], "BusinessType": key, "Score": score,
         "ScoreReasons": "; ".join(reasons)[:900], "Terminal": terminal, "Market": market.get("name", ""), "OvertureId": pid,
-        "_type": key, "_fit": rule["fit"], "_tm": tm, "_mid": market_id, "_prov": prov, "_keys": keys, "_dom": dom, "_phone": phone_digits(phone),
+        "_type": key, "_rule": rule["id"], "_fit": rule["fit"], "_tm": tm, "_mid": market_id, "_prov": prov, "_keys": keys, "_dom": dom, "_phone": phone_digits(phone),
     }, ""
 
 
@@ -738,12 +756,23 @@ def explore_priority(c, types, learned, cfg):
 
 
 def pick_batch(cands, n, cfg, types, learned, area_used, type_used):
-    """Best first, without starving anyone: a share for untested types, then weighted turns across all viable types."""
+    """Best first, without starving anyone: a share for untested types, then weighted turns across the model's kinds
+    of business, and within each kind, turns across its Overture types. Turns go by kind first because Overture splits
+    some kinds much finer than others (dozens of restaurant types, one clothing store type)."""
     chosen = []
     by_type = {}
     for c in sorted(cands, key=lambda c: (-c["Score"], c["OvertureId"])):
         by_type.setdefault(c["_type"], []).append(c)
+    rule_of = dict((t, q[0].get("_rule") or t) for t, q in by_type.items())
+    by_rule = {}
+    for t in sorted(by_type, key=lambda t: (-by_type[t][0]["Score"], t)):   # within a kind, its best type first
+        by_rule.setdefault(rule_of[t], []).append(t)
     type_cap = max(3, int(math.ceil(cfg["batch_size"] * cfg["per_type_cap_share"])))
+    caps = {}
+    for t in by_type:
+        caps[t] = type_cap
+        if rule_of[t] == "unknown" and learned.type_mult(t)[1] < 10:
+            caps[t] = 3   # a type the model does not know: a few at a time until the agent's results say more
 
     def take(t):
         q = by_type.get(t) or []
@@ -757,54 +786,63 @@ def pick_batch(cands, n, cfg, types, learned, area_used, type_used):
             return True
         return False
 
-    # 1. Exploration: types handed over fewer than explore_min_picks times so far
+    # 1. Exploration: types handed over fewer than explore_min_picks times so far, one kind of business at a time
     budget = int(round(n * cfg["explore_share"]))
-    untested = []
+    untested = {}
     for t, q in by_type.items():
         hist = int((types.get(t) or {}).get("picked", 0)) + type_used.get(t, 0)
         if q and hist < cfg["explore_min_picks"]:
             pri, why = explore_priority(q[0], types, learned, cfg)
-            untested.append((pri, t, why))
-    untested.sort(key=lambda x: (-x[0], x[1]))
-    rounds = 0
-    while budget > 0 and untested and rounds < 3:
-        for pri, t, why in list(untested):
+            untested.setdefault(rule_of[t], []).append([pri, t, why, 0])
+    for r in untested:
+        untested[r].sort(key=lambda x: (-x[0], x[1]))
+    order = sorted(untested, key=lambda r: (-untested[r][0][0], r))
+    while budget > 0 and order and len(chosen) < n:
+        for r in list(order):
             if budget <= 0 or len(chosen) >= n:
                 break
-            before = len(chosen)
-            if take(t):
+            q = untested[r]
+            u = q.pop(0)
+            if type_used.get(u[1], 0) < caps[u[1]] and take(u[1]):
                 c = chosen[-1]
-                c["ScoreReasons"] = ("tried as a new type: " + (why or "not tested yet") + " [explore]; " + c["ScoreReasons"])[:900]
+                c["ScoreReasons"] = ("tried as a new type: " + (u[2] or "not tested yet") + " [explore]; " + c["ScoreReasons"])[:900]
                 c["_explore"] = True
                 budget -= 1
-            if len(chosen) == before:
-                untested = [u for u in untested if u[1] != t]
-        rounds += 1
+                u[3] += 1
+                if u[3] < 3 and by_type.get(u[1]):
+                    q.append(u)   # at most 3 exploration picks per type in a batch
+            if not q:
+                order.remove(r)
 
-    # 2. Weighted turns: every viable type gets turns in proportion to its weight (fit times what was learned), with a floor
-    weights, caps = {}, {}
-    for t, q in by_type.items():
-        if q:
-            fit = q[0]["_fit"] / 100.0
-            weights[t] = fit * (q[0]["_tm"] or 1.0)
-            caps[t] = type_cap
-            if (types.get(t) or {}).get("rule") == "unknown" and learned.type_mult(t)[1] < 10:
-                caps[t] = 3   # a type the model does not know: a few at a time until the agent's results say more
+    # 2. Weighted turns across the kinds of business (fit times what was learned, with a floor),
+    #    and within a kind, its types in turn
+    weights = {}
+    for r, ts in by_rule.items():
+        live_ts = [t for t in ts if by_type.get(t)]
+        if live_ts:
+            fit = by_type[live_ts[0]][0]["_fit"] / 100.0
+            tm = sum((by_type[t][0]["_tm"] or 1.0) for t in live_ts) / len(live_ts)
+            weights[r] = fit * tm
     top = max(weights.values()) if weights else 1.0
-    for t in weights:
-        weights[t] = max(weights[t], top * cfg["min_type_weight"])
-    current = dict((t, 0.0) for t in weights)
+    for r in weights:
+        weights[r] = max(weights[r], top * cfg["min_type_weight"])
+    current = dict((r, 0.0) for r in weights)
+    turn = dict((r, 0) for r in weights)
+    open_types = lambda r: [t for t in by_rule[r] if by_type.get(t) and type_used.get(t, 0) < caps[t]]
     while len(chosen) < n:
-        live = [t for t in weights if by_type.get(t) and type_used.get(t, 0) < caps[t]]
+        live = [r for r in weights if open_types(r)]
         if not live:
             break
-        total = sum(weights[t] for t in live)
-        for t in live:
-            current[t] += weights[t]
-        best = max(live, key=lambda t: (current[t], -len(t)))
+        total = sum(weights[r] for r in live)
+        for r in live:
+            current[r] += weights[r]
+        best = max(live, key=lambda r: (current[r], r))
         current[best] -= total
-        if not take(best):
-            by_type[best] = []
+        ts = open_types(best)
+        t = ts[turn[best] % len(ts)]
+        turn[best] += 1
+        if not take(t):
+            by_type[t] = []
     # still short (few types in these areas): fill from the best that is left, still one area at a time
     if len(chosen) < n:
         rest = sorted((c for t, q in by_type.items() if caps.get(t, type_cap) > 3 for c in q), key=lambda c: (-c["Score"], c["OvertureId"]))
@@ -872,6 +910,14 @@ def main(core=None, clock=time.time, log=None):
     areas_done = 0
     budget = dict((g, max(3, int(round(cfg["max_areas"] * cfg["mix"][g])))) for g in ("seed", "home", "national"))
     spent = {"seed": 0, "home": 0, "national": 0}
+    # Enough areas, not only enough candidates: one city square can hold thousands of businesses, but no area gives
+    # more than per_area_cap a batch, and the rest of Canada should reach every province it can in one run.
+    area_need = dict((g, int(math.ceil(targets[g] * cfg["pool_factor"] / float(max(1, cfg["per_area_cap"]))))) for g in ("seed", "home", "national"))
+    if targets["national"] > 0:
+        area_need["national"] = max(area_need["national"], min(budget["national"], len([p for p, q in planner.groups["national"].items() if q])))
+    for g in area_need:
+        area_need[g] = min(area_need[g], budget[g]) if targets[g] > 0 else 0
+    areas_with = {"seed": 0, "home": 0, "national": 0}
     while areas_done < cfg["max_areas"] and clock() < deadline:
         # the group furthest from having enough candidates goes next, within its share of the areas;
         # a group with nothing left (or no share) gives its share away
@@ -880,11 +926,12 @@ def main(core=None, clock=time.time, log=None):
             break
         need = dict((g, targets[g] * cfg["pool_factor"] - len(pools[g])) for g in open_groups)
         missing = sum(max(0, targets[g] * cfg["pool_factor"] - len(pools[g])) for g in ("seed", "home", "national") if g not in open_groups)
-        hungry = [g for g in open_groups if need[g] > 0]
+        short = lambda x: max(need[x] / max(1.0, targets[x] * cfg["pool_factor"]), (area_need[x] - areas_with[x]) / float(max(1, area_need[x])))
+        hungry = [g for g in open_groups if short(g) > 0]
         if not hungry and missing <= 0:
             break
         within = [g for g in hungry if spent[g] < budget[g]] or hungry or open_groups
-        g = max(within, key=lambda x: (need[x] / max(1.0, targets[x] * cfg["pool_factor"]), -("seed", "home", "national").index(x)))
+        g = max(within, key=lambda x: (short(x), -("seed", "home", "national").index(x)))
         want_small = None
         if g != "seed":
             small_have = sum(1 for c in pools[g] if c["_small"])
@@ -927,6 +974,8 @@ def main(core=None, clock=time.time, log=None):
             a_by[c["_type"]] = a_by.get(c["_type"], 0) + 1
             pools[g].append(c)
         planner.note_gathered(m.get("prov") or area["prov"], a_viable)
+        if a_viable:
+            areas_with[g] += 1
         if m.get("grid") and not m.get("prov"):
             provs = [c["_prov"] for c in pools[g] if c["_aid"] == area["aid"]]
             if provs:
@@ -997,6 +1046,7 @@ def main(core=None, clock=time.time, log=None):
     save_json(MARKETS_FILE, index)
     save_json(TYPES_FILE, types_state)
     report = make_report(stamp, release, cfg, out, pools, excluded, area_log, scanned, clock() - t0, index, types, totals, new_types, planner)
+    report["areas_needed"], report["areas_with_candidates"] = area_need, areas_with
     save_json(os.path.join(FEED_DIR, "report", "latest.json"), report, indent=1)
     coverage = make_coverage(index, types, totals, cfg, release, planner)
     save_json(os.path.join(FEED_DIR, "coverage.json"), coverage, indent=1)
@@ -1030,7 +1080,7 @@ def make_report(stamp, release, cfg, out, pools, excluded, area_log, scanned, se
         "areas_searched": len(area_log), "areas": area_log, "places_scanned": scanned,
         "candidates": len(out) + left, "picked": len(out), "explored": sum(1 for c in out if c.get("_explore")),
         "left_for_later": left, "excluded": excluded, "duplicates_removed": int(excluded.get("duplicate", 0)),
-        "picked_by": {"province": count_by(out, "Province"), "sector": count_by(out, "Sector"), "type": count_by(out, "BusinessType"),
+        "picked_by": {"province": count_by(out, "Province"), "sector": count_by(out, "Sector"), "type": count_by(out, "BusinessType"), "kind": count_by(out, "_rule"),
                       "group": count_by([{"g": c["_group"]} for c in out], "g"), "terminal": count_by(out, "Terminal"),
                       "small_town": sum(1 for c in out if c.get("_small"))},
         "score": {"top": out[0]["Score"] if out else None, "median": sorted(c["Score"] for c in out)[len(out) // 2] if out else None,
