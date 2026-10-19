@@ -1,4 +1,4 @@
-"""CPOS lead feed engine (version 2.2): finds Canadian businesses likely to take card payments in person.
+"""CPOS lead feed engine (version 2.3): finds Canadian businesses likely to take card payments in person.
 
 Runs on GitHub Actions. Each run:
   1. Knows where Canada's cities, towns and villages are, from Overture Maps' own list of places (the divisions
@@ -526,10 +526,11 @@ def evaluate(row, model, learned, cfg, market_id, market, known, sent, types):
     rule = model.classify(tokens, name, alts)
     if guess and rule["kind"] != "restricted":
         rule = guess   # the name's business match, not an exclusion its words happen to contain
-    t["rule"], t["fit"], t["terminal"], t["family"], t["kind"] = rule["id"], rule["fit"], rule["terminal"], rule["family"], rule["kind"]
-    if rule["kind"] == "restricted":
+    if rule["kind"] == "restricted":   # one business (often by its name); the type keeps the rule its category gives
         t["excluded"] += 1
+        t["restricted"] = t.get("restricted", 0) + 1
         return None, "restricted industry"
+    t["rule"], t["fit"], t["terminal"], t["family"], t["kind"] = rule["id"], rule["fit"], rule["terminal"], rule["family"], rule["kind"]
     if rule["kind"] == "exclude" or rule["fit"] <= 0:
         t["excluded"] += 1
         return None, "not a merchant prospect"
@@ -663,6 +664,11 @@ class Planner:
         self.prov_weight = dict((p, math.sqrt(w)) for p, w in self.prov_weight.items())
         self.picked_prov = dict(totals.get("prov_picked") or {})
         self.gathered = {}
+        self.prov_searched = {}   # areas already searched in this release, per province
+        for aid, a in self.areas.items():
+            p = (mk.get(a.get("mid") or aid.split("#")[0]) or {}).get("prov")
+            if p and a.get("rel") == self.release:
+                self.prov_searched[p] = self.prov_searched.get(p, 0) + 1
         self.small_done = {"seed": [0, 0], "home": [0, 0], "national": [0, 0]}
 
     def priority(self, aid, mid, m):
@@ -688,11 +694,17 @@ class Planner:
         live = [p for p, q in self.groups["national"].items() if q]
         if not live:
             return None
+        first = [p for p in live if not self.prov_searched.get(p)]
+        if first:   # a province or territory not searched yet in this release goes first, the bigger one first
+            prov = max(first, key=lambda p: (self.prov_weight.get(p, 1), p))
+            self.prov_searched[prov] = 1
+            return self._take(self.groups["national"][prov], g, want_small)
         # the province furthest behind its share (by population, square root so small provinces still get turns)
         done = lambda p: self.picked_prov.get(p, 0) + self.gathered.get(p, 0) / self.cfg["pool_factor"]
         tot_w = sum(self.prov_weight.get(p, 1) for p in live) or 1.0
         tot_p = sum(done(p) for p in live) + 1.0
         prov = max(live, key=lambda p: ((self.prov_weight.get(p, 1) / tot_w) * tot_p - done(p), self.prov_weight.get(p, 1)))
+        self.prov_searched[prov] = self.prov_searched.get(prov, 0) + 1
         return self._take(self.groups["national"][prov], g, want_small)
 
     def _take(self, q, g, want_small=None):
