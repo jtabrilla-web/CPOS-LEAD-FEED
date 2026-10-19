@@ -1,4 +1,4 @@
-# CPOS lead feed: picks new Ontario businesses from Overture Maps twice a week and saves them in feed/history/.
+# CPOS lead feed: finds Canadian businesses likely to take card payments in person and saves them in feed/history/.
 # The outreach agent put this file here itself. It reads each new batch and adds it to its Leads tab, and it starts
 # an extra run (the Run workflow button below) when its leads run low and no batch is waiting.
 name: Lead feed
@@ -9,16 +9,16 @@ on:
   workflow_dispatch:           # the "Run workflow" button
     inputs:
       batch_size:
-        description: "How many new businesses (default 300)"
+        description: "How many new businesses (blank = the agent's setting)"
         required: false
-        default: "300"
-      cities:
-        description: "Only these cities, comma separated (blank = Ottawa first, then the rest of Ontario)"
+        default: ""
+      provinces:
+        description: "Only these provinces, two letter codes, comma separated (blank = all of Canada)"
         required: false
         default: ""
 
 permissions:
-  contents: write              # to save the new file in this repo
+  contents: write              # to save the new batch and the coverage in this repo
 
 concurrency:
   group: lead-feed
@@ -27,7 +27,7 @@ concurrency:
 jobs:
   feed:
     runs-on: ubuntu-latest
-    timeout-minutes: 60
+    timeout-minutes: 45
     steps:
       - uses: actions/checkout@v5
 
@@ -40,11 +40,20 @@ jobs:
 
       - name: Pick new businesses
         env:
-          BATCH_SIZE: ${{ github.event.inputs.batch_size || '300' }}
-          CITIES: ${{ github.event.inputs.cities || '' }}
-        run: python extract.py
+          BATCH_SIZE: ${{ github.event.inputs.batch_size || '' }}
+          PROVINCES: ${{ github.event.inputs.provinces || '' }}
+        run: |
+          set -o pipefail
+          python extract.py 2>&1 | tee run.log
+
+      - name: Keep what went wrong for the agent
+        if: failure()
+        run: |
+          mkdir -p state
+          { echo "Run failed $(date -u +%FT%TZ)"; tail -n 60 run.log; } > state/last_error.txt
 
       - name: Save the batch
+        if: always()
         run: |
           git config user.name "lead-feed-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -53,5 +62,5 @@ jobs:
             echo "Nothing new to save."
           else
             git commit -m "Lead feed $(date -u +%F)"
-            git push
+            for i in 1 2 3; do git pull --rebase --autostash && git push && break; sleep 5; done
           fi
