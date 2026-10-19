@@ -1,0 +1,38 @@
+{
+ "batch_size": 300,
+ "mix": {
+  "seed": 0.3,
+  "home": 0.3,
+  "national": 0.4
+ },
+ "home_province": "ON",
+ "seed": {
+  "name": "Ottawa",
+  "lat": 45.4215,
+  "lon": -75.6972,
+  "radius_km": 25,
+  "province": "ON"
+ },
+ "include_provinces": [],
+ "include_quebec": false,
+ "min_score": 25,
+ "explore_share": 0.2,
+ "small_town_share": 0.3,
+ "blocked": [
+  "gambling",
+  "casino",
+  "adult",
+  "cannabis",
+  "dispensary",
+  "firearms",
+  "gun shop",
+  "cryptocurrency",
+  "tobacco",
+  "vape",
+  "payday",
+  "pawn",
+  "escort",
+  "strip club"
+ ],
+ "note": "Written by the CPOS outreach agent from its Settings tab. Quebec waits until outreach in French is set up."
+}
