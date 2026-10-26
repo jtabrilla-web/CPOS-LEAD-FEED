@@ -21,6 +21,9 @@ batch in `feed/history/`. The agent adds each batch to its Leads tab once.
 - **How it learns:** the agent writes `state/feedback.json` (emails found, replies, per business type and market).
   Types and places that work move up, the others move down, never to zero. A type that does well leads to its related
   types being tried.
+- **New businesses first:** once per Overture release (about monthly), businesses in the Ottawa area that were not in the
+  last release get a higher score and go first, since a place that just opened is still choosing how it takes cards.
+  `state/seed_ids.json` keeps the area's ids (hashed) to compare with the next release.
 - **No duplicates:** `state/sent_ids.txt` and `state/sent_keys.txt` remember every business handed over, and
   `state/known_keys.txt` (written by the agent, hashed) lists businesses the agent already has.
 - **Coverage:** `feed/COVERAGE.md` and `feed/coverage.json` show what has been searched per province and business
