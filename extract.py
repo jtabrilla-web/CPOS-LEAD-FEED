@@ -1,4 +1,4 @@
-"""CPOS lead feed engine (version 2.3): finds Canadian businesses likely to take card payments in person.
+"""CPOS lead feed engine (version 2.4): finds Canadian businesses likely to take card payments in person.
 
 Runs on GitHub Actions. Each run:
   1. Knows where Canada's cities, towns and villages are, from Overture Maps' own list of places (the divisions
@@ -16,6 +16,8 @@ Runs on GitHub Actions. Each run:
   6. Skips businesses the agent already knows (state/known_keys.txt, hashed) or was given before (state/sent_ids.txt).
   7. Writes the batch (feed/history/), a run report (feed/report/latest.json) and the coverage so far
      (feed/coverage.json, feed/COVERAGE.md).
+  8. (2.4) Once per Overture release, finds the businesses in the seed market (Ottawa) that are new since the last
+     release: a place that just opened is still choosing how it takes cards. They get a higher score and go first.
 
 Settings: config.json (written by the agent from its Settings tab), or for a run by hand BATCH_SIZE and PROVINCES.
 Map data: Overture Maps Foundation, places licensed CDLA Permissive 2.0, divisions ODbL.
@@ -43,6 +45,7 @@ MARKETS_FILE = os.path.join(STATE_DIR, "markets.json")
 TYPES_FILE = os.path.join(STATE_DIR, "business_types.json")
 RUNS_FILE = os.path.join(STATE_DIR, "runs.jsonl")
 ERROR_FILE = os.path.join(STATE_DIR, "last_error.txt")
+NEWCOMER_FILE = os.path.join(STATE_DIR, "seed_ids.json")     # 2.4: every place id in the seed area at the last release (hashed)
 CONFIG_FILE = os.path.join(HERE, "config.json")
 RULES_FILE = os.path.join(HERE, "model", "category_rules.json")
 
@@ -78,6 +81,9 @@ DEFAULTS = {
     "min_type_weight": 0.2,            # every viable business type keeps at least this weight against the best one
     "min_confidence": 0.5,
     "pool_factor": 2.0,                # candidates gathered per pick, so there is choice across types
+    "newcomer_boost": 25,              # 2.4: extra points for a business new in the seed market since the last release (0: off)
+    "newcomer_max": 80,                # newcomers handed over first in one run at most; the rest compete as usual
+    "newcomer_max_share": 0.15,        # more new ids than this share of the area means the data was renumbered, not new businesses
     "blocked": ["gambling", "casino", "adult", "cannabis", "dispensary", "firearms", "gun shop", "cryptocurrency", "tobacco", "vape",
                 "payday", "pawn", "escort", "strip club"],
 }
@@ -488,6 +494,62 @@ def latest_release(core):
         if not names:
             raise
         return names[-1]
+
+
+# ============================== newcomers in the seed market (2.4) ==============================
+def short_id(pid):
+    return hashlib.sha1(str(pid).encode("utf-8")).hexdigest()[:12]
+
+
+def previous_release(core, release):
+    """The Overture release before this one, from the release folders in Overture's public storage (None if unknown)."""
+    getp = getattr(core, "get_previous_release", None)   # a reader that knows its releases (the tests' fake one)
+    if callable(getp):
+        return getp(release)
+    try:
+        from pyarrow import fs
+        s3 = fs.S3FileSystem(anonymous=True, region="us-west-2")
+        infos = s3.get_file_info(fs.FileSelector("overturemaps-us-west-2/release/"))
+        names = sorted(i.base_name for i in infos if re.match(r"^\d{4}-\d{2}-\d{2}\.\d+$", i.base_name) and i.base_name < release)
+        return names[-1] if names else None
+    except Exception:
+        return None
+
+
+def find_newcomers(core, release, cfg, log, prev_fn=None):
+    """Places in the seed area that are new in this release. Once per release: every place id in the area is compared
+    with the ids saved at the last release (the first time, with the release before, when it can be read).
+    Returns (new rows, note for the report)."""
+    st = load_json(NEWCOMER_FILE, {})
+    if st.get("release") == release:
+        return [], "already compared in this release"
+    s = cfg["seed"]
+    bbox = box(float(s["lat"]), float(s["lon"]), float(s.get("radius_km", 25)))
+    before, against = set(st.get("ids") or []), st.get("release")
+    if not before:
+        prev = (prev_fn or previous_release)(core, release)
+        if prev:
+            try:
+                before = set(short_id(r["id"]) for r in places_in(core, bbox, prev, log) if r.get("id"))
+                against = prev
+            except Exception as e:
+                log("  (the previous release could not be read: %s)" % e)
+                before = set()
+    ids, new = set(), []
+    for row in places_in(core, bbox, release, log):
+        pid = row.get("id")
+        if not pid:
+            continue
+        h = short_id(pid)
+        ids.add(h)
+        if before and h not in before:
+            new.append(row)
+    note = ("compared with release %s" % against) if before else "first look: saved the area to compare with the next release"
+    if before and ids and len(new) > cfg["newcomer_max_share"] * len(ids):
+        note = "%d of %d places had new ids, so the data was renumbered: none counted as new" % (len(new), len(ids))
+        new = []
+    save_json(NEWCOMER_FILE, {"release": release, "compared_at": now_iso(), "against": against or "", "new": len(new), "note": note, "ids": sorted(ids)})
+    return new, note
 
 
 # ============================== one business ==============================
@@ -933,6 +995,39 @@ def main(core=None, clock=time.time, log=None):
     areas_with = {"seed": 0, "home": 0, "national": 0}
     small_need = dict((g, int(math.ceil(area_need[g] * cfg["small_town_share"])) if g != "seed" else 0) for g in area_need)
     small_with = {"seed": 0, "home": 0, "national": 0}
+    # 2.4: businesses new in the seed market since the last release go first (they may have just opened)
+    newcomers, new_info = [], {"listings": 0, "candidates": 0, "handed_over": 0, "note": "off"}
+    if cfg["newcomer_boost"] > 0 and targets["seed"] > 0 and province_allowed(cfg["seed"].get("province", cfg["home_province"]), cfg):
+        try:
+            new_rows, new_info["note"] = find_newcomers(core, release, cfg, log)
+        except Exception as e:   # never stops the run
+            new_rows, new_info["note"] = [], "skipped: %s" % e
+        seed_m = planner.markets["seed"]
+        for row in new_rows:
+            if row.get("id") in seen_ids:
+                continue
+            seen_ids.add(row.get("id"))
+            try:
+                c, why = evaluate(row, model, learned, cfg, "seed", seed_m, known, sent, types)
+            except Exception:
+                c, why = None, "unreadable listing"
+            if c and not province_allowed(c["_prov"], cfg):
+                c, why = None, "province not included (Quebec waits for French outreach)" if c["_prov"] == "QC" else "province not included"
+            if c and ((c["_dom"] and c["_dom"] in seen_dom) or (c["_phone"] and c["_phone"] in seen_phone)):
+                c, why = None, "duplicate"
+            if not c:
+                excluded[why] = excluded.get(why, 0) + 1
+                continue
+            if c["_dom"]:
+                seen_dom.add(c["_dom"])
+            if c["_phone"]:
+                seen_phone.add(c["_phone"])
+            c["Score"] = int(min(100, c["Score"] + cfg["newcomer_boost"]))
+            c["ScoreReasons"] = ("new in the Ottawa area's map data since the last Overture release, so it may have just opened and still be choosing how it takes cards [estimate]; " + c["ScoreReasons"])[:900]
+            c["_aid"], c["_group"], c["_small"], c["_new"] = "seed#new", "seed", False, True
+            newcomers.append(c)
+        new_info["listings"], new_info["candidates"] = len(new_rows), len(newcomers)
+        log("Newcomers in %s: %d new listings, %d candidates (%s)" % (seed_m.get("name"), len(new_rows), len(newcomers), new_info["note"]))
     while areas_done < cfg["max_areas"] and clock() < deadline:
         # the group furthest from having enough candidates goes next, within its share of the areas;
         # a group with nothing left (or no share) gives its share away
@@ -1002,11 +1097,18 @@ def main(core=None, clock=time.time, log=None):
         area_log.append({"area": area["aid"], "market": m.get("name"), "prov": m.get("prov") or area["prov"], "group": g, "seen": a_seen, "viable": a_viable})
         log("  %-28s %-3s %-8s %5d places, %4d candidates" % ((m.get("name") or "?")[:28], m.get("prov") or "", g, a_seen, a_viable))
 
-    # choose the batch: each group's share first, then whatever is left from any group
+    # choose the batch: newcomers first (2.4), then each group's share, then whatever is left from any group
     area_used, type_used, out = {}, {}, []
+    newcomers.sort(key=lambda c: (-c["Score"], c["OvertureId"]))
+    first_new = newcomers[:max(0, min(cfg["newcomer_max"], n))]
+    for c in first_new:
+        type_used[c["_type"]] = type_used.get(c["_type"], 0) + 1
+    out.extend(first_new)
+    pools["seed"].extend(newcomers[len(first_new):])   # any beyond the limit compete as usual
+    new_info["handed_over"] = len(first_new)
     group_cap = {}
     for g in ("seed", "home", "national"):
-        want = min(targets[g], n - len(out))
+        want = max(0, min(targets[g] - (len(first_new) if g == "seed" else 0), n - len(out)))
         # spread a group's picks over the areas it searched: no area gives much more than its fair part
         n_areas = len(set(c["_aid"] for c in pools[g])) or 1
         cap = group_cap[g] = min(cfg["per_area_cap"], max(5, int(math.ceil(want * 1.5 / n_areas))))
@@ -1069,6 +1171,7 @@ def main(core=None, clock=time.time, log=None):
     report = make_report(stamp, release, cfg, out, pools, excluded, area_log, scanned, clock() - t0, index, types, totals, new_types, planner)
     report["areas_needed"], report["areas_with_candidates"], report["area_cap_by_group"] = area_need, areas_with, group_cap
     report["small_town_areas"] = small_with
+    report["newcomers"] = new_info
     save_json(os.path.join(FEED_DIR, "report", "latest.json"), report, indent=1)
     coverage = make_coverage(index, types, totals, cfg, release, planner)
     save_json(os.path.join(FEED_DIR, "coverage.json"), coverage, indent=1)
