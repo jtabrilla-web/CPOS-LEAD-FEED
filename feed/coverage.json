@@ -7,7 +7,7 @@
    "key": "veterinarian",
    "kind": "business",
    "label": "Veterinarian",
-   "picked": 62,
+   "picked": 70,
    "provinces": [
     "AB",
     "BC",
@@ -22,36 +22,9 @@
     "YT"
    ],
    "rule": "vet",
-   "seen": 568,
+   "seen": 644,
    "terminal": "countertop",
-   "viable": 472
-  },
-  {
-   "family": "restaurant",
-   "first_seen": "2026-10-19T18:44:45Z",
-   "fit": 93,
-   "key": "bakery",
-   "kind": "business",
-   "label": "Bakery",
-   "picked": 49,
-   "provinces": [
-    "AB",
-    "BC",
-    "MB",
-    "NB",
-    "NL",
-    "NS",
-    "NT",
-    "ON",
-    "PE",
-    "QC",
-    "SK",
-    "YT"
-   ],
-   "rule": "cafe",
-   "seen": 1305,
-   "terminal": "countertop",
-   "viable": 849
+   "viable": 504
   },
   {
    "family": "retail",
@@ -60,7 +33,7 @@
    "key": "flowers_and_gifts_store",
    "kind": "business",
    "label": "Flowers and gifts store",
-   "picked": 48,
+   "picked": 54,
    "provinces": [
     "AB",
     "BC",
@@ -77,9 +50,36 @@
     "YT"
    ],
    "rule": "florist",
+   "seen": 1558,
+   "terminal": "countertop",
+   "viable": 1035
+  },
+  {
+   "family": "restaurant",
+   "first_seen": "2026-10-19T18:44:45Z",
+   "fit": 93,
+   "key": "bakery",
+   "kind": "business",
+   "label": "Bakery",
+   "picked": 54,
+   "provinces": [
+    "AB",
+    "BC",
+    "MB",
+    "NB",
+    "NL",
+    "NS",
+    "NT",
+    "ON",
+    "PE",
+    "QC",
+    "SK",
+    "YT"
+   ],
+   "rule": "cafe",
    "seen": 1427,
    "terminal": "countertop",
-   "viable": 985
+   "viable": 890
   },
   {
    "family": "salon",
@@ -88,7 +88,7 @@
    "key": "tattoo_and_piercing",
    "kind": "business",
    "label": "Tattoo and piercing",
-   "picked": 48,
+   "picked": 53,
    "provinces": [
     "AB",
     "BC",
@@ -103,9 +103,9 @@
     "YT"
    ],
    "rule": "tattoo",
-   "seen": 1072,
+   "seen": 1156,
    "terminal": "portable",
-   "viable": 759
+   "viable": 793
   },
   {
    "family": "retail",
@@ -114,7 +114,7 @@
    "key": "pet_store",
    "kind": "business",
    "label": "Pet store",
-   "picked": 48,
+   "picked": 51,
    "provinces": [
     "AB",
     "BC",
@@ -130,9 +130,9 @@
     "YT"
    ],
    "rule": "pet_store",
-   "seen": 793,
+   "seen": 870,
    "terminal": "countertop",
-   "viable": 368
+   "viable": 385
   },
   {
    "family": "landscaper",
@@ -141,7 +141,7 @@
    "key": "nursery_and_gardening_store",
    "kind": "business",
    "label": "Nursery and gardening store",
-   "picked": 42,
+   "picked": 46,
    "provinces": [
     "AB",
     "BC",
@@ -156,9 +156,9 @@
     "YT"
    ],
    "rule": "garden_center",
-   "seen": 392,
+   "seen": 427,
    "terminal": "countertop",
-   "viable": 292
+   "viable": 307
   },
   {
    "family": "dental",
@@ -167,7 +167,7 @@
    "key": "dental_clinic",
    "kind": "business",
    "label": "Dental clinic",
-   "picked": 40,
+   "picked": 45,
    "provinces": [
     "AB",
     "BC",
@@ -184,62 +184,9 @@
     "YT"
    ],
    "rule": "dental",
-   "seen": 1952,
+   "seen": 2188,
    "terminal": "countertop",
-   "viable": 1530
-  },
-  {
-   "family": "salon",
-   "first_seen": "2026-10-19T18:44:44Z",
-   "fit": 91,
-   "key": "hair_salon",
-   "kind": "business",
-   "label": "Hair salon",
-   "picked": 39,
-   "provinces": [
-    "AB",
-    "BC",
-    "MB",
-    "NB",
-    "NL",
-    "NS",
-    "NT",
-    "ON",
-    "PE",
-    "QC",
-    "SK",
-    "YT"
-   ],
-   "rule": "salon",
-   "seen": 2977,
-   "terminal": "portable",
-   "viable": 2252
-  },
-  {
-   "family": "restaurant",
-   "first_seen": "2026-10-19T18:44:45Z",
-   "fit": 92,
-   "key": "food_truck_stand",
-   "kind": "business",
-   "label": "Food truck stand",
-   "picked": 39,
-   "provinces": [
-    "AB",
-    "BC",
-    "MB",
-    "NB",
-    "NL",
-    "NS",
-    "ON",
-    "PE",
-    "QC",
-    "SK",
-    "YT"
-   ],
-   "rule": "food_truck",
-   "seen": 250,
-   "terminal": "mobile",
-   "viable": 136
+   "viable": 1636
   },
   {
    "family": "wellness",
@@ -248,7 +195,7 @@
    "key": "chiropractic",
    "kind": "business",
    "label": "Chiropractic",
-   "picked": 38,
+   "picked": 43,
    "provinces": [
     "AB",
     "BC",
@@ -264,18 +211,18 @@
     "YT"
    ],
    "rule": "rehab",
-   "seen": 1063,
+   "seen": 1207,
    "terminal": "countertop",
-   "viable": 889
+   "viable": 981
   },
   {
-   "family": "transport",
-   "first_seen": "2026-10-19T18:44:45Z",
-   "fit": 82,
-   "key": "towing_service",
+   "family": "salon",
+   "first_seen": "2026-10-19T18:44:44Z",
+   "fit": 91,
+   "key": "hair_salon",
    "kind": "business",
-   "label": "Towing service",
-   "picked": 35,
+   "label": "Hair salon",
+   "picked": 42,
    "provinces": [
     "AB",
     "BC",
@@ -285,14 +232,67 @@
     "NS",
     "NT",
     "ON",
+    "PE",
     "QC",
     "SK",
     "YT"
    ],
-   "rule": "towing",
-   "seen": 334,
+   "rule": "salon",
+   "seen": 3404,
+   "terminal": "portable",
+   "viable": 2397
+  },
+  {
+   "family": "restaurant",
+   "first_seen": "2026-10-19T18:44:45Z",
+   "fit": 92,
+   "key": "food_truck_stand",
+   "kind": "business",
+   "label": "Food truck stand",
+   "picked": 40,
+   "provinces": [
+    "AB",
+    "BC",
+    "MB",
+    "NB",
+    "NL",
+    "NS",
+    "ON",
+    "PE",
+    "QC",
+    "SK",
+    "YT"
+   ],
+   "rule": "food_truck",
+   "seen": 276,
    "terminal": "mobile",
-   "viable": 181
+   "viable": 143
+  },
+  {
+   "family": "wellness",
+   "first_seen": "2026-10-19T18:44:44Z",
+   "fit": 80,
+   "key": "martial_arts_club",
+   "kind": "business",
+   "label": "Martial arts club",
+   "picked": 38,
+   "provinces": [
+    "AB",
+    "BC",
+    "MB",
+    "NB",
+    "NL",
+    "NS",
+    "ON",
+    "PE",
+    "QC",
+    "SK",
+    "YT"
+   ],
+   "rule": "martial_arts",
+   "seen": 1083,
+   "terminal": "countertop",
+   "viable": 869
   },
   {
    "family": "retail",
@@ -301,7 +301,7 @@
    "key": "convenience_store",
    "kind": "business",
    "label": "Convenience store",
-   "picked": 34,
+   "picked": 38,
    "provinces": [
     "AB",
     "BC",
@@ -318,18 +318,18 @@
     "YT"
    ],
    "rule": "convenience",
-   "seen": 1776,
+   "seen": 1984,
    "terminal": "countertop",
-   "viable": 586
+   "viable": 608
   },
   {
-   "family": "automotive",
+   "family": "transport",
    "first_seen": "2026-10-19T18:44:45Z",
-   "fit": 90,
-   "key": "auto_body_shop",
+   "fit": 82,
+   "key": "towing_service",
    "kind": "business",
-   "label": "Auto body shop",
-   "picked": 33,
+   "label": "Towing service",
+   "picked": 36,
    "provinces": [
     "AB",
     "BC",
@@ -337,16 +337,16 @@
     "NB",
     "NL",
     "NS",
+    "NT",
     "ON",
-    "PE",
     "QC",
     "SK",
     "YT"
    ],
-   "rule": "auto_service",
-   "seen": 620,
-   "terminal": "countertop",
-   "viable": 361
+   "rule": "towing",
+   "seen": 372,
+   "terminal": "mobile",
+   "viable": 186
   },
   {
    "family": "wellness",
@@ -355,7 +355,7 @@
    "key": "gym",
    "kind": "business",
    "label": "Gym",
-   "picked": 32,
+   "picked": 35,
    "provinces": [
     "AB",
     "BC",
@@ -372,18 +372,18 @@
     "YT"
    ],
    "rule": "fitness",
-   "seen": 1983,
+   "seen": 2207,
    "terminal": "countertop",
-   "viable": 1187
+   "viable": 1257
   },
   {
-   "family": "wellness",
-   "first_seen": "2026-10-19T18:44:44Z",
-   "fit": 80,
-   "key": "martial_arts_club",
+   "family": "automotive",
+   "first_seen": "2026-10-19T18:44:45Z",
+   "fit": 90,
+   "key": "auto_body_shop",
    "kind": "business",
-   "label": "Martial arts club",
-   "picked": 32,
+   "label": "Auto body shop",
+   "picked": 35,
    "provinces": [
     "AB",
     "BC",
@@ -397,10 +397,10 @@
     "SK",
     "YT"
    ],
-   "rule": "martial_arts",
-   "seen": 994,
+   "rule": "auto_service",
+   "seen": 677,
    "terminal": "countertop",
-   "viable": 819
+   "viable": 374
   },
   {
    "family": "automotive",
@@ -409,7 +409,7 @@
    "key": "automotive_repair",
    "kind": "business",
    "label": "Automotive repair",
-   "picked": 31,
+   "picked": 33,
    "provinces": [
     "AB",
     "BC",
@@ -426,9 +426,9 @@
     "YT"
    ],
    "rule": "auto_service",
-   "seen": 3313,
+   "seen": 3711,
    "terminal": "countertop",
-   "viable": 2112
+   "viable": 2195
   },
   {
    "family": "landscaper",
@@ -437,7 +437,7 @@
    "key": "landscaping",
    "kind": "business",
    "label": "Landscaping",
-   "picked": 31,
+   "picked": 33,
    "provinces": [
     "AB",
     "BC",
@@ -452,9 +452,9 @@
     "YT"
    ],
    "rule": "landscaping",
-   "seen": 696,
+   "seen": 775,
    "terminal": "mobile",
-   "viable": 324
+   "viable": 347
   },
   {
    "family": "automotive",
@@ -463,7 +463,7 @@
    "key": "auto_dealer",
    "kind": "business",
    "label": "Auto dealer",
-   "picked": 29,
+   "picked": 31,
    "provinces": [
     "AB",
     "BC",
@@ -479,9 +479,9 @@
     "YT"
    ],
    "rule": "auto_sales",
-   "seen": 2161,
+   "seen": 2374,
    "terminal": "countertop",
-   "viable": 1167
+   "viable": 1212
   },
   {
    "family": "spa",
@@ -490,7 +490,7 @@
    "key": "massage_therapy",
    "kind": "business",
    "label": "Massage therapy",
-   "picked": 28,
+   "picked": 31,
    "provinces": [
     "AB",
     "BC",
@@ -506,140 +506,9 @@
     "YT"
    ],
    "rule": "spa",
-   "seen": 1871,
+   "seen": 2015,
    "terminal": "portable",
-   "viable": 1100
-  },
-  {
-   "family": "retail",
-   "first_seen": "2026-10-19T18:44:45Z",
-   "fit": 85,
-   "key": "butcher_shop",
-   "kind": "business",
-   "label": "Butcher shop",
-   "picked": 28,
-   "provinces": [
-    "AB",
-    "BC",
-    "MB",
-    "NB",
-    "NL",
-    "NS",
-    "ON",
-    "PE",
-    "QC",
-    "SK",
-    "YT"
-   ],
-   "rule": "food_retail",
-   "seen": 364,
-   "terminal": "countertop",
-   "viable": 263
-  },
-  {
-   "family": "salon",
-   "first_seen": "2026-10-19T18:44:45Z",
-   "fit": 91,
-   "key": "barber",
-   "kind": "business",
-   "label": "Barber",
-   "picked": 27,
-   "provinces": [
-    "AB",
-    "BC",
-    "MB",
-    "NB",
-    "NL",
-    "NS",
-    "NT",
-    "ON",
-    "PE",
-    "QC",
-    "SK",
-    "YT"
-   ],
-   "rule": "salon",
-   "seen": 1230,
-   "terminal": "portable",
-   "viable": 835
-  },
-  {
-   "family": "spa",
-   "first_seen": "2026-10-19T18:44:46Z",
-   "fit": 90,
-   "key": "day_spa",
-   "kind": "business",
-   "label": "Day spa",
-   "picked": 27,
-   "provinces": [
-    "AB",
-    "BC",
-    "MB",
-    "NB",
-    "NL",
-    "NS",
-    "ON",
-    "PE",
-    "QC",
-    "SK",
-    "YT"
-   ],
-   "rule": "spa",
-   "seen": 260,
-   "terminal": "portable",
-   "viable": 206
-  },
-  {
-   "family": "wellness",
-   "first_seen": "2026-10-19T18:44:45Z",
-   "fit": 86,
-   "key": "audiology",
-   "kind": "business",
-   "label": "Audiology",
-   "picked": 27,
-   "provinces": [
-    "AB",
-    "BC",
-    "MB",
-    "NB",
-    "NL",
-    "NS",
-    "ON",
-    "PE",
-    "QC",
-    "SK"
-   ],
-   "rule": "eye_ear",
-   "seen": 208,
-   "terminal": "countertop",
-   "viable": 104
-  },
-  {
-   "family": "salon",
-   "first_seen": "2026-10-19T18:44:44Z",
-   "fit": 91,
-   "key": "beauty_salon",
-   "kind": "business",
-   "label": "Beauty salon",
-   "picked": 26,
-   "provinces": [
-    "AB",
-    "BC",
-    "MB",
-    "NB",
-    "NL",
-    "NS",
-    "NT",
-    "ON",
-    "PE",
-    "QC",
-    "SK",
-    "YT"
-   ],
-   "rule": "salon",
-   "seen": 3382,
-   "terminal": "portable",
-   "viable": 2287
+   "viable": 1151
   },
   {
    "family": "vet",
@@ -648,7 +517,7 @@
    "key": "pet_groomer",
    "kind": "business",
    "label": "Pet groomer",
-   "picked": 26,
+   "picked": 31,
    "provinces": [
     "AB",
     "BC",
@@ -663,9 +532,168 @@
     "YT"
    ],
    "rule": "pet_services",
-   "seen": 546,
+   "seen": 601,
    "terminal": "portable",
-   "viable": 396
+   "viable": 424
+  },
+  {
+   "family": "retail",
+   "first_seen": "2026-10-19T18:44:45Z",
+   "fit": 85,
+   "key": "butcher_shop",
+   "kind": "business",
+   "label": "Butcher shop",
+   "picked": 30,
+   "provinces": [
+    "AB",
+    "BC",
+    "MB",
+    "NB",
+    "NL",
+    "NS",
+    "ON",
+    "PE",
+    "QC",
+    "SK",
+    "YT"
+   ],
+   "rule": "food_retail",
+   "seen": 393,
+   "terminal": "countertop",
+   "viable": 280
+  },
+  {
+   "family": "salon",
+   "first_seen": "2026-10-19T18:44:45Z",
+   "fit": 91,
+   "key": "barber",
+   "kind": "business",
+   "label": "Barber",
+   "picked": 28,
+   "provinces": [
+    "AB",
+    "BC",
+    "MB",
+    "NB",
+    "NL",
+    "NS",
+    "NT",
+    "ON",
+    "PE",
+    "QC",
+    "SK",
+    "YT"
+   ],
+   "rule": "salon",
+   "seen": 1450,
+   "terminal": "portable",
+   "viable": 890
+  },
+  {
+   "family": "spa",
+   "first_seen": "2026-10-19T18:44:46Z",
+   "fit": 90,
+   "key": "day_spa",
+   "kind": "business",
+   "label": "Day spa",
+   "picked": 28,
+   "provinces": [
+    "AB",
+    "BC",
+    "MB",
+    "NB",
+    "NL",
+    "NS",
+    "ON",
+    "PE",
+    "QC",
+    "SK",
+    "YT"
+   ],
+   "rule": "spa",
+   "seen": 298,
+   "terminal": "portable",
+   "viable": 222
+  },
+  {
+   "family": "wellness",
+   "first_seen": "2026-10-19T18:44:45Z",
+   "fit": 86,
+   "key": "audiology",
+   "kind": "business",
+   "label": "Audiology",
+   "picked": 28,
+   "provinces": [
+    "AB",
+    "BC",
+    "MB",
+    "NB",
+    "NL",
+    "NS",
+    "ON",
+    "PE",
+    "QC",
+    "SK"
+   ],
+   "rule": "eye_ear",
+   "seen": 233,
+   "terminal": "countertop",
+   "viable": 112
+  },
+  {
+   "family": "other",
+   "first_seen": "2026-10-19T18:44:44Z",
+   "fit": 40,
+   "key": "unknown",
+   "kind": "business",
+   "label": "Unknown",
+   "picked": 27,
+   "provinces": [
+    "AB",
+    "BC",
+    "MB",
+    "NB",
+    "NL",
+    "NS",
+    "NT",
+    "NU",
+    "ON",
+    "PE",
+    "QC",
+    "SK",
+    "YT"
+   ],
+   "rule": "unknown",
+   "seen": 5829,
+   "terminal": "countertop",
+   "viable": 3452
+  },
+  {
+   "family": "salon",
+   "first_seen": "2026-10-19T18:44:44Z",
+   "fit": 91,
+   "key": "beauty_salon",
+   "kind": "business",
+   "label": "Beauty salon",
+   "picked": 27,
+   "provinces": [
+    "AB",
+    "BC",
+    "MB",
+    "NB",
+    "NL",
+    "NS",
+    "NT",
+    "ON",
+    "PE",
+    "QC",
+    "SK",
+    "YT"
+   ],
+   "rule": "salon",
+   "seen": 3909,
+   "terminal": "portable",
+   "viable": 2443
   },
   {
    "family": "restaurant",
@@ -674,7 +702,7 @@
    "key": "bar_and_grill_restaurant",
    "kind": "business",
    "label": "Bar and grill restaurant",
-   "picked": 26,
+   "picked": 27,
    "provinces": [
     "AB",
     "BC",
@@ -689,9 +717,35 @@
     "YT"
    ],
    "rule": "bars",
-   "seen": 435,
+   "seen": 509,
    "terminal": "portable",
-   "viable": 229
+   "viable": 246
+  },
+  {
+   "family": "restaurant",
+   "first_seen": "2026-10-19T18:44:45Z",
+   "fit": 78,
+   "key": "caterer",
+   "kind": "business",
+   "label": "Caterer",
+   "picked": 26,
+   "provinces": [
+    "AB",
+    "BC",
+    "MB",
+    "NB",
+    "NL",
+    "NS",
+    "ON",
+    "PE",
+    "QC",
+    "SK",
+    "YT"
+   ],
+   "rule": "catering",
+   "seen": 524,
+   "terminal": "mobile",
+   "viable": 304
   },
   {
    "family": "vet",
@@ -715,17 +769,148 @@
     "YT"
    ],
    "rule": "pet_services",
-   "seen": 301,
+   "seen": 329,
    "terminal": "portable",
-   "viable": 185
+   "viable": 197
+  },
+  {
+   "family": "retail",
+   "first_seen": "2026-10-19T18:44:44Z",
+   "fit": 86,
+   "key": "clothing_store",
+   "kind": "business",
+   "label": "Clothing store",
+   "picked": 25,
+   "provinces": [
+    "AB",
+    "BC",
+    "MB",
+    "NB",
+    "NL",
+    "NS",
+    "ON",
+    "PE",
+    "QC",
+    "SK",
+    "YT"
+   ],
+   "rule": "fashion",
+   "seen": 2597,
+   "terminal": "countertop",
+   "viable": 1392
   },
   {
    "family": "other",
    "first_seen": "2026-10-19T18:44:44Z",
-   "fit": 40,
-   "key": "unknown",
+   "fit": 80,
+   "key": "it_service_and_computer_repair",
    "kind": "business",
-   "label": "Unknown",
+   "label": "It service and computer repair",
+   "picked": 25,
+   "provinces": [
+    "AB",
+    "BC",
+    "MB",
+    "NB",
+    "NL",
+    "NS",
+    "ON",
+    "PE",
+    "QC",
+    "SK",
+    "YT"
+   ],
+   "rule": "repair",
+   "seen": 1130,
+   "terminal": "countertop",
+   "viable": 846
+  },
+  {
+   "family": "dental",
+   "first_seen": "2026-10-19T18:44:45Z",
+   "fit": 90,
+   "key": "general_dentistry",
+   "kind": "business",
+   "label": "General dentistry",
+   "picked": 25,
+   "provinces": [
+    "AB",
+    "BC",
+    "MB",
+    "NB",
+    "NL",
+    "NS",
+    "ON",
+    "PE",
+    "QC",
+    "SK",
+    "YT"
+   ],
+   "rule": "dental",
+   "seen": 1055,
+   "terminal": "countertop",
+   "viable": 767
+  },
+  {
+   "family": "retail",
+   "first_seen": "2026-10-19T18:44:45Z",
+   "fit": 84,
+   "key": "bike_store",
+   "kind": "business",
+   "label": "Bike store",
+   "picked": 25,
+   "provinces": [
+    "AB",
+    "BC",
+    "MB",
+    "NB",
+    "NL",
+    "NS",
+    "ON",
+    "PE",
+    "QC",
+    "SK",
+    "YT"
+   ],
+   "rule": "sporting",
+   "seen": 339,
+   "terminal": "countertop",
+   "viable": 244
+  },
+  {
+   "family": "trades",
+   "first_seen": "2026-10-19T18:44:44Z",
+   "fit": 76,
+   "key": "contractor",
+   "kind": "business",
+   "label": "Contractor",
+   "picked": 24,
+   "provinces": [
+    "AB",
+    "BC",
+    "MB",
+    "NB",
+    "NL",
+    "NS",
+    "NT",
+    "ON",
+    "PE",
+    "QC",
+    "SK",
+    "YT"
+   ],
+   "rule": "trades",
+   "seen": 2633,
+   "terminal": "mobile",
+   "viable": 1433
+  },
+  {
+   "family": "trades",
+   "first_seen": "2026-10-19T18:44:44Z",
+   "fit": 45,
+   "key": "building_or_construction_service",
+   "kind": "business",
+   "label": "Building or construction service",
    "picked": 24,
    "provinces": [
     "AB",
@@ -742,169 +927,10 @@
     "SK",
     "YT"
    ],
-   "rule": "unknown",
-   "seen": 5351,
-   "terminal": "countertop",
-   "viable": 3288
-  },
-  {
-   "family": "trades",
-   "first_seen": "2026-10-19T18:44:44Z",
-   "fit": 76,
-   "key": "contractor",
-   "kind": "business",
-   "label": "Contractor",
-   "picked": 23,
-   "provinces": [
-    "AB",
-    "BC",
-    "MB",
-    "NB",
-    "NL",
-    "NS",
-    "NT",
-    "ON",
-    "PE",
-    "QC",
-    "SK",
-    "YT"
-   ],
-   "rule": "trades",
-   "seen": 2388,
-   "terminal": "mobile",
-   "viable": 1362
-  },
-  {
-   "family": "retail",
-   "first_seen": "2026-10-19T18:44:44Z",
-   "fit": 86,
-   "key": "clothing_store",
-   "kind": "business",
-   "label": "Clothing store",
-   "picked": 23,
-   "provinces": [
-    "AB",
-    "BC",
-    "MB",
-    "NB",
-    "NL",
-    "NS",
-    "ON",
-    "PE",
-    "QC",
-    "SK",
-    "YT"
-   ],
-   "rule": "fashion",
-   "seen": 2319,
-   "terminal": "countertop",
-   "viable": 1313
-  },
-  {
-   "family": "other",
-   "first_seen": "2026-10-19T18:44:44Z",
-   "fit": 80,
-   "key": "it_service_and_computer_repair",
-   "kind": "business",
-   "label": "It service and computer repair",
-   "picked": 23,
-   "provinces": [
-    "AB",
-    "BC",
-    "MB",
-    "NB",
-    "NL",
-    "NS",
-    "ON",
-    "PE",
-    "QC",
-    "SK",
-    "YT"
-   ],
-   "rule": "repair",
-   "seen": 1044,
-   "terminal": "countertop",
-   "viable": 802
-  },
-  {
-   "family": "dental",
-   "first_seen": "2026-10-19T18:44:45Z",
-   "fit": 90,
-   "key": "general_dentistry",
-   "kind": "business",
-   "label": "General dentistry",
-   "picked": 23,
-   "provinces": [
-    "AB",
-    "BC",
-    "MB",
-    "NB",
-    "NL",
-    "NS",
-    "ON",
-    "PE",
-    "QC",
-    "SK",
-    "YT"
-   ],
-   "rule": "dental",
-   "seen": 935,
-   "terminal": "countertop",
-   "viable": 706
-  },
-  {
-   "family": "restaurant",
-   "first_seen": "2026-10-19T18:44:45Z",
-   "fit": 78,
-   "key": "caterer",
-   "kind": "business",
-   "label": "Caterer",
-   "picked": 23,
-   "provinces": [
-    "AB",
-    "BC",
-    "MB",
-    "NB",
-    "NL",
-    "NS",
-    "ON",
-    "PE",
-    "QC",
-    "SK",
-    "YT"
-   ],
-   "rule": "catering",
-   "seen": 477,
-   "terminal": "mobile",
-   "viable": 293
-  },
-  {
-   "family": "trades",
-   "first_seen": "2026-10-19T18:44:44Z",
-   "fit": 45,
-   "key": "building_or_construction_service",
-   "kind": "business",
-   "label": "Building or construction service",
-   "picked": 22,
-   "provinces": [
-    "AB",
-    "BC",
-    "MB",
-    "NB",
-    "NL",
-    "NS",
-    "NT",
-    "NU",
-    "ON",
-    "PE",
-    "QC",
-    "SK",
-    "YT"
-   ],
    "rule": "construction",
-   "seen": 1430,
+   "seen": 1560,
    "terminal": "mobile",
-   "viable": 645
+   "viable": 672
   },
   {
    "family": "automotive",
@@ -913,7 +939,7 @@
    "key": "auto_detailing",
    "kind": "business",
    "label": "Auto detailing",
-   "picked": 22,
+   "picked": 23,
    "provinces": [
     "AB",
     "BC",
@@ -928,35 +954,9 @@
     "YT"
    ],
    "rule": "auto_service",
-   "seen": 640,
+   "seen": 721,
    "terminal": "countertop",
-   "viable": 387
-  },
-  {
-   "family": "retail",
-   "first_seen": "2026-10-19T18:44:45Z",
-   "fit": 84,
-   "key": "bike_store",
-   "kind": "business",
-   "label": "Bike store",
-   "picked": 22,
-   "provinces": [
-    "AB",
-    "BC",
-    "MB",
-    "NB",
-    "NL",
-    "NS",
-    "ON",
-    "PE",
-    "QC",
-    "SK",
-    "YT"
-   ],
-   "rule": "sporting",
-   "seen": 318,
-   "terminal": "countertop",
-   "viable": 240
+   "viable": 409
   },
   {
    "family": "retail",
@@ -981,9 +981,9 @@
     "YT"
    ],
    "rule": "home_goods",
-   "seen": 1634,
+   "seen": 1726,
    "terminal": "countertop",
-   "viable": 1437
+   "viable": 1495
   },
   {
    "family": "wellness",
@@ -1007,9 +1007,89 @@
     "YT"
    ],
    "rule": "rehab",
-   "seen": 439,
+   "seen": 458,
    "terminal": "countertop",
-   "viable": 349
+   "viable": 365
+  },
+  {
+   "family": "restaurant",
+   "first_seen": "2026-10-19T18:44:45Z",
+   "fit": 92,
+   "key": "brewery",
+   "kind": "business",
+   "label": "Brewery",
+   "picked": 21,
+   "provinces": [
+    "AB",
+    "BC",
+    "MB",
+    "NB",
+    "NL",
+    "NS",
+    "ON",
+    "PE",
+    "QC",
+    "SK",
+    "YT"
+   ],
+   "rule": "bars",
+   "seen": 403,
+   "terminal": "portable",
+   "viable": 305
+  },
+  {
+   "family": "retail",
+   "first_seen": "2026-10-19T18:44:45Z",
+   "fit": 86,
+   "key": "florist",
+   "kind": "business",
+   "label": "Florist",
+   "picked": 21,
+   "provinces": [
+    "AB",
+    "BC",
+    "MB",
+    "NB",
+    "NL",
+    "NS",
+    "ON",
+    "PE",
+    "QC",
+    "SK",
+    "YT"
+   ],
+   "rule": "florist",
+   "seen": 284,
+   "terminal": "countertop",
+   "viable": 231
+  },
+  {
+   "family": "retail",
+   "first_seen": "2026-10-19T18:44:44Z",
+   "fit": 74,
+   "key": "pharmacy",
+   "kind": "business",
+   "label": "Pharmacy",
+   "picked": 20,
+   "provinces": [
+    "AB",
+    "BC",
+    "MB",
+    "NB",
+    "NL",
+    "NS",
+    "NT",
+    "NU",
+    "ON",
+    "PE",
+    "QC",
+    "SK",
+    "YT"
+   ],
+   "rule": "pharmacy",
+   "seen": 2661,
+   "terminal": "countertop",
+   "viable": 1111
   },
   {
    "family": "restaurant",
@@ -1035,17 +1115,17 @@
     "YT"
    ],
    "rule": "cafe",
-   "seen": 1338,
+   "seen": 1419,
    "terminal": "countertop",
-   "viable": 986
+   "viable": 1022
   },
   {
-   "family": "retail",
+   "family": "other",
    "first_seen": "2026-10-19T18:44:45Z",
-   "fit": 86,
-   "key": "florist",
+   "fit": 45,
+   "key": "funeral_service",
    "kind": "business",
-   "label": "Florist",
+   "label": "Funeral service",
    "picked": 20,
    "provinces": [
     "AB",
@@ -1060,36 +1140,10 @@
     "SK",
     "YT"
    ],
-   "rule": "florist",
-   "seen": 260,
+   "rule": "funeral",
+   "seen": 437,
    "terminal": "countertop",
-   "viable": 224
-  },
-  {
-   "family": "restaurant",
-   "first_seen": "2026-10-19T18:44:45Z",
-   "fit": 92,
-   "key": "brewery",
-   "kind": "business",
-   "label": "Brewery",
-   "picked": 19,
-   "provinces": [
-    "AB",
-    "BC",
-    "MB",
-    "NB",
-    "NL",
-    "NS",
-    "ON",
-    "PE",
-    "QC",
-    "SK",
-    "YT"
-   ],
-   "rule": "bars",
-   "seen": 377,
-   "terminal": "portable",
-   "viable": 296
+   "viable": 295
   },
   {
    "family": "spa",
@@ -1098,7 +1152,7 @@
    "key": "spa",
    "kind": "business",
    "label": "Spa",
-   "picked": 18,
+   "picked": 19,
    "provinces": [
     "AB",
     "BC",
@@ -1114,9 +1168,9 @@
     "YT"
    ],
    "rule": "spa",
-   "seen": 1686,
+   "seen": 1873,
    "terminal": "portable",
-   "viable": 1015
+   "viable": 1072
   },
   {
    "family": "other",
@@ -1125,7 +1179,7 @@
    "key": "printing_service",
    "kind": "business",
    "label": "Printing service",
-   "picked": 18,
+   "picked": 19,
    "provinces": [
     "AB",
     "BC",
@@ -1140,18 +1194,46 @@
     "YT"
    ],
    "rule": "print",
-   "seen": 1126,
+   "seen": 1231,
    "terminal": "countertop",
-   "viable": 823
+   "viable": 848
   },
   {
    "family": "other",
    "first_seen": "2026-10-19T18:44:45Z",
-   "fit": 45,
-   "key": "funeral_service",
+   "fit": 42,
+   "key": "travel_service",
    "kind": "business",
-   "label": "Funeral service",
-   "picked": 18,
+   "label": "Travel service",
+   "picked": 19,
+   "provinces": [
+    "AB",
+    "BC",
+    "MB",
+    "NB",
+    "NL",
+    "NS",
+    "NT",
+    "NU",
+    "ON",
+    "PE",
+    "QC",
+    "SK",
+    "YT"
+   ],
+   "rule": "travel",
+   "seen": 1269,
+   "terminal": "countertop",
+   "viable": 580
+  },
+  {
+   "family": "wellness",
+   "first_seen": "2026-10-19T18:44:45Z",
+   "fit": 86,
+   "key": "optometry",
+   "kind": "business",
+   "label": "Optometry",
+   "picked": 19,
    "provinces": [
     "AB",
     "BC",
@@ -1165,10 +1247,62 @@
     "SK",
     "YT"
    ],
-   "rule": "funeral",
-   "seen": 376,
+   "rule": "eye_ear",
+   "seen": 856,
    "terminal": "countertop",
-   "viable": 277
+   "viable": 543
+  },
+  {
+   "family": "spa",
+   "first_seen": "2026-10-19T18:44:44Z",
+   "fit": 90,
+   "key": "medical_spa",
+   "kind": "business",
+   "label": "Medical spa",
+   "picked": 18,
+   "provinces": [
+    "AB",
+    "BC",
+    "MB",
+    "NB",
+    "NL",
+    "NS",
+    "ON",
+    "PE",
+    "QC",
+    "SK"
+   ],
+   "rule": "spa",
+   "seen": 655,
+   "terminal": "portable",
+   "viable": 489
+  },
+  {
+   "family": "restaurant",
+   "first_seen": "2026-10-19T18:44:44Z",
+   "fit": 92,
+   "key": "bar",
+   "kind": "business",
+   "label": "Bar",
+   "picked": 18,
+   "provinces": [
+    "AB",
+    "BC",
+    "MB",
+    "NB",
+    "NL",
+    "NS",
+    "NT",
+    "ON",
+    "PE",
+    "QC",
+    "SK",
+    "YT"
+   ],
+   "rule": "bars",
+   "seen": 806,
+   "terminal": "portable",
+   "viable": 408
   },
   {
    "family": "retail",
@@ -1193,9 +1327,9 @@
     "YT"
    ],
    "rule": "food_retail",
-   "seen": 311,
+   "seen": 343,
    "terminal": "countertop",
-   "viable": 224
+   "viable": 232
   },
   {
    "family": "other",
@@ -1219,17 +1353,151 @@
     "YT"
    ],
    "rule": "cleaners",
-   "seen": 260,
+   "seen": 311,
    "terminal": "countertop",
-   "viable": 166
+   "viable": 169
+  },
+  {
+   "family": "wellness",
+   "first_seen": "2026-10-19T18:44:45Z",
+   "fit": 88,
+   "key": "naturopathic_medicine",
+   "kind": "business",
+   "label": "Naturopathic medicine",
+   "picked": 17,
+   "provinces": [
+    "AB",
+    "BC",
+    "MB",
+    "NB",
+    "NL",
+    "NS",
+    "NT",
+    "ON",
+    "PE",
+    "QC",
+    "SK",
+    "YT"
+   ],
+   "rule": "rehab",
+   "seen": 1316,
+   "terminal": "countertop",
+   "viable": 691
+  },
+  {
+   "family": "retail",
+   "first_seen": "2026-10-19T18:44:45Z",
+   "fit": 84,
+   "key": "sporting_goods_store",
+   "kind": "business",
+   "label": "Sporting goods store",
+   "picked": 17,
+   "provinces": [
+    "AB",
+    "BC",
+    "MB",
+    "NB",
+    "NL",
+    "NS",
+    "NT",
+    "ON",
+    "PE",
+    "QC",
+    "SK",
+    "YT"
+   ],
+   "rule": "sporting",
+   "seen": 804,
+   "terminal": "countertop",
+   "viable": 473
+  },
+  {
+   "family": "transport",
+   "first_seen": "2026-10-19T18:44:46Z",
+   "fit": 66,
+   "key": "self_storage_facility",
+   "kind": "business",
+   "label": "Self storage facility",
+   "picked": 17,
+   "provinces": [
+    "AB",
+    "BC",
+    "MB",
+    "NB",
+    "NL",
+    "NS",
+    "NT",
+    "ON",
+    "PE",
+    "QC",
+    "SK",
+    "YT"
+   ],
+   "rule": "courier",
+   "seen": 439,
+   "terminal": "mobile",
+   "viable": 302
+  },
+  {
+   "family": "other",
+   "first_seen": "2026-10-19T18:44:48Z",
+   "fit": 78,
+   "key": "golf_course",
+   "kind": "business",
+   "label": "Golf course",
+   "picked": 17,
+   "provinces": [
+    "AB",
+    "BC",
+    "MB",
+    "NB",
+    "NL",
+    "NS",
+    "NT",
+    "ON",
+    "PE",
+    "QC",
+    "SK"
+   ],
+   "rule": "golf_ski",
+   "seen": 276,
+   "terminal": "portable",
+   "viable": 232
+  },
+  {
+   "family": "other",
+   "first_seen": "2026-10-19T18:44:45Z",
+   "fit": 84,
+   "key": "laundromat",
+   "kind": "business",
+   "label": "Laundromat",
+   "picked": 17,
+   "provinces": [
+    "AB",
+    "BC",
+    "MB",
+    "NB",
+    "NL",
+    "NS",
+    "NT",
+    "ON",
+    "PE",
+    "QC",
+    "SK",
+    "YT"
+   ],
+   "rule": "cleaners",
+   "seen": 269,
+   "terminal": "countertop",
+   "viable": 177
   },
   {
    "family": "retail",
    "first_seen": "2026-10-19T18:44:44Z",
-   "fit": 74,
-   "key": "pharmacy",
+   "fit": 86,
+   "key": "childrens_clothing_store",
    "kind": "business",
-   "label": "Pharmacy",
+   "label": "Childrens clothing store",
    "picked": 17,
    "provinces": [
     "AB",
@@ -1238,45 +1506,15 @@
     "NB",
     "NL",
     "NS",
-    "NT",
-    "NU",
     "ON",
     "PE",
     "QC",
-    "SK",
-    "YT"
+    "SK"
    ],
-   "rule": "pharmacy",
-   "seen": 2353,
+   "rule": "fashion",
+   "seen": 274,
    "terminal": "countertop",
-   "viable": 1058
-  },
-  {
-   "family": "restaurant",
-   "first_seen": "2026-10-19T18:44:44Z",
-   "fit": 92,
-   "key": "bar",
-   "kind": "business",
-   "label": "Bar",
-   "picked": 17,
-   "provinces": [
-    "AB",
-    "BC",
-    "MB",
-    "NB",
-    "NL",
-    "NS",
-    "NT",
-    "ON",
-    "PE",
-    "QC",
-    "SK",
-    "YT"
-   ],
-   "rule": "bars",
-   "seen": 711,
-   "terminal": "portable",
-   "viable": 402
+   "viable": 172
   },
   {
    "family": "retail",
@@ -1302,17 +1540,43 @@
     "YT"
    ],
    "rule": "food_retail",
-   "seen": 2135,
+   "seen": 2378,
    "terminal": "countertop",
-   "viable": 1072
+   "viable": 1124
   },
   {
-   "family": "wellness",
+   "family": "transport",
    "first_seen": "2026-10-19T18:44:45Z",
-   "fit": 88,
-   "key": "naturopathic_medicine",
+   "fit": 30,
+   "key": "freight_and_cargo_service",
    "kind": "business",
-   "label": "Naturopathic medicine",
+   "label": "Freight and cargo service",
+   "picked": 16,
+   "provinces": [
+    "AB",
+    "BC",
+    "MB",
+    "NB",
+    "NL",
+    "NS",
+    "NT",
+    "ON",
+    "QC",
+    "SK",
+    "YT"
+   ],
+   "rule": "freight",
+   "seen": 778,
+   "terminal": "mobile",
+   "viable": 427
+  },
+  {
+   "family": "other",
+   "first_seen": "2026-10-19T18:44:45Z",
+   "fit": 62,
+   "key": "arts_and_entertainment",
+   "kind": "business",
+   "label": "Arts and entertainment",
    "picked": 16,
    "provinces": [
     "AB",
@@ -1328,18 +1592,18 @@
     "SK",
     "YT"
    ],
-   "rule": "rehab",
-   "seen": 1206,
-   "terminal": "countertop",
-   "viable": 647
+   "rule": "g_arts",
+   "seen": 958,
+   "terminal": "portable",
+   "viable": 416
   },
   {
-   "family": "other",
+   "family": "retail",
    "first_seen": "2026-10-19T18:44:45Z",
-   "fit": 42,
-   "key": "travel_service",
+   "fit": 84,
+   "key": "arts_crafts_and_hobby_store",
    "kind": "business",
-   "label": "Travel service",
+   "label": "Arts crafts and hobby store",
    "picked": 16,
    "provinces": [
     "AB",
@@ -1356,88 +1620,10 @@
     "SK",
     "YT"
    ],
-   "rule": "travel",
-   "seen": 1176,
+   "rule": "hobby",
+   "seen": 674,
    "terminal": "countertop",
-   "viable": 560
-  },
-  {
-   "family": "wellness",
-   "first_seen": "2026-10-19T18:44:45Z",
-   "fit": 86,
-   "key": "optometry",
-   "kind": "business",
-   "label": "Optometry",
-   "picked": 16,
-   "provinces": [
-    "AB",
-    "BC",
-    "MB",
-    "NB",
-    "NL",
-    "NS",
-    "ON",
-    "PE",
-    "QC",
-    "SK",
-    "YT"
-   ],
-   "rule": "eye_ear",
-   "seen": 783,
-   "terminal": "countertop",
-   "viable": 510
-  },
-  {
-   "family": "spa",
-   "first_seen": "2026-10-19T18:44:44Z",
-   "fit": 90,
-   "key": "medical_spa",
-   "kind": "business",
-   "label": "Medical spa",
-   "picked": 16,
-   "provinces": [
-    "AB",
-    "BC",
-    "MB",
-    "NB",
-    "NL",
-    "NS",
-    "ON",
-    "PE",
-    "QC",
-    "SK"
-   ],
-   "rule": "spa",
-   "seen": 598,
-   "terminal": "portable",
-   "viable": 460
-  },
-  {
-   "family": "transport",
-   "first_seen": "2026-10-19T18:44:46Z",
-   "fit": 66,
-   "key": "self_storage_facility",
-   "kind": "business",
-   "label": "Self storage facility",
-   "picked": 16,
-   "provinces": [
-    "AB",
-    "BC",
-    "MB",
-    "NB",
-    "NL",
-    "NS",
-    "NT",
-    "ON",
-    "PE",
-    "QC",
-    "SK",
-    "YT"
-   ],
-   "rule": "courier",
-   "seen": 401,
-   "terminal": "mobile",
-   "viable": 292
+   "viable": 402
   },
   {
    "family": "retail",
@@ -1461,17 +1647,42 @@
     "YT"
    ],
    "rule": "hobby",
-   "seen": 238,
+   "seen": 253,
    "terminal": "countertop",
-   "viable": 179
+   "viable": 181
+  },
+  {
+   "family": "vet",
+   "first_seen": "2026-10-19T18:44:45Z",
+   "fit": 88,
+   "key": "pet_boarding",
+   "kind": "business",
+   "label": "Pet boarding",
+   "picked": 16,
+   "provinces": [
+    "AB",
+    "BC",
+    "MB",
+    "NB",
+    "NL",
+    "NS",
+    "ON",
+    "QC",
+    "SK",
+    "YT"
+   ],
+   "rule": "pet_services",
+   "seen": 161,
+   "terminal": "portable",
+   "viable": 129
   },
   {
    "family": "retail",
-   "first_seen": "2026-10-19T18:44:44Z",
-   "fit": 86,
-   "key": "childrens_clothing_store",
+   "first_seen": "2026-10-19T18:44:45Z",
+   "fit": 83,
+   "key": "vitamin_and_supplement_store",
    "kind": "business",
-   "label": "Childrens clothing store",
+   "label": "Vitamin and supplement store",
    "picked": 16,
    "provinces": [
     "AB",
@@ -1483,12 +1694,37 @@
     "ON",
     "PE",
     "QC",
+    "SK",
+    "YT"
+   ],
+   "rule": "beauty_retail",
+   "seen": 228,
+   "terminal": "countertop",
+   "viable": 111
+  },
+  {
+   "family": "automotive",
+   "first_seen": "2026-10-19T18:44:49Z",
+   "fit": 78,
+   "key": "auto_customization",
+   "kind": "business",
+   "label": "Auto customization",
+   "picked": 16,
+   "provinces": [
+    "AB",
+    "BC",
+    "MB",
+    "NB",
+    "NL",
+    "NS",
+    "ON",
+    "QC",
     "SK"
    ],
-   "rule": "fashion",
-   "seen": 247,
+   "rule": "g_auto",
+   "seen": 140,
    "terminal": "countertop",
-   "viable": 160
+   "viable": 99
   },
   {
    "family": "restaurant",
@@ -1513,17 +1749,17 @@
     "YT"
    ],
    "rule": "g_food",
-   "seen": 113,
+   "seen": 123,
    "terminal": "portable",
-   "viable": 55
+   "viable": 57
   },
   {
-   "family": "transport",
+   "family": "professional",
    "first_seen": "2026-10-19T18:44:45Z",
-   "fit": 30,
-   "key": "freight_and_cargo_service",
+   "fit": 32,
+   "key": "accountant",
    "kind": "business",
-   "label": "Freight and cargo service",
+   "label": "Accountant",
    "picked": 15,
    "provinces": [
     "AB",
@@ -1533,43 +1769,95 @@
     "NL",
     "NS",
     "NT",
-    "ON",
-    "QC",
-    "SK",
-    "YT"
-   ],
-   "rule": "freight",
-   "seen": 714,
-   "terminal": "mobile",
-   "viable": 403
-  },
-  {
-   "family": "retail",
-   "first_seen": "2026-10-19T18:44:45Z",
-   "fit": 84,
-   "key": "arts_crafts_and_hobby_store",
-   "kind": "business",
-   "label": "Arts crafts and hobby store",
-   "picked": 15,
-   "provinces": [
-    "AB",
-    "BC",
-    "MB",
-    "NB",
-    "NL",
-    "NS",
-    "NT",
-    "NU",
     "ON",
     "PE",
     "QC",
     "SK",
     "YT"
    ],
-   "rule": "hobby",
-   "seen": 638,
+   "rule": "accounting",
+   "seen": 1515,
    "terminal": "countertop",
-   "viable": 388
+   "viable": 1029
+  },
+  {
+   "family": "salon",
+   "first_seen": "2026-10-19T18:44:45Z",
+   "fit": 91,
+   "key": "nail_salon",
+   "kind": "business",
+   "label": "Nail salon",
+   "picked": 15,
+   "provinces": [
+    "AB",
+    "BC",
+    "MB",
+    "NB",
+    "NL",
+    "NS",
+    "ON",
+    "PE",
+    "QC",
+    "SK",
+    "YT"
+   ],
+   "rule": "salon",
+   "seen": 1365,
+   "terminal": "portable",
+   "viable": 917
+  },
+  {
+   "family": "restaurant",
+   "first_seen": "2026-10-19T18:44:44Z",
+   "fit": 94,
+   "key": "chinese_restaurant",
+   "kind": "business",
+   "label": "Chinese restaurant",
+   "picked": 15,
+   "provinces": [
+    "AB",
+    "BC",
+    "MB",
+    "NB",
+    "NL",
+    "NS",
+    "NT",
+    "ON",
+    "PE",
+    "QC",
+    "SK",
+    "YT"
+   ],
+   "rule": "restaurant",
+   "seen": 1030,
+   "terminal": "portable",
+   "viable": 806
+  },
+  {
+   "family": "restaurant",
+   "first_seen": "2026-10-19T18:44:44Z",
+   "fit": 94,
+   "key": "diner",
+   "kind": "business",
+   "label": "Diner",
+   "picked": 15,
+   "provinces": [
+    "AB",
+    "BC",
+    "MB",
+    "NB",
+    "NL",
+    "NS",
+    "NT",
+    "ON",
+    "PE",
+    "QC",
+    "SK"
+   ],
+   "rule": "restaurant",
+   "seen": 646,
+   "terminal": "portable",
+   "viable": 453
   },
   {
    "family": "other",
@@ -1595,9 +1883,9 @@
     "YT"
    ],
    "rule": "lodging",
-   "seen": 319,
+   "seen": 334,
    "terminal": "countertop",
-   "viable": 273
+   "viable": 282
   },
   {
    "family": "wellness",
@@ -1621,17 +1909,17 @@
     "YT"
    ],
    "rule": "eye_ear",
-   "seen": 435,
+   "seen": 476,
    "terminal": "countertop",
-   "viable": 248
+   "viable": 260
   },
   {
-   "family": "vet",
+   "family": "automotive",
    "first_seen": "2026-10-19T18:44:45Z",
-   "fit": 88,
-   "key": "pet_boarding",
+   "fit": 90,
+   "key": "auto_glass_service",
    "kind": "business",
-   "label": "Pet boarding",
+   "label": "Auto glass service",
    "picked": 15,
    "provinces": [
     "AB",
@@ -1640,64 +1928,17 @@
     "NB",
     "NL",
     "NS",
-    "ON",
-    "QC",
-    "SK",
-    "YT"
-   ],
-   "rule": "pet_services",
-   "seen": 149,
-   "terminal": "portable",
-   "viable": 125
-  },
-  {
-   "family": "retail",
-   "first_seen": "2026-10-19T18:44:45Z",
-   "fit": 83,
-   "key": "vitamin_and_supplement_store",
-   "kind": "business",
-   "label": "Vitamin and supplement store",
-   "picked": 15,
-   "provinces": [
-    "AB",
-    "BC",
-    "MB",
-    "NB",
-    "NL",
-    "NS",
+    "NT",
     "ON",
     "PE",
     "QC",
     "SK",
     "YT"
    ],
-   "rule": "beauty_retail",
-   "seen": 213,
+   "rule": "auto_service",
+   "seen": 359,
    "terminal": "countertop",
-   "viable": 107
-  },
-  {
-   "family": "automotive",
-   "first_seen": "2026-10-19T18:44:49Z",
-   "fit": 78,
-   "key": "auto_customization",
-   "kind": "business",
-   "label": "Auto customization",
-   "picked": 15,
-   "provinces": [
-    "AB",
-    "BC",
-    "MB",
-    "NB",
-    "NL",
-    "ON",
-    "QC",
-    "SK"
-   ],
-   "rule": "g_auto",
-   "seen": 126,
-   "terminal": "countertop",
-   "viable": 95
+   "viable": 172
   },
   {
    "family": "dental",
@@ -1719,17 +1960,42 @@
     "SK"
    ],
    "rule": "dental",
-   "seen": 95,
+   "seen": 110,
    "terminal": "countertop",
-   "viable": 78
+   "viable": 83
   },
   {
    "family": "restaurant",
-   "first_seen": "2026-10-19T18:44:44Z",
-   "fit": 94,
-   "key": "chinese_restaurant",
+   "first_seen": "2026-10-19T18:44:45Z",
+   "fit": 93,
+   "key": "bagel_shop",
    "kind": "business",
-   "label": "Chinese restaurant",
+   "label": "Bagel shop",
+   "picked": 15,
+   "provinces": [
+    "AB",
+    "BC",
+    "MB",
+    "NB",
+    "NS",
+    "ON",
+    "PE",
+    "QC",
+    "SK",
+    "YT"
+   ],
+   "rule": "cafe",
+   "seen": 63,
+   "terminal": "countertop",
+   "viable": 39
+  },
+  {
+   "family": "retail",
+   "first_seen": "2026-10-19T18:44:45Z",
+   "fit": 72,
+   "key": "party_and_event_planning",
+   "kind": "business",
+   "label": "Party and event planning",
    "picked": 14,
    "provinces": [
     "AB",
@@ -1738,25 +2004,53 @@
     "NB",
     "NL",
     "NS",
-    "NT",
+    "NU",
     "ON",
     "PE",
     "QC",
     "SK",
     "YT"
    ],
-   "rule": "restaurant",
-   "seen": 965,
-   "terminal": "portable",
-   "viable": 778
+   "rule": "photo_events",
+   "seen": 1601,
+   "terminal": "mobile",
+   "viable": 807
   },
   {
    "family": "other",
    "first_seen": "2026-10-19T18:44:45Z",
-   "fit": 62,
-   "key": "arts_and_entertainment",
+   "fit": 72,
+   "key": "hotel",
    "kind": "business",
-   "label": "Arts and entertainment",
+   "label": "Hotel",
+   "picked": 14,
+   "provinces": [
+    "AB",
+    "BC",
+    "MB",
+    "NB",
+    "NL",
+    "NS",
+    "NT",
+    "NU",
+    "ON",
+    "PE",
+    "QC",
+    "SK",
+    "YT"
+   ],
+   "rule": "lodging",
+   "seen": 1496,
+   "terminal": "countertop",
+   "viable": 750
+  },
+  {
+   "family": "wellness",
+   "first_seen": "2026-10-19T18:44:45Z",
+   "fit": 66,
+   "key": "sport_league",
+   "kind": "business",
+   "label": "Sport league",
    "picked": 14,
    "provinces": [
     "AB",
@@ -1772,10 +2066,38 @@
     "SK",
     "YT"
    ],
-   "rule": "g_arts",
-   "seen": 889,
-   "terminal": "portable",
-   "viable": 400
+   "rule": "g_sport",
+   "seen": 719,
+   "terminal": "countertop",
+   "viable": 491
+  },
+  {
+   "family": "retail",
+   "first_seen": "2026-10-19T18:44:45Z",
+   "fit": 70,
+   "key": "liquor_store",
+   "kind": "business",
+   "label": "Liquor store",
+   "picked": 14,
+   "provinces": [
+    "AB",
+    "BC",
+    "MB",
+    "NB",
+    "NL",
+    "NS",
+    "NT",
+    "NU",
+    "ON",
+    "PE",
+    "QC",
+    "SK",
+    "YT"
+   ],
+   "rule": "liquor",
+   "seen": 1014,
+   "terminal": "countertop",
+   "viable": 490
   },
   {
    "family": "trades",
@@ -1800,36 +2122,9 @@
     "YT"
    ],
    "rule": "cleaning",
-   "seen": 449,
+   "seen": 478,
    "terminal": "mobile",
-   "viable": 325
-  },
-  {
-   "family": "other",
-   "first_seen": "2026-10-19T18:44:45Z",
-   "fit": 84,
-   "key": "laundromat",
-   "kind": "business",
-   "label": "Laundromat",
-   "picked": 14,
-   "provinces": [
-    "AB",
-    "BC",
-    "MB",
-    "NB",
-    "NL",
-    "NS",
-    "NT",
-    "ON",
-    "PE",
-    "QC",
-    "SK",
-    "YT"
-   ],
-   "rule": "cleaners",
-   "seen": 231,
-   "terminal": "countertop",
-   "viable": 171
+   "viable": 334
   },
   {
    "family": "vet",
@@ -1852,34 +2147,33 @@
     "YT"
    ],
    "rule": "pet_services",
-   "seen": 102,
+   "seen": 109,
    "terminal": "portable",
    "viable": 58
   },
   {
-   "family": "restaurant",
+   "family": "transport",
    "first_seen": "2026-10-19T18:44:45Z",
-   "fit": 93,
-   "key": "bagel_shop",
+   "fit": 88,
+   "key": "limo_service",
    "kind": "business",
-   "label": "Bagel shop",
+   "label": "Limo service",
    "picked": 14,
    "provinces": [
     "AB",
     "BC",
     "MB",
     "NB",
+    "NL",
     "NS",
     "ON",
-    "PE",
     "QC",
-    "SK",
-    "YT"
+    "SK"
    ],
-   "rule": "cafe",
-   "seen": 55,
-   "terminal": "countertop",
-   "viable": 37
+   "rule": "taxi",
+   "seen": 126,
+   "terminal": "mobile",
+   "viable": 50
   },
   {
    "family": "retail",
@@ -1901,152 +2195,17 @@
     "SK"
    ],
    "rule": "markets",
-   "seen": 47,
+   "seen": 55,
    "terminal": "mobile",
    "viable": 28
   },
   {
    "family": "professional",
-   "first_seen": "2026-10-19T18:44:45Z",
-   "fit": 32,
-   "key": "accountant",
-   "kind": "business",
-   "label": "Accountant",
-   "picked": 13,
-   "provinces": [
-    "AB",
-    "BC",
-    "MB",
-    "NB",
-    "NL",
-    "NS",
-    "NT",
-    "ON",
-    "PE",
-    "QC",
-    "SK",
-    "YT"
-   ],
-   "rule": "accounting",
-   "seen": 1405,
-   "terminal": "countertop",
-   "viable": 984
-  },
-  {
-   "family": "salon",
-   "first_seen": "2026-10-19T18:44:45Z",
-   "fit": 91,
-   "key": "nail_salon",
-   "kind": "business",
-   "label": "Nail salon",
-   "picked": 13,
-   "provinces": [
-    "AB",
-    "BC",
-    "MB",
-    "NB",
-    "NL",
-    "NS",
-    "ON",
-    "PE",
-    "QC",
-    "SK",
-    "YT"
-   ],
-   "rule": "salon",
-   "seen": 1177,
-   "terminal": "portable",
-   "viable": 850
-  },
-  {
-   "family": "retail",
-   "first_seen": "2026-10-19T18:44:45Z",
-   "fit": 72,
-   "key": "party_and_event_planning",
-   "kind": "business",
-   "label": "Party and event planning",
-   "picked": 13,
-   "provinces": [
-    "AB",
-    "BC",
-    "MB",
-    "NB",
-    "NL",
-    "NS",
-    "NU",
-    "ON",
-    "PE",
-    "QC",
-    "SK",
-    "YT"
-   ],
-   "rule": "photo_events",
-   "seen": 1454,
-   "terminal": "mobile",
-   "viable": 772
-  },
-  {
-   "family": "retail",
-   "first_seen": "2026-10-19T18:44:45Z",
-   "fit": 70,
-   "key": "liquor_store",
-   "kind": "business",
-   "label": "Liquor store",
-   "picked": 13,
-   "provinces": [
-    "AB",
-    "BC",
-    "MB",
-    "NB",
-    "NL",
-    "NS",
-    "NT",
-    "NU",
-    "ON",
-    "PE",
-    "QC",
-    "SK",
-    "YT"
-   ],
-   "rule": "liquor",
-   "seen": 874,
-   "terminal": "countertop",
-   "viable": 467
-  },
-  {
-   "family": "retail",
-   "first_seen": "2026-10-19T18:44:45Z",
-   "fit": 84,
-   "key": "sporting_goods_store",
-   "kind": "business",
-   "label": "Sporting goods store",
-   "picked": 13,
-   "provinces": [
-    "AB",
-    "BC",
-    "MB",
-    "NB",
-    "NL",
-    "NS",
-    "NT",
-    "ON",
-    "PE",
-    "QC",
-    "SK",
-    "YT"
-   ],
-   "rule": "sporting",
-   "seen": 740,
-   "terminal": "countertop",
-   "viable": 448
-  },
-  {
-   "family": "restaurant",
    "first_seen": "2026-10-19T18:44:44Z",
-   "fit": 94,
-   "key": "diner",
+   "fit": 28,
+   "key": "attorney_or_law_firm",
    "kind": "business",
-   "label": "Diner",
+   "label": "Attorney or law firm",
    "picked": 13,
    "provinces": [
     "AB",
@@ -2055,50 +2214,25 @@
     "NB",
     "NL",
     "NS",
-    "NT",
+    "NU",
     "ON",
     "PE",
     "QC",
-    "SK"
+    "SK",
+    "YT"
    ],
-   "rule": "restaurant",
-   "seen": 568,
-   "terminal": "portable",
-   "viable": 428
+   "rule": "legal",
+   "seen": 1876,
+   "terminal": "countertop",
+   "viable": 1342
   },
   {
-   "family": "other",
-   "first_seen": "2026-10-19T18:44:48Z",
-   "fit": 78,
-   "key": "golf_course",
-   "kind": "business",
-   "label": "Golf course",
-   "picked": 13,
-   "provinces": [
-    "AB",
-    "BC",
-    "MB",
-    "NB",
-    "NL",
-    "NS",
-    "NT",
-    "ON",
-    "PE",
-    "QC",
-    "SK"
-   ],
-   "rule": "golf_ski",
-   "seen": 252,
-   "terminal": "portable",
-   "viable": 218
-  },
-  {
-   "family": "automotive",
+   "family": "retail",
    "first_seen": "2026-10-19T18:44:45Z",
-   "fit": 90,
-   "key": "auto_glass_service",
+   "fit": 86,
+   "key": "jewelry_store",
    "kind": "business",
-   "label": "Auto glass service",
+   "label": "Jewelry store",
    "picked": 13,
    "provinces": [
     "AB",
@@ -2114,10 +2248,38 @@
     "SK",
     "YT"
    ],
-   "rule": "auto_service",
-   "seen": 329,
+   "rule": "fashion",
+   "seen": 1273,
    "terminal": "countertop",
-   "viable": 169
+   "viable": 849
+  },
+  {
+   "family": "retail",
+   "first_seen": "2026-10-19T18:44:44Z",
+   "fit": 82,
+   "key": "gas_station",
+   "kind": "business",
+   "label": "Gas station",
+   "picked": 13,
+   "provinces": [
+    "AB",
+    "BC",
+    "MB",
+    "NB",
+    "NL",
+    "NS",
+    "NT",
+    "NU",
+    "ON",
+    "PE",
+    "QC",
+    "SK",
+    "YT"
+   ],
+   "rule": "convenience",
+   "seen": 2414,
+   "terminal": "countertop",
+   "viable": 269
   },
   {
    "family": "other",
@@ -2140,9 +2302,9 @@
     "YT"
    ],
    "rule": "golf_ski",
-   "seen": 93,
+   "seen": 102,
    "terminal": "portable",
-   "viable": 76
+   "viable": 83
   },
   {
    "family": "transport",
@@ -2167,9 +2329,9 @@
     "YT"
    ],
    "rule": "taxi",
-   "seen": 185,
+   "seen": 190,
    "terminal": "mobile",
-   "viable": 61
+   "viable": 62
   },
   {
    "family": "spa",
@@ -2193,17 +2355,17 @@
     "YT"
    ],
    "rule": "spa",
-   "seen": 68,
+   "seen": 75,
    "terminal": "portable",
    "viable": 46
   },
   {
-   "family": "other",
-   "first_seen": "2026-10-19T18:44:45Z",
-   "fit": 72,
-   "key": "hotel",
+   "family": "restaurant",
+   "first_seen": "2026-10-19T18:44:44Z",
+   "fit": 94,
+   "key": "pizza_restaurant",
    "kind": "business",
-   "label": "Hotel",
+   "label": "Pizza restaurant",
    "picked": 12,
    "provinces": [
     "AB",
@@ -2213,25 +2375,51 @@
     "NL",
     "NS",
     "NT",
-    "NU",
     "ON",
     "PE",
     "QC",
     "SK",
     "YT"
    ],
-   "rule": "lodging",
-   "seen": 1420,
+   "rule": "restaurant",
+   "seen": 2543,
+   "terminal": "portable",
+   "viable": 1118
+  },
+  {
+   "family": "retail",
+   "first_seen": "2026-10-19T18:44:45Z",
+   "fit": 80,
+   "key": "furniture_store",
+   "kind": "business",
+   "label": "Furniture store",
+   "picked": 12,
+   "provinces": [
+    "AB",
+    "BC",
+    "MB",
+    "NB",
+    "NL",
+    "NS",
+    "NT",
+    "ON",
+    "PE",
+    "QC",
+    "SK",
+    "YT"
+   ],
+   "rule": "home_goods",
+   "seen": 1344,
    "terminal": "countertop",
-   "viable": 726
+   "viable": 878
   },
   {
    "family": "wellness",
    "first_seen": "2026-10-19T18:44:45Z",
-   "fit": 66,
-   "key": "sport_league",
+   "fit": 88,
+   "key": "physical_therapy",
    "kind": "business",
-   "label": "Sport league",
+   "label": "Physical therapy",
    "picked": 12,
    "provinces": [
     "AB",
@@ -2240,25 +2428,24 @@
     "NB",
     "NL",
     "NS",
-    "NT",
     "ON",
     "PE",
     "QC",
     "SK",
     "YT"
    ],
-   "rule": "g_sport",
-   "seen": 664,
+   "rule": "rehab",
+   "seen": 1415,
    "terminal": "countertop",
-   "viable": 465
+   "viable": 825
   },
   {
    "family": "retail",
-   "first_seen": "2026-10-19T18:44:44Z",
-   "fit": 82,
-   "key": "gas_station",
+   "first_seen": "2026-10-19T18:44:45Z",
+   "fit": 78,
+   "key": "electronics_store",
    "kind": "business",
-   "label": "Gas station",
+   "label": "Electronics store",
    "picked": 12,
    "provinces": [
     "AB",
@@ -2268,25 +2455,78 @@
     "NL",
     "NS",
     "NT",
-    "NU",
     "ON",
     "PE",
     "QC",
     "SK",
     "YT"
    ],
-   "rule": "convenience",
-   "seen": 1997,
+   "rule": "electronics",
+   "seen": 922,
    "terminal": "countertop",
-   "viable": 255
+   "viable": 573
   },
   {
-   "family": "transport",
+   "family": "restaurant",
    "first_seen": "2026-10-19T18:44:45Z",
-   "fit": 88,
-   "key": "limo_service",
+   "fit": 92,
+   "key": "pub",
    "kind": "business",
-   "label": "Limo service",
+   "label": "Pub",
+   "picked": 12,
+   "provinces": [
+    "AB",
+    "BC",
+    "MB",
+    "NB",
+    "NL",
+    "NS",
+    "NT",
+    "ON",
+    "PE",
+    "QC",
+    "SK",
+    "YT"
+   ],
+   "rule": "bars",
+   "seen": 487,
+   "terminal": "portable",
+   "viable": 381
+  },
+  {
+   "family": "restaurant",
+   "first_seen": "2026-10-19T18:44:45Z",
+   "fit": 94,
+   "key": "delicatessen",
+   "kind": "business",
+   "label": "Delicatessen",
+   "picked": 12,
+   "provinces": [
+    "AB",
+    "BC",
+    "MB",
+    "NB",
+    "NL",
+    "NS",
+    "NT",
+    "ON",
+    "PE",
+    "QC",
+    "SK",
+    "YT"
+   ],
+   "rule": "restaurant",
+   "seen": 244,
+   "terminal": "portable",
+   "viable": 146
+  },
+  {
+   "family": "landscaper",
+   "first_seen": "2026-10-19T18:44:46Z",
+   "fit": 84,
+   "key": "hardware_home_and_garden_store",
+   "kind": "business",
+   "label": "Hardware home and garden store",
    "picked": 12,
    "provinces": [
     "AB",
@@ -2296,13 +2536,14 @@
     "NL",
     "NS",
     "ON",
+    "PE",
     "QC",
     "SK"
    ],
-   "rule": "taxi",
-   "seen": 117,
-   "terminal": "mobile",
-   "viable": 46
+   "rule": "garden_center",
+   "seen": 96,
+   "terminal": "countertop",
+   "viable": 48
   },
   {
    "family": "restaurant",
@@ -2322,17 +2563,17 @@
     "SK"
    ],
    "rule": "g_food",
-   "seen": 27,
+   "seen": 30,
    "terminal": "portable",
    "viable": 20
   },
   {
    "family": "professional",
    "first_seen": "2026-10-19T18:44:44Z",
-   "fit": 28,
-   "key": "attorney_or_law_firm",
+   "fit": 25,
+   "key": "professional_service",
    "kind": "business",
-   "label": "Attorney or law firm",
+   "label": "Professional service",
    "picked": 11,
    "provinces": [
     "AB",
@@ -2341,6 +2582,7 @@
     "NB",
     "NL",
     "NS",
+    "NT",
     "NU",
     "ON",
     "PE",
@@ -2348,18 +2590,18 @@
     "SK",
     "YT"
    ],
-   "rule": "legal",
-   "seen": 1735,
+   "rule": "g_professional",
+   "seen": 4968,
    "terminal": "countertop",
-   "viable": 1287
+   "viable": 2193
   },
   {
-   "family": "restaurant",
+   "family": "other",
    "first_seen": "2026-10-19T18:44:44Z",
-   "fit": 94,
-   "key": "pizza_restaurant",
+   "fit": 48,
+   "key": "art_gallery",
    "kind": "business",
-   "label": "Pizza restaurant",
+   "label": "Art gallery",
    "picked": 11,
    "provinces": [
     "AB",
@@ -2368,52 +2610,24 @@
     "NB",
     "NL",
     "NS",
-    "NT",
     "ON",
     "PE",
     "QC",
     "SK",
     "YT"
    ],
-   "rule": "restaurant",
-   "seen": 2296,
+   "rule": "culture",
+   "seen": 1112,
    "terminal": "portable",
-   "viable": 1068
-  },
-  {
-   "family": "retail",
-   "first_seen": "2026-10-19T18:44:45Z",
-   "fit": 86,
-   "key": "jewelry_store",
-   "kind": "business",
-   "label": "Jewelry store",
-   "picked": 11,
-   "provinces": [
-    "AB",
-    "BC",
-    "MB",
-    "NB",
-    "NL",
-    "NS",
-    "NT",
-    "ON",
-    "PE",
-    "QC",
-    "SK",
-    "YT"
-   ],
-   "rule": "fashion",
-   "seen": 1161,
-   "terminal": "countertop",
-   "viable": 798
+   "viable": 747
   },
   {
    "family": "wellness",
    "first_seen": "2026-10-19T18:44:45Z",
-   "fit": 88,
-   "key": "physical_therapy",
+   "fit": 40,
+   "key": "doctors_office",
    "kind": "business",
-   "label": "Physical therapy",
+   "label": "Doctors office",
    "picked": 11,
    "provinces": [
     "AB",
@@ -2428,10 +2642,36 @@
     "SK",
     "YT"
    ],
-   "rule": "rehab",
-   "seen": 1264,
+   "rule": "medical_clinic",
+   "seen": 1239,
    "terminal": "countertop",
-   "viable": 771
+   "viable": 697
+  },
+  {
+   "family": "automotive",
+   "first_seen": "2026-10-19T18:44:45Z",
+   "fit": 90,
+   "key": "automotive_service",
+   "kind": "business",
+   "label": "Automotive service",
+   "picked": 11,
+   "provinces": [
+    "AB",
+    "BC",
+    "MB",
+    "NB",
+    "NL",
+    "NS",
+    "ON",
+    "PE",
+    "QC",
+    "SK",
+    "YT"
+   ],
+   "rule": "auto_service",
+   "seen": 651,
+   "terminal": "countertop",
+   "viable": 475
   },
   {
    "family": "other",
@@ -2457,17 +2697,68 @@
     "YT"
    ],
    "rule": "child_care",
-   "seen": 570,
+   "seen": 633,
    "terminal": "countertop",
-   "viable": 413
+   "viable": 437
   },
   {
-   "family": "restaurant",
+   "family": "other",
    "first_seen": "2026-10-19T18:44:45Z",
-   "fit": 92,
-   "key": "pub",
+   "fit": 60,
+   "key": "lodging",
    "kind": "business",
-   "label": "Pub",
+   "label": "Lodging",
+   "picked": 11,
+   "provinces": [
+    "AB",
+    "BC",
+    "MB",
+    "NB",
+    "NL",
+    "NS",
+    "ON",
+    "PE",
+    "QC",
+    "SK",
+    "YT"
+   ],
+   "rule": "g_lodging",
+   "seen": 489,
+   "terminal": "countertop",
+   "viable": 240
+  },
+  {
+   "family": "retail",
+   "first_seen": "2026-10-19T18:44:45Z",
+   "fit": 72,
+   "key": "bridal_shop",
+   "kind": "business",
+   "label": "Bridal shop",
+   "picked": 11,
+   "provinces": [
+    "AB",
+    "BC",
+    "MB",
+    "NB",
+    "NL",
+    "NS",
+    "ON",
+    "PE",
+    "QC",
+    "SK"
+   ],
+   "rule": "photo_events",
+   "seen": 247,
+   "terminal": "mobile",
+   "viable": 189
+  },
+  {
+   "family": "other",
+   "first_seen": "2026-10-19T18:44:46Z",
+   "fit": 72,
+   "key": "campground",
+   "kind": "business",
+   "label": "Campground",
    "picked": 11,
    "provinces": [
     "AB",
@@ -2483,10 +2774,60 @@
     "SK",
     "YT"
    ],
-   "rule": "bars",
-   "seen": 470,
-   "terminal": "portable",
-   "viable": 375
+   "rule": "lodging",
+   "seen": 209,
+   "terminal": "countertop",
+   "viable": 173
+  },
+  {
+   "family": "retail",
+   "first_seen": "2026-10-19T18:44:46Z",
+   "fit": 84,
+   "key": "outdoor_store",
+   "kind": "business",
+   "label": "Outdoor store",
+   "picked": 11,
+   "provinces": [
+    "AB",
+    "BC",
+    "MB",
+    "NB",
+    "NL",
+    "NS",
+    "NU",
+    "ON",
+    "QC",
+    "SK",
+    "YT"
+   ],
+   "rule": "sporting",
+   "seen": 165,
+   "terminal": "countertop",
+   "viable": 110
+  },
+  {
+   "family": "other",
+   "first_seen": "2026-10-19T18:44:49Z",
+   "fit": 80,
+   "key": "truck_repair",
+   "kind": "business",
+   "label": "Truck repair",
+   "picked": 11,
+   "provinces": [
+    "AB",
+    "BC",
+    "MB",
+    "NB",
+    "NL",
+    "NS",
+    "ON",
+    "QC",
+    "SK"
+   ],
+   "rule": "repair",
+   "seen": 170,
+   "terminal": "countertop",
+   "viable": 99
   },
   {
    "family": "restaurant",
@@ -2507,44 +2848,17 @@
     "SK"
    ],
    "rule": "restaurant",
-   "seen": 23,
+   "seen": 25,
    "terminal": "portable",
-   "viable": 22
+   "viable": 24
   },
   {
-   "family": "retail",
+   "family": "other",
    "first_seen": "2026-10-19T18:44:45Z",
-   "fit": 78,
-   "key": "electronics_store",
+   "fit": 62,
+   "key": "dance_studio",
    "kind": "business",
-   "label": "Electronics store",
-   "picked": 10,
-   "provinces": [
-    "AB",
-    "BC",
-    "MB",
-    "NB",
-    "NL",
-    "NS",
-    "NT",
-    "ON",
-    "PE",
-    "QC",
-    "SK",
-    "YT"
-   ],
-   "rule": "electronics",
-   "seen": 845,
-   "terminal": "countertop",
-   "viable": 544
-  },
-  {
-   "family": "retail",
-   "first_seen": "2026-10-19T18:44:45Z",
-   "fit": 86,
-   "key": "fashion_boutique",
-   "kind": "business",
-   "label": "Fashion boutique",
+   "label": "Dance studio",
    "picked": 10,
    "provinces": [
     "AB",
@@ -2559,10 +2873,10 @@
     "SK",
     "YT"
    ],
-   "rule": "fashion",
-   "seen": 409,
+   "rule": "lessons",
+   "seen": 823,
    "terminal": "countertop",
-   "viable": 286
+   "viable": 639
   },
   {
    "family": "other",
@@ -2587,17 +2901,17 @@
     "YT"
    ],
    "rule": "b2b",
-   "seen": 415,
+   "seen": 438,
    "terminal": "countertop",
-   "viable": 284
+   "viable": 294
   },
   {
-   "family": "other",
+   "family": "retail",
    "first_seen": "2026-10-19T18:44:45Z",
-   "fit": 60,
-   "key": "lodging",
+   "fit": 86,
+   "key": "fashion_boutique",
    "kind": "business",
-   "label": "Lodging",
+   "label": "Fashion boutique",
    "picked": 10,
    "provinces": [
     "AB",
@@ -2612,43 +2926,18 @@
     "SK",
     "YT"
    ],
-   "rule": "g_lodging",
-   "seen": 456,
+   "rule": "fashion",
+   "seen": 469,
    "terminal": "countertop",
-   "viable": 232
-  },
-  {
-   "family": "retail",
-   "first_seen": "2026-10-19T18:44:45Z",
-   "fit": 72,
-   "key": "bridal_shop",
-   "kind": "business",
-   "label": "Bridal shop",
-   "picked": 10,
-   "provinces": [
-    "AB",
-    "BC",
-    "MB",
-    "NB",
-    "NL",
-    "NS",
-    "ON",
-    "PE",
-    "QC",
-    "SK"
-   ],
-   "rule": "photo_events",
-   "seen": 233,
-   "terminal": "mobile",
-   "viable": 184
+   "viable": 293
   },
   {
    "family": "other",
-   "first_seen": "2026-10-19T18:44:46Z",
-   "fit": 72,
-   "key": "campground",
+   "first_seen": "2026-10-19T18:44:44Z",
+   "fit": 60,
+   "key": "travel_and_transportation",
    "kind": "business",
-   "label": "Campground",
+   "label": "Travel and transportation",
    "picked": 10,
    "provinces": [
     "AB",
@@ -2664,10 +2953,35 @@
     "SK",
     "YT"
    ],
-   "rule": "lodging",
-   "seen": 200,
+   "rule": "g_lodging",
+   "seen": 622,
    "terminal": "countertop",
-   "viable": 165
+   "viable": 271
+  },
+  {
+   "family": "restaurant",
+   "first_seen": "2026-10-19T18:44:45Z",
+   "fit": 94,
+   "key": "burger_restaurant",
+   "kind": "business",
+   "label": "Burger restaurant",
+   "picked": 10,
+   "provinces": [
+    "AB",
+    "BC",
+    "MB",
+    "NB",
+    "NL",
+    "NS",
+    "ON",
+    "PE",
+    "QC",
+    "SK"
+   ],
+   "rule": "restaurant",
+   "seen": 745,
+   "terminal": "portable",
+   "viable": 247
   },
   {
    "family": "retail",
@@ -2692,9 +3006,9 @@
     "YT"
    ],
    "rule": "hobby",
-   "seen": 178,
+   "seen": 190,
    "terminal": "countertop",
-   "viable": 145
+   "viable": 151
   },
   {
    "family": "other",
@@ -2717,9 +3031,35 @@
     "SK"
    ],
    "rule": "lessons",
-   "seen": 167,
+   "seen": 184,
    "terminal": "countertop",
-   "viable": 116
+   "viable": 122
+  },
+  {
+   "family": "restaurant",
+   "first_seen": "2026-10-19T18:44:45Z",
+   "fit": 93,
+   "key": "candy_store",
+   "kind": "business",
+   "label": "Candy store",
+   "picked": 10,
+   "provinces": [
+    "AB",
+    "BC",
+    "MB",
+    "NB",
+    "NL",
+    "NS",
+    "ON",
+    "PE",
+    "QC",
+    "SK",
+    "YT"
+   ],
+   "rule": "cafe",
+   "seen": 173,
+   "terminal": "countertop",
+   "viable": 117
   },
   {
    "family": "retail",
@@ -2743,59 +3083,9 @@
     "YT"
    ],
    "rule": "electronics",
-   "seen": 150,
+   "seen": 163,
    "terminal": "countertop",
-   "viable": 111
-  },
-  {
-   "family": "retail",
-   "first_seen": "2026-10-19T18:44:46Z",
-   "fit": 84,
-   "key": "outdoor_store",
-   "kind": "business",
-   "label": "Outdoor store",
-   "picked": 10,
-   "provinces": [
-    "AB",
-    "BC",
-    "MB",
-    "NB",
-    "NL",
-    "NS",
-    "NU",
-    "ON",
-    "QC",
-    "SK",
-    "YT"
-   ],
-   "rule": "sporting",
-   "seen": 159,
-   "terminal": "countertop",
-   "viable": 106
-  },
-  {
-   "family": "other",
-   "first_seen": "2026-10-19T18:44:49Z",
-   "fit": 80,
-   "key": "truck_repair",
-   "kind": "business",
-   "label": "Truck repair",
-   "picked": 10,
-   "provinces": [
-    "AB",
-    "BC",
-    "MB",
-    "NB",
-    "NL",
-    "NS",
-    "ON",
-    "QC",
-    "SK"
-   ],
-   "rule": "repair",
-   "seen": 152,
-   "terminal": "countertop",
-   "viable": 94
+   "viable": 116
   },
   {
    "family": "restaurant",
@@ -2818,37 +3108,9 @@
     "SK"
    ],
    "rule": "restaurant",
-   "seen": 252,
+   "seen": 307,
    "terminal": "portable",
-   "viable": 93
-  },
-  {
-   "family": "professional",
-   "first_seen": "2026-10-19T18:44:44Z",
-   "fit": 25,
-   "key": "professional_service",
-   "kind": "business",
-   "label": "Professional service",
-   "picked": 9,
-   "provinces": [
-    "AB",
-    "BC",
-    "MB",
-    "NB",
-    "NL",
-    "NS",
-    "NT",
-    "NU",
-    "ON",
-    "PE",
-    "QC",
-    "SK",
-    "YT"
-   ],
-   "rule": "g_professional",
-   "seen": 4628,
-   "terminal": "countertop",
-   "viable": 2089
+   "viable": 97
   },
   {
    "family": "retail",
@@ -2874,176 +3136,17 @@
     "YT"
    ],
    "rule": "retail_generic",
-   "seen": 2256,
+   "seen": 2426,
    "terminal": "countertop",
-   "viable": 1534
+   "viable": 1600
   },
   {
    "family": "retail",
    "first_seen": "2026-10-19T18:44:45Z",
    "fit": 80,
-   "key": "furniture_store",
+   "key": "appliance_store",
    "kind": "business",
-   "label": "Furniture store",
-   "picked": 9,
-   "provinces": [
-    "AB",
-    "BC",
-    "MB",
-    "NB",
-    "NL",
-    "NS",
-    "NT",
-    "ON",
-    "PE",
-    "QC",
-    "SK",
-    "YT"
-   ],
-   "rule": "home_goods",
-   "seen": 1264,
-   "terminal": "countertop",
-   "viable": 850
-  },
-  {
-   "family": "other",
-   "first_seen": "2026-10-19T18:44:44Z",
-   "fit": 48,
-   "key": "art_gallery",
-   "kind": "business",
-   "label": "Art gallery",
-   "picked": 9,
-   "provinces": [
-    "AB",
-    "BC",
-    "MB",
-    "NB",
-    "NL",
-    "NS",
-    "ON",
-    "PE",
-    "QC",
-    "SK",
-    "YT"
-   ],
-   "rule": "culture",
-   "seen": 1036,
-   "terminal": "portable",
-   "viable": 733
-  },
-  {
-   "family": "wellness",
-   "first_seen": "2026-10-19T18:44:45Z",
-   "fit": 40,
-   "key": "doctors_office",
-   "kind": "business",
-   "label": "Doctors office",
-   "picked": 9,
-   "provinces": [
-    "AB",
-    "BC",
-    "MB",
-    "NB",
-    "NL",
-    "NS",
-    "ON",
-    "PE",
-    "QC",
-    "SK",
-    "YT"
-   ],
-   "rule": "medical_clinic",
-   "seen": 1058,
-   "terminal": "countertop",
-   "viable": 662
-  },
-  {
-   "family": "other",
-   "first_seen": "2026-10-19T18:44:45Z",
-   "fit": 62,
-   "key": "dance_studio",
-   "kind": "business",
-   "label": "Dance studio",
-   "picked": 9,
-   "provinces": [
-    "AB",
-    "BC",
-    "MB",
-    "NB",
-    "NL",
-    "NS",
-    "ON",
-    "PE",
-    "QC",
-    "SK",
-    "YT"
-   ],
-   "rule": "lessons",
-   "seen": 748,
-   "terminal": "countertop",
-   "viable": 611
-  },
-  {
-   "family": "other",
-   "first_seen": "2026-10-19T18:44:44Z",
-   "fit": 60,
-   "key": "travel_and_transportation",
-   "kind": "business",
-   "label": "Travel and transportation",
-   "picked": 9,
-   "provinces": [
-    "AB",
-    "BC",
-    "MB",
-    "NB",
-    "NL",
-    "NS",
-    "NT",
-    "ON",
-    "PE",
-    "QC",
-    "SK",
-    "YT"
-   ],
-   "rule": "g_lodging",
-   "seen": 585,
-   "terminal": "countertop",
-   "viable": 265
-  },
-  {
-   "family": "restaurant",
-   "first_seen": "2026-10-19T18:44:45Z",
-   "fit": 94,
-   "key": "delicatessen",
-   "kind": "business",
-   "label": "Delicatessen",
-   "picked": 9,
-   "provinces": [
-    "AB",
-    "BC",
-    "MB",
-    "NB",
-    "NL",
-    "NS",
-    "NT",
-    "ON",
-    "PE",
-    "QC",
-    "SK",
-    "YT"
-   ],
-   "rule": "restaurant",
-   "seen": 207,
-   "terminal": "portable",
-   "viable": 140
-  },
-  {
-   "family": "landscaper",
-   "first_seen": "2026-10-19T18:44:46Z",
-   "fit": 84,
-   "key": "hardware_home_and_garden_store",
-   "kind": "business",
-   "label": "Hardware home and garden store",
+   "label": "Appliance store",
    "picked": 9,
    "provinces": [
     "AB",
@@ -3057,19 +3160,19 @@
     "QC",
     "SK"
    ],
-   "rule": "garden_center",
-   "seen": 87,
+   "rule": "home_goods",
+   "seen": 396,
    "terminal": "countertop",
-   "viable": 44
+   "viable": 301
   },
   {
-   "family": "automotive",
+   "family": "retail",
    "first_seen": "2026-10-19T18:44:45Z",
-   "fit": 90,
-   "key": "automotive_service",
+   "fit": 85,
+   "key": "health_food_store",
    "kind": "business",
-   "label": "Automotive service",
-   "picked": 8,
+   "label": "Health food store",
+   "picked": 9,
    "provinces": [
     "AB",
     "BC",
@@ -3083,10 +3186,88 @@
     "SK",
     "YT"
    ],
-   "rule": "auto_service",
-   "seen": 607,
+   "rule": "food_retail",
+   "seen": 423,
    "terminal": "countertop",
-   "viable": 462
+   "viable": 240
+  },
+  {
+   "family": "other",
+   "first_seen": "2026-10-19T18:44:45Z",
+   "fit": 70,
+   "key": "bowling_alley",
+   "kind": "business",
+   "label": "Bowling alley",
+   "picked": 9,
+   "provinces": [
+    "AB",
+    "BC",
+    "MB",
+    "NB",
+    "NL",
+    "NS",
+    "ON",
+    "PE",
+    "QC",
+    "SK",
+    "YT"
+   ],
+   "rule": "entertainment",
+   "seen": 133,
+   "terminal": "portable",
+   "viable": 98
+  },
+  {
+   "family": "salon",
+   "first_seen": "2026-10-19T18:44:45Z",
+   "fit": 91,
+   "key": "beauty_product_supplier",
+   "kind": "business",
+   "label": "Beauty product supplier",
+   "picked": 9,
+   "provinces": [
+    "AB",
+    "BC",
+    "MB",
+    "NB",
+    "NL",
+    "NS",
+    "ON",
+    "PE",
+    "QC",
+    "SK"
+   ],
+   "rule": "salon",
+   "seen": 108,
+   "terminal": "portable",
+   "viable": 53
+  },
+  {
+   "family": "wellness",
+   "first_seen": "2026-10-19T18:44:45Z",
+   "fit": 55,
+   "key": "counseling",
+   "kind": "business",
+   "label": "Counseling",
+   "picked": 8,
+   "provinces": [
+    "AB",
+    "BC",
+    "MB",
+    "NB",
+    "NL",
+    "NS",
+    "NT",
+    "ON",
+    "PE",
+    "QC",
+    "SK",
+    "YT"
+   ],
+   "rule": "counselling",
+   "seen": 1528,
+   "terminal": "countertop",
+   "viable": 527
   },
   {
    "family": "other",
@@ -3110,17 +3291,71 @@
     "YT"
    ],
    "rule": "g_services",
-   "seen": 495,
+   "seen": 535,
    "terminal": "countertop",
-   "viable": 323
+   "viable": 339
+  },
+  {
+   "family": "other",
+   "first_seen": "2026-10-19T18:44:45Z",
+   "fit": 55,
+   "key": "sign_making",
+   "kind": "business",
+   "label": "Sign making",
+   "picked": 8,
+   "provinces": [
+    "AB",
+    "BC",
+    "MB",
+    "NB",
+    "NL",
+    "NS",
+    "NT",
+    "ON",
+    "PE",
+    "QC",
+    "SK",
+    "YT"
+   ],
+   "rule": "g_services",
+   "seen": 411,
+   "terminal": "countertop",
+   "viable": 307
   },
   {
    "family": "restaurant",
    "first_seen": "2026-10-19T18:44:45Z",
-   "fit": 94,
-   "key": "burger_restaurant",
+   "fit": 93,
+   "key": "bubble_tea_shop",
    "kind": "business",
-   "label": "Burger restaurant",
+   "label": "Bubble tea shop",
+   "picked": 8,
+   "provinces": [
+    "AB",
+    "BC",
+    "MB",
+    "NB",
+    "NL",
+    "NS",
+    "NT",
+    "ON",
+    "PE",
+    "QC",
+    "SK",
+    "YT"
+   ],
+   "rule": "cafe",
+   "seen": 334,
+   "terminal": "countertop",
+   "viable": 214
+  },
+  {
+   "family": "landscaper",
+   "first_seen": "2026-10-19T18:44:45Z",
+   "fit": 78,
+   "key": "gardener",
+   "kind": "business",
+   "label": "Gardener",
    "picked": 8,
    "provinces": [
     "AB",
@@ -3134,18 +3369,18 @@
     "QC",
     "SK"
    ],
-   "rule": "restaurant",
-   "seen": 667,
-   "terminal": "portable",
-   "viable": 237
+   "rule": "landscaping",
+   "seen": 227,
+   "terminal": "mobile",
+   "viable": 173
   },
   {
    "family": "restaurant",
    "first_seen": "2026-10-19T18:44:45Z",
-   "fit": 93,
-   "key": "candy_store",
+   "fit": 94,
+   "key": "canadian_restaurant",
    "kind": "business",
-   "label": "Candy store",
+   "label": "Canadian restaurant",
    "picked": 8,
    "provinces": [
     "AB",
@@ -3154,16 +3389,17 @@
     "NB",
     "NL",
     "NS",
+    "NT",
     "ON",
     "PE",
     "QC",
     "SK",
     "YT"
    ],
-   "rule": "cafe",
-   "seen": 155,
-   "terminal": "countertop",
-   "viable": 112
+   "rule": "restaurant",
+   "seen": 201,
+   "terminal": "portable",
+   "viable": 122
   },
   {
    "family": "restaurant",
@@ -3187,35 +3423,9 @@
     "YT"
    ],
    "rule": "restaurant",
-   "seen": 147,
+   "seen": 156,
    "terminal": "portable",
-   "viable": 102
-  },
-  {
-   "family": "other",
-   "first_seen": "2026-10-19T18:44:45Z",
-   "fit": 70,
-   "key": "bowling_alley",
-   "kind": "business",
-   "label": "Bowling alley",
-   "picked": 8,
-   "provinces": [
-    "AB",
-    "BC",
-    "MB",
-    "NB",
-    "NL",
-    "NS",
-    "ON",
-    "PE",
-    "QC",
-    "SK",
-    "YT"
-   ],
-   "rule": "entertainment",
-   "seen": 121,
-   "terminal": "portable",
-   "viable": 93
+   "viable": 106
   },
   {
    "family": "automotive",
@@ -3237,9 +3447,33 @@
     "SK"
    ],
    "rule": "g_auto",
-   "seen": 90,
+   "seen": 95,
    "terminal": "countertop",
-   "viable": 61
+   "viable": 65
+  },
+  {
+   "family": "wellness",
+   "first_seen": "2026-10-19T18:44:45Z",
+   "fit": 72,
+   "key": "dermatology",
+   "kind": "business",
+   "label": "Dermatology",
+   "picked": 8,
+   "provinces": [
+    "AB",
+    "BC",
+    "MB",
+    "NB",
+    "NL",
+    "NS",
+    "ON",
+    "QC",
+    "SK"
+   ],
+   "rule": "cosmetic_med",
+   "seen": 100,
+   "terminal": "countertop",
+   "viable": 63
   },
   {
    "family": "vet",
@@ -3259,7 +3493,7 @@
     "SK"
    ],
    "rule": "g_pets",
-   "seen": 24,
+   "seen": 30,
    "terminal": "countertop",
    "viable": 13
   },
@@ -3276,23 +3510,24 @@
     "BC",
     "MB",
     "NB",
+    "NL",
     "NS",
     "ON",
     "QC",
     "SK"
    ],
    "rule": "g_pets",
-   "seen": 47,
+   "seen": 55,
    "terminal": "countertop",
    "viable": 11
   },
   {
-   "family": "other",
+   "family": "automotive",
    "first_seen": "2026-10-19T18:44:45Z",
-   "fit": 55,
-   "key": "sign_making",
+   "fit": 68,
+   "key": "auto_parts_store",
    "kind": "business",
-   "label": "Sign making",
+   "label": "Auto parts store",
    "picked": 7,
    "provinces": [
     "AB",
@@ -3308,18 +3543,18 @@
     "SK",
     "YT"
    ],
-   "rule": "g_services",
-   "seen": 388,
+   "rule": "auto_sales",
+   "seen": 958,
    "terminal": "countertop",
-   "viable": 299
+   "viable": 556
   },
   {
    "family": "retail",
    "first_seen": "2026-10-19T18:44:45Z",
-   "fit": 80,
-   "key": "appliance_store",
+   "fit": 84,
+   "key": "bookstore",
    "kind": "business",
-   "label": "Appliance store",
+   "label": "Bookstore",
    "picked": 7,
    "provinces": [
     "AB",
@@ -3331,12 +3566,13 @@
     "ON",
     "PE",
     "QC",
-    "SK"
+    "SK",
+    "YT"
    ],
-   "rule": "home_goods",
-   "seen": 362,
+   "rule": "hobby",
+   "seen": 503,
    "terminal": "countertop",
-   "viable": 287
+   "viable": 274
   },
   {
    "family": "transport",
@@ -3360,9 +3596,9 @@
     "YT"
    ],
    "rule": "courier",
-   "seen": 514,
+   "seen": 559,
    "terminal": "mobile",
-   "viable": 251
+   "viable": 267
   },
   {
    "family": "automotive",
@@ -3387,17 +3623,17 @@
     "YT"
    ],
    "rule": "auto_service",
-   "seen": 518,
+   "seen": 586,
    "terminal": "countertop",
-   "viable": 212
+   "viable": 217
   },
   {
    "family": "restaurant",
    "first_seen": "2026-10-19T18:44:45Z",
-   "fit": 93,
-   "key": "bubble_tea_shop",
+   "fit": 92,
+   "key": "lounge",
    "kind": "business",
-   "label": "Bubble tea shop",
+   "label": "Lounge",
    "picked": 7,
    "provinces": [
     "AB",
@@ -3413,10 +3649,35 @@
     "SK",
     "YT"
    ],
-   "rule": "cafe",
-   "seen": 315,
+   "rule": "bars",
+   "seen": 322,
+   "terminal": "portable",
+   "viable": 188
+  },
+  {
+   "family": "wellness",
+   "first_seen": "2026-10-19T18:44:45Z",
+   "fit": 82,
+   "key": "fitness_trainer",
+   "kind": "business",
+   "label": "Fitness trainer",
+   "picked": 7,
+   "provinces": [
+    "AB",
+    "BC",
+    "MB",
+    "NB",
+    "NL",
+    "NS",
+    "ON",
+    "PE",
+    "QC",
+    "SK"
+   ],
+   "rule": "fitness",
+   "seen": 388,
    "terminal": "countertop",
-   "viable": 205
+   "viable": 182
   },
   {
    "family": "restaurant",
@@ -3440,36 +3701,9 @@
     "YT"
    ],
    "rule": "restaurant",
-   "seen": 203,
+   "seen": 212,
    "terminal": "portable",
-   "viable": 167
-  },
-  {
-   "family": "restaurant",
-   "first_seen": "2026-10-19T18:44:45Z",
-   "fit": 94,
-   "key": "canadian_restaurant",
-   "kind": "business",
-   "label": "Canadian restaurant",
-   "picked": 7,
-   "provinces": [
-    "AB",
-    "BC",
-    "MB",
-    "NB",
-    "NL",
-    "NS",
-    "NT",
-    "ON",
-    "PE",
-    "QC",
-    "SK",
-    "YT"
-   ],
-   "rule": "restaurant",
-   "seen": 189,
-   "terminal": "portable",
-   "viable": 118
+   "viable": 172
   },
   {
    "family": "salon",
@@ -3493,9 +3727,9 @@
     "YT"
    ],
    "rule": "salon",
-   "seen": 330,
+   "seen": 387,
    "terminal": "portable",
-   "viable": 107
+   "viable": 110
   },
   {
    "family": "wellness",
@@ -3518,33 +3752,33 @@
     "SK"
    ],
    "rule": "g_sport",
-   "seen": 138,
+   "seen": 147,
    "terminal": "countertop",
-   "viable": 86
+   "viable": 91
   },
   {
-   "family": "wellness",
+   "family": "other",
    "first_seen": "2026-10-19T18:44:45Z",
-   "fit": 72,
-   "key": "dermatology",
+   "fit": 78,
+   "key": "marina",
    "kind": "business",
-   "label": "Dermatology",
+   "label": "Marina",
    "picked": 7,
    "provinces": [
-    "AB",
     "BC",
     "MB",
     "NB",
     "NL",
     "NS",
     "ON",
+    "PE",
     "QC",
     "SK"
    ],
-   "rule": "cosmetic_med",
-   "seen": 80,
-   "terminal": "countertop",
-   "viable": 60
+   "rule": "golf_ski",
+   "seen": 108,
+   "terminal": "portable",
+   "viable": 79
   },
   {
    "family": "restaurant",
@@ -3565,18 +3799,39 @@
     "QC"
    ],
    "rule": "bars",
-   "seen": 66,
+   "seen": 70,
    "terminal": "portable",
    "viable": 55
   },
   {
-   "family": "salon",
-   "first_seen": "2026-10-19T18:44:45Z",
-   "fit": 91,
-   "key": "beauty_product_supplier",
+   "family": "trades",
+   "first_seen": "2026-10-19T19:05:52Z",
+   "fit": 70,
+   "key": "no_category_g_home",
    "kind": "business",
-   "label": "Beauty product supplier",
+   "label": "No category, the name suggests: Home services (general)",
    "picked": 7,
+   "provinces": [
+    "BC",
+    "MB",
+    "NS",
+    "ON",
+    "QC",
+    "SK"
+   ],
+   "rule": "g_home",
+   "seen": 13,
+   "terminal": "mobile",
+   "viable": 12
+  },
+  {
+   "family": "restaurant",
+   "first_seen": "2026-10-19T18:44:44Z",
+   "fit": 93,
+   "key": "coffee_shop",
+   "kind": "business",
+   "label": "Coffee shop",
+   "picked": 6,
    "provinces": [
     "AB",
     "BC",
@@ -3584,23 +3839,26 @@
     "NB",
     "NL",
     "NS",
+    "NT",
+    "NU",
     "ON",
     "PE",
     "QC",
-    "SK"
+    "SK",
+    "YT"
    ],
-   "rule": "salon",
-   "seen": 97,
-   "terminal": "portable",
-   "viable": 51
+   "rule": "cafe",
+   "seen": 2725,
+   "terminal": "countertop",
+   "viable": 594
   },
   {
-   "family": "automotive",
-   "first_seen": "2026-10-19T18:44:45Z",
-   "fit": 68,
-   "key": "auto_parts_store",
+   "family": "other",
+   "first_seen": "2026-10-19T18:44:47Z",
+   "fit": 38,
+   "key": "preschool",
    "kind": "business",
-   "label": "Auto parts store",
+   "label": "Preschool",
    "picked": 6,
    "provinces": [
     "AB",
@@ -3616,18 +3874,18 @@
     "SK",
     "YT"
    ],
-   "rule": "auto_sales",
-   "seen": 842,
+   "rule": "child_care",
+   "seen": 450,
    "terminal": "countertop",
-   "viable": 533
+   "viable": 330
   },
   {
    "family": "wellness",
    "first_seen": "2026-10-19T18:44:45Z",
-   "fit": 55,
-   "key": "counseling",
+   "fit": 82,
+   "key": "sport_or_fitness_facility",
    "kind": "business",
-   "label": "Counseling",
+   "label": "Sport or fitness facility",
    "picked": 6,
    "provinces": [
     "AB",
@@ -3637,24 +3895,25 @@
     "NL",
     "NS",
     "NT",
+    "NU",
     "ON",
     "PE",
     "QC",
     "SK",
     "YT"
    ],
-   "rule": "counselling",
-   "seen": 1408,
+   "rule": "fitness",
+   "seen": 472,
    "terminal": "countertop",
-   "viable": 497
+   "viable": 314
   },
   {
-   "family": "trades",
+   "family": "retail",
    "first_seen": "2026-10-19T18:44:45Z",
-   "fit": 74,
-   "key": "cleaning_service",
+   "fit": 80,
+   "key": "hardware_store",
    "kind": "business",
-   "label": "Cleaning service",
+   "label": "Hardware store",
    "picked": 6,
    "provinces": [
     "AB",
@@ -3663,15 +3922,18 @@
     "NB",
     "NL",
     "NS",
+    "NT",
+    "NU",
     "ON",
+    "PE",
     "QC",
     "SK",
     "YT"
    ],
-   "rule": "cleaning",
-   "seen": 216,
-   "terminal": "mobile",
-   "viable": 194
+   "rule": "home_goods",
+   "seen": 687,
+   "terminal": "countertop",
+   "viable": 284
   },
   {
    "family": "retail",
@@ -3695,17 +3957,17 @@
     "YT"
    ],
    "rule": "pharmacy",
-   "seen": 266,
+   "seen": 289,
    "terminal": "countertop",
-   "viable": 194
+   "viable": 204
   },
   {
-   "family": "restaurant",
+   "family": "trades",
    "first_seen": "2026-10-19T18:44:45Z",
-   "fit": 92,
-   "key": "lounge",
+   "fit": 74,
+   "key": "cleaning_service",
    "kind": "business",
-   "label": "Lounge",
+   "label": "Cleaning service",
    "picked": 6,
    "provinces": [
     "AB",
@@ -3714,25 +3976,23 @@
     "NB",
     "NL",
     "NS",
-    "NT",
     "ON",
-    "PE",
     "QC",
     "SK",
     "YT"
    ],
-   "rule": "bars",
-   "seen": 290,
-   "terminal": "portable",
-   "viable": 184
+   "rule": "cleaning",
+   "seen": 230,
+   "terminal": "mobile",
+   "viable": 199
   },
   {
-   "family": "landscaper",
-   "first_seen": "2026-10-19T18:44:45Z",
-   "fit": 78,
-   "key": "gardener",
+   "family": "other",
+   "first_seen": "2026-10-19T18:44:44Z",
+   "fit": 84,
+   "key": "sewing_and_alterations",
    "kind": "business",
-   "label": "Gardener",
+   "label": "Sewing and alterations",
    "picked": 6,
    "provinces": [
     "AB",
@@ -3746,10 +4006,10 @@
     "QC",
     "SK"
    ],
-   "rule": "landscaping",
-   "seen": 210,
-   "terminal": "mobile",
-   "viable": 162
+   "rule": "cleaners",
+   "seen": 284,
+   "terminal": "countertop",
+   "viable": 187
   },
   {
    "family": "restaurant",
@@ -3773,9 +4033,33 @@
     "YT"
    ],
    "rule": "restaurant",
-   "seen": 240,
+   "seen": 293,
    "terminal": "portable",
-   "viable": 142
+   "viable": 149
+  },
+  {
+   "family": "wellness",
+   "first_seen": "2026-10-19T18:44:45Z",
+   "fit": 86,
+   "key": "hearing_aid_store",
+   "kind": "business",
+   "label": "Hearing aid store",
+   "picked": 6,
+   "provinces": [
+    "AB",
+    "BC",
+    "MB",
+    "NB",
+    "NL",
+    "NS",
+    "ON",
+    "PE",
+    "SK"
+   ],
+   "rule": "eye_ear",
+   "seen": 159,
+   "terminal": "countertop",
+   "viable": 124
   },
   {
    "family": "wellness",
@@ -3800,19 +4084,47 @@
     "YT"
    ],
    "rule": "cosmetic_med",
-   "seen": 154,
+   "seen": 168,
    "terminal": "countertop",
-   "viable": 112
+   "viable": 121
   },
   {
-   "family": "other",
+   "family": "wellness",
    "first_seen": "2026-10-19T18:44:45Z",
-   "fit": 78,
-   "key": "marina",
+   "fit": 58,
+   "key": "abuse_and_addiction_treatment_center",
    "kind": "business",
-   "label": "Marina",
+   "label": "Abuse and addiction treatment center",
    "picked": 6,
    "provinces": [
+    "AB",
+    "BC",
+    "MB",
+    "NB",
+    "NL",
+    "NS",
+    "NT",
+    "ON",
+    "PE",
+    "QC",
+    "SK",
+    "YT"
+   ],
+   "rule": "g_health",
+   "seen": 145,
+   "terminal": "countertop",
+   "viable": 87
+  },
+  {
+   "family": "wellness",
+   "first_seen": "2026-10-19T18:44:45Z",
+   "fit": 88,
+   "key": "osteopathic_medicine",
+   "kind": "business",
+   "label": "Osteopathic medicine",
+   "picked": 6,
+   "provinces": [
+    "AB",
     "BC",
     "MB",
     "NB",
@@ -3821,12 +4133,13 @@
     "ON",
     "PE",
     "QC",
-    "SK"
+    "SK",
+    "YT"
    ],
-   "rule": "golf_ski",
-   "seen": 98,
-   "terminal": "portable",
-   "viable": 77
+   "rule": "rehab",
+   "seen": 110,
+   "terminal": "countertop",
+   "viable": 82
   },
   {
    "family": "other",
@@ -3851,9 +4164,9 @@
     "YT"
    ],
    "rule": "entertainment",
-   "seen": 110,
+   "seen": 116,
    "terminal": "portable",
-   "viable": 68
+   "viable": 69
   },
   {
    "family": "restaurant",
@@ -3876,9 +4189,56 @@
     "SK"
    ],
    "rule": "restaurant",
-   "seen": 72,
+   "seen": 75,
    "terminal": "portable",
    "viable": 55
+  },
+  {
+   "family": "transport",
+   "first_seen": "2026-10-19T18:44:48Z",
+   "fit": 65,
+   "key": "boat_rental_and_training",
+   "kind": "business",
+   "label": "Boat rental and training",
+   "picked": 6,
+   "provinces": [
+    "AB",
+    "BC",
+    "NS",
+    "ON",
+    "PE",
+    "QC",
+    "SK"
+   ],
+   "rule": "rentals_auto",
+   "seen": 52,
+   "terminal": "countertop",
+   "viable": 39
+  },
+  {
+   "family": "wellness",
+   "first_seen": "2026-10-19T18:44:46Z",
+   "fit": 82,
+   "key": "boot_camp",
+   "kind": "business",
+   "label": "Boot camp",
+   "picked": 6,
+   "provinces": [
+    "AB",
+    "BC",
+    "MB",
+    "NB",
+    "NL",
+    "NS",
+    "ON",
+    "PE",
+    "QC",
+    "SK"
+   ],
+   "rule": "fitness",
+   "seen": 60,
+   "terminal": "countertop",
+   "viable": 33
   },
   {
    "family": "retail",
@@ -3902,9 +4262,30 @@
     "YT"
    ],
    "rule": "food_retail",
-   "seen": 37,
+   "seen": 39,
    "terminal": "countertop",
    "viable": 26
+  },
+  {
+   "family": "retail",
+   "first_seen": "2026-10-19T19:05:55Z",
+   "fit": 85,
+   "key": "aquatic_pet_store",
+   "kind": "business",
+   "label": "Aquatic pet store",
+   "picked": 6,
+   "provinces": [
+    "AB",
+    "BC",
+    "MB",
+    "NB",
+    "NS",
+    "ON"
+   ],
+   "rule": "pet_store",
+   "seen": 27,
+   "terminal": "countertop",
+   "viable": 23
   },
   {
    "family": "restaurant",
@@ -3924,7 +4305,7 @@
     "SK"
    ],
    "rule": "restaurant",
-   "seen": 23,
+   "seen": 26,
    "terminal": "portable",
    "viable": 21
   },
@@ -3948,30 +4329,9 @@
     "SK"
    ],
    "rule": "g_pets",
-   "seen": 29,
+   "seen": 30,
    "terminal": "countertop",
    "viable": 21
-  },
-  {
-   "family": "trades",
-   "first_seen": "2026-10-19T19:05:52Z",
-   "fit": 70,
-   "key": "no_category_g_home",
-   "kind": "business",
-   "label": "No category, the name suggests: Home services (general)",
-   "picked": 6,
-   "provinces": [
-    "BC",
-    "MB",
-    "NS",
-    "ON",
-    "QC",
-    "SK"
-   ],
-   "rule": "g_home",
-   "seen": 11,
-   "terminal": "mobile",
-   "viable": 10
   },
   {
    "family": "trades",
@@ -3995,9 +4355,9 @@
     "YT"
    ],
    "rule": "trades",
-   "seen": 1494,
+   "seen": 1658,
    "terminal": "mobile",
-   "viable": 1154
+   "viable": 1216
   },
   {
    "family": "wellness",
@@ -4022,9 +4382,35 @@
     "YT"
    ],
    "rule": "g_health",
-   "seen": 763,
+   "seen": 853,
    "terminal": "countertop",
-   "viable": 574
+   "viable": 606
+  },
+  {
+   "family": "restaurant",
+   "first_seen": "2026-10-19T18:44:45Z",
+   "fit": 94,
+   "key": "indian_restaurant",
+   "kind": "business",
+   "label": "Indian restaurant",
+   "picked": 5,
+   "provinces": [
+    "AB",
+    "BC",
+    "MB",
+    "NB",
+    "NL",
+    "NS",
+    "ON",
+    "PE",
+    "QC",
+    "SK",
+    "YT"
+   ],
+   "rule": "restaurant",
+   "seen": 723,
+   "terminal": "portable",
+   "viable": 559
   },
   {
    "family": "trades",
@@ -4049,9 +4435,35 @@
     "YT"
    ],
    "rule": "trades",
-   "seen": 692,
+   "seen": 781,
    "terminal": "mobile",
-   "viable": 441
+   "viable": 465
+  },
+  {
+   "family": "wellness",
+   "first_seen": "2026-10-19T18:44:45Z",
+   "fit": 60,
+   "key": "sports_and_recreation",
+   "kind": "business",
+   "label": "Sports and recreation",
+   "picked": 5,
+   "provinces": [
+    "AB",
+    "BC",
+    "MB",
+    "NB",
+    "NL",
+    "NS",
+    "ON",
+    "PE",
+    "QC",
+    "SK",
+    "YT"
+   ],
+   "rule": "sports_club",
+   "seen": 597,
+   "terminal": "countertop",
+   "viable": 353
   },
   {
    "family": "wellness",
@@ -4076,117 +4488,9 @@
     "YT"
    ],
    "rule": "fitness",
-   "seen": 513,
+   "seen": 559,
    "terminal": "countertop",
-   "viable": 334
-  },
-  {
-   "family": "wellness",
-   "first_seen": "2026-10-19T18:44:45Z",
-   "fit": 60,
-   "key": "sports_and_recreation",
-   "kind": "business",
-   "label": "Sports and recreation",
-   "picked": 5,
-   "provinces": [
-    "AB",
-    "BC",
-    "MB",
-    "NB",
-    "NL",
-    "NS",
-    "ON",
-    "PE",
-    "QC",
-    "SK",
-    "YT"
-   ],
-   "rule": "sports_club",
-   "seen": 552,
-   "terminal": "countertop",
-   "viable": 332
-  },
-  {
-   "family": "wellness",
-   "first_seen": "2026-10-19T18:44:45Z",
-   "fit": 82,
-   "key": "sport_or_fitness_facility",
-   "kind": "business",
-   "label": "Sport or fitness facility",
-   "picked": 5,
-   "provinces": [
-    "AB",
-    "BC",
-    "MB",
-    "NB",
-    "NL",
-    "NS",
-    "NT",
-    "NU",
-    "ON",
-    "PE",
-    "QC",
-    "SK",
-    "YT"
-   ],
-   "rule": "fitness",
-   "seen": 419,
-   "terminal": "countertop",
-   "viable": 293
-  },
-  {
-   "family": "retail",
-   "first_seen": "2026-10-19T18:44:45Z",
-   "fit": 80,
-   "key": "hardware_store",
-   "kind": "business",
-   "label": "Hardware store",
-   "picked": 5,
-   "provinces": [
-    "AB",
-    "BC",
-    "MB",
-    "NB",
-    "NL",
-    "NS",
-    "NT",
-    "NU",
-    "ON",
-    "PE",
-    "QC",
-    "SK",
-    "YT"
-   ],
-   "rule": "home_goods",
-   "seen": 622,
-   "terminal": "countertop",
-   "viable": 270
-  },
-  {
-   "family": "retail",
-   "first_seen": "2026-10-19T18:44:45Z",
-   "fit": 84,
-   "key": "bookstore",
-   "kind": "business",
-   "label": "Bookstore",
-   "picked": 5,
-   "provinces": [
-    "AB",
-    "BC",
-    "MB",
-    "NB",
-    "NL",
-    "NS",
-    "ON",
-    "PE",
-    "QC",
-    "SK",
-    "YT"
-   ],
-   "rule": "hobby",
-   "seen": 469,
-   "terminal": "countertop",
-   "viable": 267
+   "viable": 353
   },
   {
    "family": "retail",
@@ -4209,9 +4513,34 @@
     "SK"
    ],
    "rule": "pharmacy",
-   "seen": 472,
+   "seen": 556,
    "terminal": "countertop",
-   "viable": 256
+   "viable": 274
+  },
+  {
+   "family": "wellness",
+   "first_seen": "2026-10-19T18:44:45Z",
+   "fit": 40,
+   "key": "family_practice",
+   "kind": "business",
+   "label": "Family practice",
+   "picked": 5,
+   "provinces": [
+    "AB",
+    "BC",
+    "MB",
+    "NB",
+    "NL",
+    "NS",
+    "ON",
+    "PE",
+    "QC",
+    "SK"
+   ],
+   "rule": "medical_clinic",
+   "seen": 395,
+   "terminal": "countertop",
+   "viable": 248
   },
   {
    "family": "trades",
@@ -4235,60 +4564,9 @@
     "YT"
    ],
    "rule": "trades",
-   "seen": 346,
+   "seen": 365,
    "terminal": "mobile",
-   "viable": 240
-  },
-  {
-   "family": "wellness",
-   "first_seen": "2026-10-19T18:44:45Z",
-   "fit": 40,
-   "key": "family_practice",
-   "kind": "business",
-   "label": "Family practice",
-   "picked": 5,
-   "provinces": [
-    "AB",
-    "BC",
-    "MB",
-    "NB",
-    "NL",
-    "NS",
-    "ON",
-    "PE",
-    "QC",
-    "SK"
-   ],
-   "rule": "medical_clinic",
-   "seen": 339,
-   "terminal": "countertop",
-   "viable": 233
-  },
-  {
-   "family": "retail",
-   "first_seen": "2026-10-19T18:44:45Z",
-   "fit": 85,
-   "key": "health_food_store",
-   "kind": "business",
-   "label": "Health food store",
-   "picked": 5,
-   "provinces": [
-    "AB",
-    "BC",
-    "MB",
-    "NB",
-    "NL",
-    "NS",
-    "ON",
-    "PE",
-    "QC",
-    "SK",
-    "YT"
-   ],
-   "rule": "food_retail",
-   "seen": 384,
-   "terminal": "countertop",
-   "viable": 225
+   "viable": 247
   },
   {
    "family": "retail",
@@ -4311,42 +4589,17 @@
     "SK"
    ],
    "rule": "home_goods",
-   "seen": 338,
+   "seen": 364,
    "terminal": "countertop",
-   "viable": 199
+   "viable": 211
   },
   {
-   "family": "other",
-   "first_seen": "2026-10-19T18:44:44Z",
-   "fit": 84,
-   "key": "sewing_and_alterations",
-   "kind": "business",
-   "label": "Sewing and alterations",
-   "picked": 5,
-   "provinces": [
-    "AB",
-    "BC",
-    "MB",
-    "NB",
-    "NL",
-    "NS",
-    "ON",
-    "PE",
-    "QC",
-    "SK"
-   ],
-   "rule": "cleaners",
-   "seen": 261,
-   "terminal": "countertop",
-   "viable": 183
-  },
-  {
-   "family": "wellness",
+   "family": "retail",
    "first_seen": "2026-10-19T18:44:45Z",
-   "fit": 82,
-   "key": "fitness_trainer",
+   "fit": 85,
+   "key": "specialty_foods_store",
    "kind": "business",
-   "label": "Fitness trainer",
+   "label": "Specialty foods store",
    "picked": 5,
    "provinces": [
     "AB",
@@ -4358,12 +4611,13 @@
     "ON",
     "PE",
     "QC",
-    "SK"
+    "SK",
+    "YT"
    ],
-   "rule": "fitness",
-   "seen": 360,
+   "rule": "food_retail",
+   "seen": 354,
    "terminal": "countertop",
-   "viable": 173
+   "viable": 206
   },
   {
    "family": "other",
@@ -4389,9 +4643,9 @@
     "YT"
    ],
    "rule": "culture",
-   "seen": 203,
+   "seen": 217,
    "terminal": "portable",
-   "viable": 162
+   "viable": 172
   },
   {
    "family": "restaurant",
@@ -4414,9 +4668,9 @@
     "SK"
    ],
    "rule": "restaurant",
-   "seen": 326,
+   "seen": 355,
    "terminal": "portable",
-   "viable": 160
+   "viable": 169
   },
   {
    "family": "professional",
@@ -4438,9 +4692,35 @@
     "SK"
    ],
    "rule": "tax_notary",
-   "seen": 201,
+   "seen": 217,
    "terminal": "countertop",
-   "viable": 158
+   "viable": 160
+  },
+  {
+   "family": "dental",
+   "first_seen": "2026-10-19T19:05:40Z",
+   "fit": 90,
+   "key": "orthodontics",
+   "kind": "business",
+   "label": "Orthodontics",
+   "picked": 5,
+   "provinces": [
+    "AB",
+    "BC",
+    "MB",
+    "NB",
+    "NL",
+    "NS",
+    "ON",
+    "PE",
+    "QC",
+    "SK",
+    "YT"
+   ],
+   "rule": "dental",
+   "seen": 178,
+   "terminal": "countertop",
+   "viable": 117
   },
   {
    "family": "transport",
@@ -4463,9 +4743,60 @@
     "YT"
    ],
    "rule": "courier",
-   "seen": 179,
+   "seen": 190,
    "terminal": "mobile",
-   "viable": 82
+   "viable": 85
+  },
+  {
+   "family": "retail",
+   "first_seen": "2026-10-19T18:44:46Z",
+   "fit": 85,
+   "key": "produce_store",
+   "kind": "business",
+   "label": "Produce store",
+   "picked": 5,
+   "provinces": [
+    "AB",
+    "BC",
+    "MB",
+    "NB",
+    "NL",
+    "NS",
+    "ON",
+    "PE",
+    "QC",
+    "SK",
+    "YT"
+   ],
+   "rule": "food_retail",
+   "seen": 123,
+   "terminal": "countertop",
+   "viable": 69
+  },
+  {
+   "family": "wellness",
+   "first_seen": "2026-10-19T18:44:45Z",
+   "fit": 60,
+   "key": "tennis_court",
+   "kind": "business",
+   "label": "Tennis court",
+   "picked": 5,
+   "provinces": [
+    "AB",
+    "BC",
+    "MB",
+    "NB",
+    "NL",
+    "NS",
+    "ON",
+    "PE",
+    "QC",
+    "SK"
+   ],
+   "rule": "sports_club",
+   "seen": 95,
+   "terminal": "countertop",
+   "viable": 66
   },
   {
    "family": "wellness",
@@ -4487,31 +4818,33 @@
     "SK"
    ],
    "rule": "martial_arts",
-   "seen": 73,
+   "seen": 80,
    "terminal": "countertop",
-   "viable": 57
+   "viable": 58
   },
   {
-   "family": "transport",
-   "first_seen": "2026-10-19T18:44:48Z",
-   "fit": 65,
-   "key": "boat_rental_and_training",
+   "family": "salon",
+   "first_seen": "2026-10-19T18:44:46Z",
+   "fit": 90,
+   "key": "tattoo",
    "kind": "business",
-   "label": "Boat rental and training",
+   "label": "Tattoo",
    "picked": 5,
    "provinces": [
     "AB",
     "BC",
+    "MB",
+    "NB",
+    "NL",
     "NS",
     "ON",
     "PE",
-    "QC",
     "SK"
    ],
-   "rule": "rentals_auto",
-   "seen": 51,
-   "terminal": "countertop",
-   "viable": 38
+   "rule": "tattoo",
+   "seen": 66,
+   "terminal": "portable",
+   "viable": 56
   },
   {
    "family": "other",
@@ -4533,17 +4866,17 @@
     "YT"
    ],
    "rule": "golf_ski",
-   "seen": 46,
+   "seen": 50,
    "terminal": "portable",
-   "viable": 36
+   "viable": 38
   },
   {
-   "family": "wellness",
-   "first_seen": "2026-10-19T18:44:46Z",
-   "fit": 82,
-   "key": "boot_camp",
+   "family": "trades",
+   "first_seen": "2026-10-19T19:05:42Z",
+   "fit": 74,
+   "key": "junkyard",
    "kind": "business",
-   "label": "Boot camp",
+   "label": "Junkyard",
    "picked": 5,
    "provinces": [
     "AB",
@@ -4553,35 +4886,57 @@
     "NL",
     "NS",
     "ON",
-    "PE",
     "QC",
-    "SK"
+    "SK",
+    "YT"
    ],
-   "rule": "fitness",
-   "seen": 53,
+   "rule": "cleaning",
+   "seen": 73,
+   "terminal": "mobile",
+   "viable": 31
+  },
+  {
+   "family": "wellness",
+   "first_seen": "2026-10-19T19:05:40Z",
+   "fit": 88,
+   "key": "no_category_rehab",
+   "kind": "business",
+   "label": "No category, the name suggests: Physio, chiro and rehab",
+   "picked": 5,
+   "provinces": [
+    "AB",
+    "BC",
+    "NB",
+    "NL",
+    "NS",
+    "ON"
+   ],
+   "rule": "rehab",
+   "seen": 40,
    "terminal": "countertop",
-   "viable": 30
+   "viable": 24
   },
   {
    "family": "retail",
-   "first_seen": "2026-10-19T19:05:55Z",
+   "first_seen": "2026-10-19T18:44:45Z",
    "fit": 85,
-   "key": "aquatic_pet_store",
+   "key": "pop_up_store",
    "kind": "business",
-   "label": "Aquatic pet store",
+   "label": "Pop up store",
    "picked": 5,
    "provinces": [
     "AB",
     "BC",
     "MB",
-    "NB",
     "NS",
-    "ON"
+    "ON",
+    "QC",
+    "SK"
    ],
-   "rule": "pet_store",
-   "seen": 26,
-   "terminal": "countertop",
-   "viable": 22
+   "rule": "markets",
+   "seen": 37,
+   "terminal": "mobile",
+   "viable": 18
   },
   {
    "family": "dental",
@@ -4598,7 +4953,7 @@
     "NS"
    ],
    "rule": "dental",
-   "seen": 11,
+   "seen": 13,
    "terminal": "countertop",
    "viable": 9
   },
@@ -4630,60 +4985,6 @@
   {
    "family": "restaurant",
    "first_seen": "2026-10-19T18:44:44Z",
-   "fit": 93,
-   "key": "coffee_shop",
-   "kind": "business",
-   "label": "Coffee shop",
-   "picked": 4,
-   "provinces": [
-    "AB",
-    "BC",
-    "MB",
-    "NB",
-    "NL",
-    "NS",
-    "NT",
-    "NU",
-    "ON",
-    "PE",
-    "QC",
-    "SK",
-    "YT"
-   ],
-   "rule": "cafe",
-   "seen": 2535,
-   "terminal": "countertop",
-   "viable": 573
-  },
-  {
-   "family": "restaurant",
-   "first_seen": "2026-10-19T18:44:45Z",
-   "fit": 94,
-   "key": "indian_restaurant",
-   "kind": "business",
-   "label": "Indian restaurant",
-   "picked": 4,
-   "provinces": [
-    "AB",
-    "BC",
-    "MB",
-    "NB",
-    "NL",
-    "NS",
-    "ON",
-    "PE",
-    "QC",
-    "SK",
-    "YT"
-   ],
-   "rule": "restaurant",
-   "seen": 675,
-   "terminal": "portable",
-   "viable": 522
-  },
-  {
-   "family": "restaurant",
-   "first_seen": "2026-10-19T18:44:44Z",
    "fit": 94,
    "key": "italian_restaurant",
    "kind": "business",
@@ -4703,17 +5004,17 @@
     "YT"
    ],
    "rule": "restaurant",
-   "seen": 518,
+   "seen": 570,
    "terminal": "portable",
-   "viable": 404
+   "viable": 426
   },
   {
-   "family": "other",
-   "first_seen": "2026-10-19T18:44:47Z",
-   "fit": 38,
-   "key": "preschool",
+   "family": "trades",
+   "first_seen": "2026-10-19T18:44:45Z",
+   "fit": 45,
+   "key": "home_developer",
    "kind": "business",
-   "label": "Preschool",
+   "label": "Home developer",
    "picked": 4,
    "provinces": [
     "AB",
@@ -4722,17 +5023,16 @@
     "NB",
     "NL",
     "NS",
-    "NT",
     "ON",
     "PE",
     "QC",
     "SK",
     "YT"
    ],
-   "rule": "child_care",
-   "seen": 392,
-   "terminal": "countertop",
-   "viable": 309
+   "rule": "construction",
+   "seen": 492,
+   "terminal": "mobile",
+   "viable": 295
   },
   {
    "family": "trades",
@@ -4758,9 +5058,9 @@
     "YT"
    ],
    "rule": "trades",
-   "seen": 602,
+   "seen": 660,
    "terminal": "mobile",
-   "viable": 276
+   "viable": 294
   },
   {
    "family": "restaurant",
@@ -4784,17 +5084,17 @@
     "YT"
    ],
    "rule": "cafe",
-   "seen": 445,
+   "seen": 496,
    "terminal": "countertop",
-   "viable": 218
+   "viable": 230
   },
   {
-   "family": "retail",
+   "family": "other",
    "first_seen": "2026-10-19T18:44:45Z",
-   "fit": 85,
-   "key": "specialty_foods_store",
+   "fit": 62,
+   "key": "tutoring_service",
    "kind": "business",
-   "label": "Specialty foods store",
+   "label": "Tutoring service",
    "picked": 4,
    "provinces": [
     "AB",
@@ -4804,15 +5104,14 @@
     "NL",
     "NS",
     "ON",
-    "PE",
     "QC",
     "SK",
     "YT"
    ],
-   "rule": "food_retail",
-   "seen": 327,
+   "rule": "lessons",
+   "seen": 451,
    "terminal": "countertop",
-   "viable": 196
+   "viable": 212
   },
   {
    "family": "wellness",
@@ -4838,9 +5137,9 @@
     "YT"
    ],
    "rule": "g_health",
-   "seen": 277,
+   "seen": 294,
    "terminal": "countertop",
-   "viable": 165
+   "viable": 173
   },
   {
    "family": "restaurant",
@@ -4864,17 +5163,17 @@
     "YT"
    ],
    "rule": "bars",
-   "seen": 283,
+   "seen": 313,
    "terminal": "portable",
-   "viable": 162
+   "viable": 169
   },
   {
-   "family": "wellness",
-   "first_seen": "2026-10-19T18:44:45Z",
-   "fit": 86,
-   "key": "hearing_aid_store",
+   "family": "other",
+   "first_seen": "2026-10-19T18:44:48Z",
+   "fit": 76,
+   "key": "t_shirt_printing_service",
    "kind": "business",
-   "label": "Hearing aid store",
+   "label": "T shirt printing service",
    "picked": 4,
    "provinces": [
     "AB",
@@ -4885,12 +5184,87 @@
     "NS",
     "ON",
     "PE",
+    "QC",
+    "SK",
+    "YT"
+   ],
+   "rule": "print",
+   "seen": 252,
+   "terminal": "countertop",
+   "viable": 161
+  },
+  {
+   "family": "other",
+   "first_seen": "2026-10-19T18:44:45Z",
+   "fit": 62,
+   "key": "performing_arts_venue",
+   "kind": "business",
+   "label": "Performing arts venue",
+   "picked": 4,
+   "provinces": [
+    "AB",
+    "BC",
+    "MB",
+    "NB",
+    "NL",
+    "NS",
+    "ON",
+    "PE",
+    "QC",
     "SK"
    ],
-   "rule": "eye_ear",
-   "seen": 135,
+   "rule": "g_arts",
+   "seen": 187,
+   "terminal": "portable",
+   "viable": 130
+  },
+  {
+   "family": "professional",
+   "first_seen": "2026-10-19T18:44:45Z",
+   "fit": 46,
+   "key": "tax_service",
+   "kind": "business",
+   "label": "Tax service",
+   "picked": 4,
+   "provinces": [
+    "AB",
+    "BC",
+    "MB",
+    "NB",
+    "NL",
+    "NS",
+    "ON",
+    "PE",
+    "QC",
+    "SK"
+   ],
+   "rule": "tax_notary",
+   "seen": 376,
    "terminal": "countertop",
-   "viable": 115
+   "viable": 128
+  },
+  {
+   "family": "salon",
+   "first_seen": "2026-10-19T18:44:45Z",
+   "fit": 91,
+   "key": "laser_hair_removal",
+   "kind": "business",
+   "label": "Laser hair removal",
+   "picked": 4,
+   "provinces": [
+    "AB",
+    "BC",
+    "MB",
+    "NB",
+    "NS",
+    "ON",
+    "QC",
+    "SK"
+   ],
+   "rule": "salon",
+   "seen": 149,
+   "terminal": "portable",
+   "viable": 119
   },
   {
    "family": "restaurant",
@@ -4912,40 +5286,17 @@
     "SK"
    ],
    "rule": "bars",
-   "seen": 136,
+   "seen": 144,
    "terminal": "portable",
-   "viable": 113
+   "viable": 118
   },
   {
-   "family": "salon",
-   "first_seen": "2026-10-19T18:44:45Z",
-   "fit": 91,
-   "key": "laser_hair_removal",
+   "family": "other",
+   "first_seen": "2026-10-19T18:44:46Z",
+   "fit": 80,
+   "key": "appliance_repair_service",
    "kind": "business",
-   "label": "Laser hair removal",
-   "picked": 4,
-   "provinces": [
-    "AB",
-    "BC",
-    "MB",
-    "NB",
-    "NS",
-    "ON",
-    "QC",
-    "SK"
-   ],
-   "rule": "salon",
-   "seen": 139,
-   "terminal": "portable",
-   "viable": 112
-  },
-  {
-   "family": "dental",
-   "first_seen": "2026-10-19T19:05:40Z",
-   "fit": 90,
-   "key": "orthodontics",
-   "kind": "business",
-   "label": "Orthodontics",
+   "label": "Appliance repair service",
    "picked": 4,
    "provinces": [
     "AB",
@@ -4957,13 +5308,12 @@
     "ON",
     "PE",
     "QC",
-    "SK",
-    "YT"
+    "SK"
    ],
-   "rule": "dental",
-   "seen": 152,
+   "rule": "repair",
+   "seen": 186,
    "terminal": "countertop",
-   "viable": 106
+   "viable": 114
   },
   {
    "family": "wellness",
@@ -4986,36 +5336,9 @@
     "SK"
    ],
    "rule": "fitness",
-   "seen": 120,
+   "seen": 134,
    "terminal": "countertop",
-   "viable": 88
-  },
-  {
-   "family": "wellness",
-   "first_seen": "2026-10-19T18:44:45Z",
-   "fit": 58,
-   "key": "abuse_and_addiction_treatment_center",
-   "kind": "business",
-   "label": "Abuse and addiction treatment center",
-   "picked": 4,
-   "provinces": [
-    "AB",
-    "BC",
-    "MB",
-    "NB",
-    "NL",
-    "NS",
-    "NT",
-    "ON",
-    "PE",
-    "QC",
-    "SK",
-    "YT"
-   ],
-   "rule": "g_health",
-   "seen": 127,
-   "terminal": "countertop",
-   "viable": 82
+   "viable": 96
   },
   {
    "family": "landscaper",
@@ -5038,35 +5361,9 @@
     "YT"
    ],
    "rule": "landscaping",
-   "seen": 170,
+   "seen": 187,
    "terminal": "mobile",
-   "viable": 82
-  },
-  {
-   "family": "wellness",
-   "first_seen": "2026-10-19T18:44:45Z",
-   "fit": 88,
-   "key": "osteopathic_medicine",
-   "kind": "business",
-   "label": "Osteopathic medicine",
-   "picked": 4,
-   "provinces": [
-    "AB",
-    "BC",
-    "MB",
-    "NB",
-    "NL",
-    "NS",
-    "ON",
-    "PE",
-    "QC",
-    "SK",
-    "YT"
-   ],
-   "rule": "rehab",
-   "seen": 99,
-   "terminal": "countertop",
-   "viable": 79
+   "viable": 86
   },
   {
    "family": "retail",
@@ -5089,9 +5386,9 @@
     "SK"
    ],
    "rule": "home_goods",
-   "seen": 112,
+   "seen": 122,
    "terminal": "countertop",
-   "viable": 75
+   "viable": 76
   },
   {
    "family": "retail",
@@ -5115,9 +5412,9 @@
     "SK"
    ],
    "rule": "retail_generic",
-   "seen": 104,
+   "seen": 114,
    "terminal": "countertop",
-   "viable": 70
+   "viable": 73
   },
   {
    "family": "restaurant",
@@ -5140,43 +5437,17 @@
     "SK"
    ],
    "rule": "restaurant",
-   "seen": 109,
+   "seen": 125,
    "terminal": "portable",
-   "viable": 65
+   "viable": 71
   },
   {
    "family": "retail",
-   "first_seen": "2026-10-19T18:44:46Z",
-   "fit": 85,
-   "key": "produce_store",
-   "kind": "business",
-   "label": "Produce store",
-   "picked": 4,
-   "provinces": [
-    "AB",
-    "BC",
-    "MB",
-    "NB",
-    "NL",
-    "NS",
-    "ON",
-    "PE",
-    "QC",
-    "SK",
-    "YT"
-   ],
-   "rule": "food_retail",
-   "seen": 117,
-   "terminal": "countertop",
-   "viable": 65
-  },
-  {
-   "family": "wellness",
    "first_seen": "2026-10-19T18:44:45Z",
-   "fit": 60,
-   "key": "tennis_court",
+   "fit": 86,
+   "key": "designer_clothing",
    "kind": "business",
-   "label": "Tennis court",
+   "label": "Designer clothing",
    "picked": 4,
    "provinces": [
     "AB",
@@ -5190,18 +5461,18 @@
     "QC",
     "SK"
    ],
-   "rule": "sports_club",
-   "seen": 86,
+   "rule": "fashion",
+   "seen": 80,
    "terminal": "countertop",
-   "viable": 60
+   "viable": 63
   },
   {
-   "family": "salon",
-   "first_seen": "2026-10-19T18:44:46Z",
-   "fit": 90,
-   "key": "tattoo",
+   "family": "restaurant",
+   "first_seen": "2026-10-19T18:44:45Z",
+   "fit": 86,
+   "key": "food_service",
    "kind": "business",
-   "label": "Tattoo",
+   "label": "Food service",
    "picked": 4,
    "provinces": [
     "AB",
@@ -5209,15 +5480,15 @@
     "MB",
     "NB",
     "NL",
-    "NS",
     "ON",
     "PE",
+    "QC",
     "SK"
    ],
-   "rule": "tattoo",
-   "seen": 63,
+   "rule": "g_food",
+   "seen": 57,
    "terminal": "portable",
-   "viable": 55
+   "viable": 54
   },
   {
    "family": "retail",
@@ -5241,9 +5512,32 @@
     "YT"
    ],
    "rule": "electronics",
-   "seen": 66,
+   "seen": 67,
    "terminal": "countertop",
    "viable": 52
+  },
+  {
+   "family": "automotive",
+   "first_seen": "2026-10-19T19:05:40Z",
+   "fit": 78,
+   "key": "no_category_g_auto",
+   "kind": "business",
+   "label": "No category, the name suggests: Automotive (general)",
+   "picked": 4,
+   "provinces": [
+    "AB",
+    "BC",
+    "MB",
+    "NB",
+    "NS",
+    "ON",
+    "QC",
+    "SK"
+   ],
+   "rule": "g_auto",
+   "seen": 64,
+   "terminal": "countertop",
+   "viable": 50
   },
   {
    "family": "retail",
@@ -5267,7 +5561,7 @@
     "YT"
    ],
    "rule": "fashion",
-   "seen": 58,
+   "seen": 61,
    "terminal": "countertop",
    "viable": 31
   },
@@ -5290,52 +5584,9 @@
     "YT"
    ],
    "rule": "golf_ski",
-   "seen": 46,
+   "seen": 47,
    "terminal": "portable",
    "viable": 26
-  },
-  {
-   "family": "wellness",
-   "first_seen": "2026-10-19T19:05:40Z",
-   "fit": 88,
-   "key": "no_category_rehab",
-   "kind": "business",
-   "label": "No category, the name suggests: Physio, chiro and rehab",
-   "picked": 4,
-   "provinces": [
-    "AB",
-    "BC",
-    "NB",
-    "NL",
-    "NS",
-    "ON"
-   ],
-   "rule": "rehab",
-   "seen": 32,
-   "terminal": "countertop",
-   "viable": 23
-  },
-  {
-   "family": "retail",
-   "first_seen": "2026-10-19T18:44:45Z",
-   "fit": 85,
-   "key": "pop_up_store",
-   "kind": "business",
-   "label": "Pop up store",
-   "picked": 4,
-   "provinces": [
-    "AB",
-    "BC",
-    "MB",
-    "NS",
-    "ON",
-    "QC",
-    "SK"
-   ],
-   "rule": "markets",
-   "seen": 30,
-   "terminal": "mobile",
-   "viable": 17
   },
   {
    "family": "transport",
@@ -5353,7 +5604,7 @@
     "ON"
    ],
    "rule": "taxi",
-   "seen": 19,
+   "seen": 24,
    "terminal": "mobile",
    "viable": 7
   },
@@ -5379,9 +5630,9 @@
     "YT"
    ],
    "rule": "fashion",
-   "seen": 1043,
+   "seen": 1223,
    "terminal": "countertop",
-   "viable": 633
+   "viable": 670
   },
   {
    "family": "trades",
@@ -5405,9 +5656,9 @@
     "YT"
    ],
    "rule": "trades",
-   "seen": 704,
+   "seen": 780,
    "terminal": "mobile",
-   "viable": 524
+   "viable": 552
   },
   {
    "family": "wellness",
@@ -5433,9 +5684,9 @@
     "YT"
    ],
    "rule": "g_health",
-   "seen": 1242,
+   "seen": 1556,
    "terminal": "countertop",
-   "viable": 522
+   "viable": 543
   },
   {
    "family": "restaurant",
@@ -5459,9 +5710,9 @@
     "YT"
    ],
    "rule": "restaurant",
-   "seen": 655,
+   "seen": 709,
    "terminal": "portable",
-   "viable": 492
+   "viable": 518
   },
   {
    "family": "trades",
@@ -5486,9 +5737,9 @@
     "YT"
    ],
    "rule": "trades",
-   "seen": 584,
+   "seen": 641,
    "terminal": "mobile",
-   "viable": 400
+   "viable": 429
   },
   {
    "family": "salon",
@@ -5512,9 +5763,35 @@
     "YT"
    ],
    "rule": "salon",
-   "seen": 347,
+   "seen": 371,
    "terminal": "portable",
-   "viable": 339
+   "viable": 358
+  },
+  {
+   "family": "retail",
+   "first_seen": "2026-10-19T18:44:45Z",
+   "fit": 84,
+   "key": "gift_shop",
+   "kind": "business",
+   "label": "Gift shop",
+   "picked": 3,
+   "provinces": [
+    "AB",
+    "BC",
+    "MB",
+    "NB",
+    "NL",
+    "NS",
+    "ON",
+    "PE",
+    "QC",
+    "SK",
+    "YT"
+   ],
+   "rule": "hobby",
+   "seen": 471,
+   "terminal": "countertop",
+   "viable": 356
   },
   {
    "family": "other",
@@ -5537,9 +5814,9 @@
     "SK"
    ],
    "rule": "lessons",
-   "seen": 463,
+   "seen": 500,
    "terminal": "countertop",
-   "viable": 330
+   "viable": 355
   },
   {
    "family": "retail",
@@ -5564,9 +5841,9 @@
     "YT"
    ],
    "rule": "hobby",
-   "seen": 533,
+   "seen": 587,
    "terminal": "countertop",
-   "viable": 320
+   "viable": 340
   },
   {
    "family": "restaurant",
@@ -5592,9 +5869,9 @@
     "YT"
    ],
    "rule": "restaurant",
-   "seen": 2069,
+   "seen": 2348,
    "terminal": "portable",
-   "viable": 309
+   "viable": 322
   },
   {
    "family": "salon",
@@ -5617,9 +5894,9 @@
     "SK"
    ],
    "rule": "salon",
-   "seen": 419,
+   "seen": 452,
    "terminal": "portable",
-   "viable": 296
+   "viable": 306
   },
   {
    "family": "other",
@@ -5643,9 +5920,9 @@
     "SK"
    ],
    "rule": "lessons",
-   "seen": 428,
+   "seen": 465,
    "terminal": "countertop",
-   "viable": 278
+   "viable": 290
   },
   {
    "family": "retail",
@@ -5669,35 +5946,9 @@
     "YT"
    ],
    "rule": "retail_generic",
-   "seen": 424,
+   "seen": 461,
    "terminal": "countertop",
-   "viable": 277
-  },
-  {
-   "family": "trades",
-   "first_seen": "2026-10-19T18:44:45Z",
-   "fit": 45,
-   "key": "home_developer",
-   "kind": "business",
-   "label": "Home developer",
-   "picked": 3,
-   "provinces": [
-    "AB",
-    "BC",
-    "MB",
-    "NB",
-    "NL",
-    "NS",
-    "ON",
-    "PE",
-    "QC",
-    "SK",
-    "YT"
-   ],
-   "rule": "construction",
-   "seen": 449,
-   "terminal": "mobile",
-   "viable": 275
+   "viable": 290
   },
   {
    "family": "automotive",
@@ -5721,34 +5972,9 @@
     "YT"
    ],
    "rule": "auto_service",
-   "seen": 406,
+   "seen": 480,
    "terminal": "countertop",
-   "viable": 248
-  },
-  {
-   "family": "other",
-   "first_seen": "2026-10-19T18:44:45Z",
-   "fit": 62,
-   "key": "tutoring_service",
-   "kind": "business",
-   "label": "Tutoring service",
-   "picked": 3,
-   "provinces": [
-    "AB",
-    "BC",
-    "MB",
-    "NB",
-    "NL",
-    "NS",
-    "ON",
-    "QC",
-    "SK",
-    "YT"
-   ],
-   "rule": "lessons",
-   "seen": 398,
-   "terminal": "countertop",
-   "viable": 185
+   "viable": 256
   },
   {
    "family": "transport",
@@ -5773,9 +5999,9 @@
     "YT"
    ],
    "rule": "rentals_auto",
-   "seen": 484,
+   "seen": 505,
    "terminal": "countertop",
-   "viable": 178
+   "viable": 181
   },
   {
    "family": "retail",
@@ -5799,17 +6025,17 @@
     "SK"
    ],
    "rule": "fashion",
-   "seen": 232,
+   "seen": 252,
    "terminal": "countertop",
-   "viable": 157
+   "viable": 162
   },
   {
-   "family": "other",
-   "first_seen": "2026-10-19T18:44:48Z",
-   "fit": 76,
-   "key": "t_shirt_printing_service",
+   "family": "retail",
+   "first_seen": "2026-10-19T18:44:44Z",
+   "fit": 84,
+   "key": "hobby_shop",
    "kind": "business",
-   "label": "T shirt printing service",
+   "label": "Hobby shop",
    "picked": 3,
    "provinces": [
     "AB",
@@ -5818,16 +6044,16 @@
     "NB",
     "NL",
     "NS",
+    "NT",
     "ON",
     "PE",
     "QC",
-    "SK",
-    "YT"
+    "SK"
    ],
-   "rule": "print",
-   "seen": 227,
+   "rule": "hobby",
+   "seen": 210,
    "terminal": "countertop",
-   "viable": 152
+   "viable": 158
   },
   {
    "family": "other",
@@ -5851,9 +6077,35 @@
     "YT"
    ],
    "rule": "g_services",
-   "seen": 263,
+   "seen": 289,
    "terminal": "countertop",
-   "viable": 150
+   "viable": 156
+  },
+  {
+   "family": "restaurant",
+   "first_seen": "2026-10-19T18:44:45Z",
+   "fit": 94,
+   "key": "gastropub",
+   "kind": "business",
+   "label": "Gastropub",
+   "picked": 3,
+   "provinces": [
+    "AB",
+    "BC",
+    "MB",
+    "NB",
+    "NL",
+    "NS",
+    "ON",
+    "PE",
+    "QC",
+    "SK",
+    "YT"
+   ],
+   "rule": "restaurant",
+   "seen": 233,
+   "terminal": "portable",
+   "viable": 154
   },
   {
    "family": "wellness",
@@ -5878,9 +6130,9 @@
     "YT"
    ],
    "rule": "sports_club",
-   "seen": 212,
+   "seen": 225,
    "terminal": "countertop",
-   "viable": 139
+   "viable": 147
   },
   {
    "family": "retail",
@@ -5903,59 +6155,9 @@
     "YT"
    ],
    "rule": "fashion",
-   "seen": 172,
+   "seen": 183,
    "terminal": "countertop",
-   "viable": 130
-  },
-  {
-   "family": "other",
-   "first_seen": "2026-10-19T18:44:45Z",
-   "fit": 62,
-   "key": "performing_arts_venue",
-   "kind": "business",
-   "label": "Performing arts venue",
-   "picked": 3,
-   "provinces": [
-    "AB",
-    "BC",
-    "MB",
-    "NB",
-    "NL",
-    "NS",
-    "ON",
-    "PE",
-    "QC",
-    "SK"
-   ],
-   "rule": "g_arts",
-   "seen": 169,
-   "terminal": "portable",
-   "viable": 125
-  },
-  {
-   "family": "professional",
-   "first_seen": "2026-10-19T18:44:45Z",
-   "fit": 46,
-   "key": "tax_service",
-   "kind": "business",
-   "label": "Tax service",
-   "picked": 3,
-   "provinces": [
-    "AB",
-    "BC",
-    "MB",
-    "NB",
-    "NL",
-    "NS",
-    "ON",
-    "PE",
-    "QC",
-    "SK"
-   ],
-   "rule": "tax_notary",
-   "seen": 307,
-   "terminal": "countertop",
-   "viable": 124
+   "viable": 131
   },
   {
    "family": "retail",
@@ -5979,9 +6181,9 @@
     "YT"
    ],
    "rule": "hobby",
-   "seen": 192,
+   "seen": 212,
    "terminal": "countertop",
-   "viable": 121
+   "viable": 130
   },
   {
    "family": "wellness",
@@ -6005,34 +6207,9 @@
     "YT"
    ],
    "rule": "counselling",
-   "seen": 230,
+   "seen": 248,
    "terminal": "countertop",
-   "viable": 115
-  },
-  {
-   "family": "other",
-   "first_seen": "2026-10-19T18:44:46Z",
-   "fit": 80,
-   "key": "appliance_repair_service",
-   "kind": "business",
-   "label": "Appliance repair service",
-   "picked": 3,
-   "provinces": [
-    "AB",
-    "BC",
-    "MB",
-    "NB",
-    "NL",
-    "NS",
-    "ON",
-    "PE",
-    "QC",
-    "SK"
-   ],
-   "rule": "repair",
-   "seen": 166,
-   "terminal": "countertop",
-   "viable": 106
+   "viable": 123
   },
   {
    "family": "wellness",
@@ -6056,9 +6233,33 @@
     "SK"
    ],
    "rule": "sports_club",
-   "seen": 146,
+   "seen": 161,
    "terminal": "countertop",
-   "viable": 99
+   "viable": 105
+  },
+  {
+   "family": "restaurant",
+   "first_seen": "2026-10-19T18:44:45Z",
+   "fit": 93,
+   "key": "chocolatier",
+   "kind": "business",
+   "label": "Chocolatier",
+   "picked": 3,
+   "provinces": [
+    "AB",
+    "BC",
+    "MB",
+    "NB",
+    "NL",
+    "NS",
+    "ON",
+    "QC",
+    "SK"
+   ],
+   "rule": "cafe",
+   "seen": 204,
+   "terminal": "countertop",
+   "viable": 96
   },
   {
    "family": "other",
@@ -6084,33 +6285,9 @@
     "YT"
    ],
    "rule": "lodging",
-   "seen": 133,
+   "seen": 137,
    "terminal": "countertop",
-   "viable": 94
-  },
-  {
-   "family": "restaurant",
-   "first_seen": "2026-10-19T18:44:45Z",
-   "fit": 93,
-   "key": "chocolatier",
-   "kind": "business",
-   "label": "Chocolatier",
-   "picked": 3,
-   "provinces": [
-    "AB",
-    "BC",
-    "MB",
-    "NB",
-    "NL",
-    "NS",
-    "ON",
-    "QC",
-    "SK"
-   ],
-   "rule": "cafe",
-   "seen": 193,
-   "terminal": "countertop",
-   "viable": 89
+   "viable": 95
   },
   {
    "family": "salon",
@@ -6133,9 +6310,35 @@
     "SK"
    ],
    "rule": "salon",
-   "seen": 105,
+   "seen": 115,
    "terminal": "portable",
-   "viable": 75
+   "viable": 81
+  },
+  {
+   "family": "other",
+   "first_seen": "2026-10-19T18:44:46Z",
+   "fit": 60,
+   "key": "holiday_rental_home",
+   "kind": "business",
+   "label": "Holiday rental home",
+   "picked": 3,
+   "provinces": [
+    "AB",
+    "BC",
+    "MB",
+    "NB",
+    "NL",
+    "NS",
+    "ON",
+    "PE",
+    "QC",
+    "SK",
+    "YT"
+   ],
+   "rule": "g_lodging",
+   "seen": 124,
+   "terminal": "countertop",
+   "viable": 71
   },
   {
    "family": "wellness",
@@ -6158,9 +6361,35 @@
     "SK"
    ],
    "rule": "g_sport",
-   "seen": 104,
+   "seen": 114,
    "terminal": "countertop",
-   "viable": 65
+   "viable": 69
+  },
+  {
+   "family": "other",
+   "first_seen": "2026-10-19T18:44:45Z",
+   "fit": 76,
+   "key": "print_media",
+   "kind": "business",
+   "label": "Print media",
+   "picked": 3,
+   "provinces": [
+    "AB",
+    "BC",
+    "MB",
+    "NB",
+    "NL",
+    "NS",
+    "ON",
+    "PE",
+    "QC",
+    "SK",
+    "YT"
+   ],
+   "rule": "print",
+   "seen": 152,
+   "terminal": "countertop",
+   "viable": 66
   },
   {
    "family": "landscaper",
@@ -6182,9 +6411,9 @@
     "SK"
    ],
    "rule": "landscaping",
-   "seen": 70,
+   "seen": 79,
    "terminal": "mobile",
-   "viable": 59
+   "viable": 65
   },
   {
    "family": "restaurant",
@@ -6208,32 +6437,57 @@
     "YT"
    ],
    "rule": "restaurant",
-   "seen": 72,
+   "seen": 77,
    "terminal": "portable",
-   "viable": 56
+   "viable": 59
   },
   {
-   "family": "automotive",
-   "first_seen": "2026-10-19T19:05:40Z",
-   "fit": 78,
-   "key": "no_category_g_auto",
+   "family": "retail",
+   "first_seen": "2026-10-19T18:44:46Z",
+   "fit": 76,
+   "key": "fishmonger",
    "kind": "business",
-   "label": "No category, the name suggests: Automotive (general)",
+   "label": "Fishmonger",
    "picked": 3,
    "provinces": [
     "AB",
     "BC",
     "MB",
     "NB",
+    "NL",
     "NS",
+    "NU",
     "ON",
+    "PE",
     "QC",
     "SK"
    ],
-   "rule": "g_auto",
-   "seen": 57,
+   "rule": "retail_generic",
+   "seen": 71,
    "terminal": "countertop",
-   "viable": 46
+   "viable": 56
+  },
+  {
+   "family": "trades",
+   "first_seen": "2026-10-19T18:44:45Z",
+   "fit": 76,
+   "key": "car_window_tinting",
+   "kind": "business",
+   "label": "Car window tinting",
+   "picked": 3,
+   "provinces": [
+    "AB",
+    "BC",
+    "MB",
+    "NB",
+    "NL",
+    "ON",
+    "SK"
+   ],
+   "rule": "trades",
+   "seen": 77,
+   "terminal": "mobile",
+   "viable": 53
   },
   {
    "family": "other",
@@ -6256,9 +6510,33 @@
     "YT"
    ],
    "rule": "lodging",
-   "seen": 41,
+   "seen": 44,
    "terminal": "countertop",
-   "viable": 35
+   "viable": 37
+  },
+  {
+   "family": "retail",
+   "first_seen": "2026-10-19T19:05:43Z",
+   "fit": 76,
+   "key": "boat_parts_store",
+   "kind": "business",
+   "label": "Boat parts store",
+   "picked": 3,
+   "provinces": [
+    "AB",
+    "BC",
+    "MB",
+    "NB",
+    "NL",
+    "NS",
+    "ON",
+    "PE",
+    "QC"
+   ],
+   "rule": "retail_generic",
+   "seen": 47,
+   "terminal": "countertop",
+   "viable": 32
   },
   {
    "family": "other",
@@ -6284,17 +6562,17 @@
     "YT"
    ],
    "rule": "g_lodging",
-   "seen": 58,
+   "seen": 59,
    "terminal": "countertop",
    "viable": 31
   },
   {
-   "family": "retail",
-   "first_seen": "2026-10-19T19:05:43Z",
-   "fit": 76,
-   "key": "boat_parts_store",
+   "family": "restaurant",
+   "first_seen": "2026-10-19T18:44:46Z",
+   "fit": 92,
+   "key": "beer_bar",
    "kind": "business",
-   "label": "Boat parts store",
+   "label": "Beer bar",
    "picked": 3,
    "provinces": [
     "AB",
@@ -6304,37 +6582,14 @@
     "NL",
     "NS",
     "ON",
-    "QC"
-   ],
-   "rule": "retail_generic",
-   "seen": 42,
-   "terminal": "countertop",
-   "viable": 31
-  },
-  {
-   "family": "trades",
-   "first_seen": "2026-10-19T19:05:42Z",
-   "fit": 74,
-   "key": "junkyard",
-   "kind": "business",
-   "label": "Junkyard",
-   "picked": 3,
-   "provinces": [
-    "AB",
-    "BC",
-    "MB",
-    "NB",
-    "NL",
-    "NS",
-    "ON",
+    "PE",
     "QC",
-    "SK",
-    "YT"
+    "SK"
    ],
-   "rule": "cleaning",
-   "seen": 64,
-   "terminal": "mobile",
-   "viable": 26
+   "rule": "bars",
+   "seen": 55,
+   "terminal": "portable",
+   "viable": 29
   },
   {
    "family": "other",
@@ -6352,9 +6607,9 @@
     "SK"
    ],
    "rule": "golf_ski",
-   "seen": 18,
+   "seen": 19,
    "terminal": "portable",
-   "viable": 17
+   "viable": 18
   },
   {
    "family": "transport",
@@ -6376,7 +6631,7 @@
     "SK"
    ],
    "rule": "taxi",
-   "seen": 16,
+   "seen": 17,
    "terminal": "mobile",
    "viable": 14
   },
@@ -6395,9 +6650,9 @@
     "QC"
    ],
    "rule": "pet_services",
-   "seen": 11,
+   "seen": 13,
    "terminal": "portable",
-   "viable": 10
+   "viable": 11
   },
   {
    "family": "salon",
@@ -6414,7 +6669,7 @@
     "ON"
    ],
    "rule": "tattoo",
-   "seen": 8,
+   "seen": 9,
    "terminal": "portable",
    "viable": 8
   },
@@ -6459,9 +6714,9 @@
     "YT"
    ],
    "rule": "restaurant",
-   "seen": 2240,
+   "seen": 2499,
    "terminal": "portable",
-   "viable": 1391
+   "viable": 1451
   },
   {
    "family": "trades",
@@ -6486,9 +6741,9 @@
     "YT"
    ],
    "rule": "trades",
-   "seen": 687,
+   "seen": 739,
    "terminal": "mobile",
-   "viable": 470
+   "viable": 489
   },
   {
    "family": "other",
@@ -6512,17 +6767,17 @@
     "YT"
    ],
    "rule": "entertainment",
-   "seen": 751,
+   "seen": 815,
    "terminal": "portable",
-   "viable": 377
+   "viable": 389
   },
   {
    "family": "retail",
    "first_seen": "2026-10-19T18:44:45Z",
-   "fit": 84,
-   "key": "gift_shop",
+   "fit": 78,
+   "key": "mobile_phone_store",
    "kind": "business",
-   "label": "Gift shop",
+   "label": "Mobile phone store",
    "picked": 2,
    "provinces": [
     "AB",
@@ -6537,10 +6792,10 @@
     "SK",
     "YT"
    ],
-   "rule": "hobby",
-   "seen": 432,
+   "rule": "electronics",
+   "seen": 1052,
    "terminal": "countertop",
-   "viable": 340
+   "viable": 312
   },
   {
    "family": "other",
@@ -6565,9 +6820,9 @@
     "YT"
    ],
    "rule": "b2b",
-   "seen": 412,
+   "seen": 451,
    "terminal": "countertop",
-   "viable": 277
+   "viable": 291
   },
   {
    "family": "restaurant",
@@ -6591,9 +6846,35 @@
     "YT"
    ],
    "rule": "restaurant",
-   "seen": 292,
+   "seen": 315,
    "terminal": "portable",
-   "viable": 203
+   "viable": 212
+  },
+  {
+   "family": "restaurant",
+   "first_seen": "2026-10-19T18:44:45Z",
+   "fit": 93,
+   "key": "dessert_shop",
+   "kind": "business",
+   "label": "Dessert shop",
+   "picked": 2,
+   "provinces": [
+    "AB",
+    "BC",
+    "MB",
+    "NB",
+    "NL",
+    "NS",
+    "ON",
+    "PE",
+    "QC",
+    "SK",
+    "YT"
+   ],
+   "rule": "cafe",
+   "seen": 311,
+   "terminal": "countertop",
+   "viable": 209
   },
   {
    "family": "other",
@@ -6618,35 +6899,9 @@
     "YT"
    ],
    "rule": "g_services",
-   "seen": 284,
+   "seen": 297,
    "terminal": "countertop",
-   "viable": 202
-  },
-  {
-   "family": "restaurant",
-   "first_seen": "2026-10-19T18:44:45Z",
-   "fit": 93,
-   "key": "dessert_shop",
-   "kind": "business",
-   "label": "Dessert shop",
-   "picked": 2,
-   "provinces": [
-    "AB",
-    "BC",
-    "MB",
-    "NB",
-    "NL",
-    "NS",
-    "ON",
-    "PE",
-    "QC",
-    "SK",
-    "YT"
-   ],
-   "rule": "cafe",
-   "seen": 280,
-   "terminal": "countertop",
-   "viable": 195
+   "viable": 207
   },
   {
    "family": "restaurant",
@@ -6669,9 +6924,9 @@
     "YT"
    ],
    "rule": "restaurant",
-   "seen": 253,
+   "seen": 277,
    "terminal": "portable",
-   "viable": 182
+   "viable": 191
   },
   {
    "family": "other",
@@ -6686,6 +6941,7 @@
     "BC",
     "MB",
     "NB",
+    "NL",
     "NS",
     "ON",
     "PE",
@@ -6694,9 +6950,9 @@
     "YT"
    ],
    "rule": "lodging",
-   "seen": 217,
+   "seen": 258,
    "terminal": "countertop",
-   "viable": 162
+   "viable": 179
   },
   {
    "family": "other",
@@ -6720,61 +6976,9 @@
     "YT"
    ],
    "rule": "culture",
-   "seen": 212,
+   "seen": 221,
    "terminal": "portable",
-   "viable": 154
-  },
-  {
-   "family": "retail",
-   "first_seen": "2026-10-19T18:44:44Z",
-   "fit": 84,
-   "key": "hobby_shop",
-   "kind": "business",
-   "label": "Hobby shop",
-   "picked": 2,
-   "provinces": [
-    "AB",
-    "BC",
-    "MB",
-    "NB",
-    "NL",
-    "NS",
-    "NT",
-    "ON",
-    "PE",
-    "QC",
-    "SK"
-   ],
-   "rule": "hobby",
-   "seen": 194,
-   "terminal": "countertop",
-   "viable": 152
-  },
-  {
-   "family": "restaurant",
-   "first_seen": "2026-10-19T18:44:45Z",
-   "fit": 94,
-   "key": "gastropub",
-   "kind": "business",
-   "label": "Gastropub",
-   "picked": 2,
-   "provinces": [
-    "AB",
-    "BC",
-    "MB",
-    "NB",
-    "NL",
-    "NS",
-    "ON",
-    "PE",
-    "QC",
-    "SK",
-    "YT"
-   ],
-   "rule": "restaurant",
-   "seen": 217,
-   "terminal": "portable",
-   "viable": 151
+   "viable": 159
   },
   {
    "family": "transport",
@@ -6796,9 +7000,9 @@
     "SK"
    ],
    "rule": "courier",
-   "seen": 151,
+   "seen": 158,
    "terminal": "mobile",
-   "viable": 139
+   "viable": 144
   },
   {
    "family": "restaurant",
@@ -6820,7 +7024,61 @@
     "SK"
    ],
    "rule": "restaurant",
-   "seen": 194,
+   "seen": 205,
+   "terminal": "portable",
+   "viable": 143
+  },
+  {
+   "family": "retail",
+   "first_seen": "2026-10-19T18:44:44Z",
+   "fit": 76,
+   "key": "discount_store",
+   "kind": "business",
+   "label": "Discount store",
+   "picked": 2,
+   "provinces": [
+    "AB",
+    "BC",
+    "MB",
+    "NB",
+    "NL",
+    "NS",
+    "NT",
+    "ON",
+    "PE",
+    "QC",
+    "SK",
+    "YT"
+   ],
+   "rule": "retail_generic",
+   "seen": 681,
+   "terminal": "countertop",
+   "viable": 141
+  },
+  {
+   "family": "restaurant",
+   "first_seen": "2026-10-19T18:44:45Z",
+   "fit": 94,
+   "key": "sandwich_shop",
+   "kind": "business",
+   "label": "Sandwich shop",
+   "picked": 2,
+   "provinces": [
+    "AB",
+    "BC",
+    "MB",
+    "NB",
+    "NL",
+    "NS",
+    "NT",
+    "ON",
+    "PE",
+    "QC",
+    "SK",
+    "YT"
+   ],
+   "rule": "restaurant",
+   "seen": 961,
    "terminal": "portable",
    "viable": 136
   },
@@ -6847,36 +7105,9 @@
     "YT"
    ],
    "rule": "cleaning",
-   "seen": 204,
+   "seen": 220,
    "terminal": "mobile",
-   "viable": 129
-  },
-  {
-   "family": "restaurant",
-   "first_seen": "2026-10-19T18:44:45Z",
-   "fit": 94,
-   "key": "sandwich_shop",
-   "kind": "business",
-   "label": "Sandwich shop",
-   "picked": 2,
-   "provinces": [
-    "AB",
-    "BC",
-    "MB",
-    "NB",
-    "NL",
-    "NS",
-    "NT",
-    "ON",
-    "PE",
-    "QC",
-    "SK",
-    "YT"
-   ],
-   "rule": "restaurant",
-   "seen": 861,
-   "terminal": "portable",
-   "viable": 129
+   "viable": 133
   },
   {
    "family": "wellness",
@@ -6900,9 +7131,35 @@
     "YT"
    ],
    "rule": "fitness",
-   "seen": 168,
+   "seen": 188,
    "terminal": "countertop",
-   "viable": 121
+   "viable": 129
+  },
+  {
+   "family": "other",
+   "first_seen": "2026-10-19T18:44:45Z",
+   "fit": 55,
+   "key": "publisher",
+   "kind": "business",
+   "label": "Publisher",
+   "picked": 2,
+   "provinces": [
+    "AB",
+    "BC",
+    "MB",
+    "NB",
+    "NL",
+    "NS",
+    "ON",
+    "PE",
+    "QC",
+    "SK",
+    "YT"
+   ],
+   "rule": "g_services",
+   "seen": 211,
+   "terminal": "countertop",
+   "viable": 105
   },
   {
    "family": "trades",
@@ -6925,9 +7182,34 @@
     "SK"
    ],
    "rule": "construction",
-   "seen": 163,
+   "seen": 177,
    "terminal": "mobile",
-   "viable": 97
+   "viable": 103
+  },
+  {
+   "family": "restaurant",
+   "first_seen": "2026-10-19T18:44:45Z",
+   "fit": 92,
+   "key": "smoothie_juice_bar",
+   "kind": "business",
+   "label": "Smoothie juice bar",
+   "picked": 2,
+   "provinces": [
+    "AB",
+    "BC",
+    "MB",
+    "NB",
+    "NL",
+    "NS",
+    "ON",
+    "PE",
+    "QC",
+    "SK"
+   ],
+   "rule": "bars",
+   "seen": 357,
+   "terminal": "portable",
+   "viable": 98
   },
   {
    "family": "automotive",
@@ -6952,9 +7234,9 @@
     "YT"
    ],
    "rule": "auto_service",
-   "seen": 203,
+   "seen": 222,
    "terminal": "countertop",
-   "viable": 88
+   "viable": 92
   },
   {
    "family": "salon",
@@ -6977,9 +7259,9 @@
     "SK"
    ],
    "rule": "salon",
-   "seen": 103,
+   "seen": 113,
    "terminal": "portable",
-   "viable": 86
+   "viable": 90
   },
   {
    "family": "trades",
@@ -7003,9 +7285,9 @@
     "YT"
    ],
    "rule": "trades",
-   "seen": 131,
+   "seen": 146,
    "terminal": "mobile",
-   "viable": 85
+   "viable": 89
   },
   {
    "family": "other",
@@ -7028,35 +7310,9 @@
     "SK"
    ],
    "rule": "repair",
-   "seen": 95,
+   "seen": 105,
    "terminal": "countertop",
-   "viable": 73
-  },
-  {
-   "family": "other",
-   "first_seen": "2026-10-19T18:44:46Z",
-   "fit": 60,
-   "key": "holiday_rental_home",
-   "kind": "business",
-   "label": "Holiday rental home",
-   "picked": 2,
-   "provinces": [
-    "AB",
-    "BC",
-    "MB",
-    "NB",
-    "NL",
-    "NS",
-    "ON",
-    "PE",
-    "QC",
-    "SK",
-    "YT"
-   ],
-   "rule": "g_lodging",
-   "seen": 120,
-   "terminal": "countertop",
-   "viable": 69
+   "viable": 75
   },
   {
    "family": "transport",
@@ -7078,7 +7334,7 @@
     "SK"
    ],
    "rule": "rentals_auto",
-   "seen": 79,
+   "seen": 85,
    "terminal": "countertop",
    "viable": 69
   },
@@ -7102,9 +7358,9 @@
     "SK"
    ],
    "rule": "cleaning",
-   "seen": 105,
+   "seen": 120,
    "terminal": "mobile",
-   "viable": 65
+   "viable": 68
   },
   {
    "family": "retail",
@@ -7128,60 +7384,9 @@
     "YT"
    ],
    "rule": "sporting",
-   "seen": 77,
+   "seen": 80,
    "terminal": "countertop",
-   "viable": 61
-  },
-  {
-   "family": "other",
-   "first_seen": "2026-10-19T18:44:45Z",
-   "fit": 76,
-   "key": "print_media",
-   "kind": "business",
-   "label": "Print media",
-   "picked": 2,
-   "provinces": [
-    "AB",
-    "BC",
-    "MB",
-    "NB",
-    "NL",
-    "NS",
-    "ON",
-    "PE",
-    "QC",
-    "SK",
-    "YT"
-   ],
-   "rule": "print",
-   "seen": 132,
-   "terminal": "countertop",
-   "viable": 61
-  },
-  {
-   "family": "retail",
-   "first_seen": "2026-10-19T18:44:45Z",
-   "fit": 86,
-   "key": "designer_clothing",
-   "kind": "business",
-   "label": "Designer clothing",
-   "picked": 2,
-   "provinces": [
-    "AB",
-    "BC",
-    "MB",
-    "NB",
-    "NL",
-    "NS",
-    "ON",
-    "PE",
-    "QC",
-    "SK"
-   ],
-   "rule": "fashion",
-   "seen": 72,
-   "terminal": "countertop",
-   "viable": 60
+   "viable": 63
   },
   {
    "family": "trades",
@@ -7204,9 +7409,34 @@
     "SK"
    ],
    "rule": "cleaning",
-   "seen": 110,
+   "seen": 118,
    "terminal": "mobile",
-   "viable": 59
+   "viable": 62
+  },
+  {
+   "family": "retail",
+   "first_seen": "2026-10-19T18:44:46Z",
+   "fit": 84,
+   "key": "comic_books_store",
+   "kind": "business",
+   "label": "Comic books store",
+   "picked": 2,
+   "provinces": [
+    "AB",
+    "BC",
+    "MB",
+    "NB",
+    "NL",
+    "NS",
+    "ON",
+    "PE",
+    "QC",
+    "SK"
+   ],
+   "rule": "hobby",
+   "seen": 92,
+   "terminal": "countertop",
+   "viable": 61
   },
   {
    "family": "other",
@@ -7228,9 +7458,9 @@
     "SK"
    ],
    "rule": "print",
-   "seen": 72,
+   "seen": 76,
    "terminal": "countertop",
-   "viable": 59
+   "viable": 61
   },
   {
    "family": "other",
@@ -7253,9 +7483,9 @@
     "SK"
    ],
    "rule": "cleaners",
-   "seen": 77,
+   "seen": 84,
    "terminal": "countertop",
-   "viable": 57
+   "viable": 58
   },
   {
    "family": "retail",
@@ -7277,9 +7507,9 @@
     "SK"
    ],
    "rule": "home_goods",
-   "seen": 80,
+   "seen": 85,
    "terminal": "countertop",
-   "viable": 55
+   "viable": 56
   },
   {
    "family": "restaurant",
@@ -7302,17 +7532,17 @@
     "YT"
    ],
    "rule": "bars",
-   "seen": 77,
+   "seen": 81,
    "terminal": "portable",
-   "viable": 54
+   "viable": 55
   },
   {
-   "family": "retail",
-   "first_seen": "2026-10-19T18:44:46Z",
-   "fit": 76,
-   "key": "fishmonger",
+   "family": "other",
+   "first_seen": "2026-10-19T18:44:45Z",
+   "fit": 84,
+   "key": "laundry_service",
    "kind": "business",
-   "label": "Fishmonger",
+   "label": "Laundry service",
    "picked": 2,
    "provinces": [
     "AB",
@@ -7321,40 +7551,15 @@
     "NB",
     "NL",
     "NS",
-    "NU",
     "ON",
-    "PE",
     "QC",
-    "SK"
+    "SK",
+    "YT"
    ],
-   "rule": "retail_generic",
-   "seen": 65,
+   "rule": "cleaners",
+   "seen": 76,
    "terminal": "countertop",
-   "viable": 54
-  },
-  {
-   "family": "restaurant",
-   "first_seen": "2026-10-19T18:44:45Z",
-   "fit": 86,
-   "key": "food_service",
-   "kind": "business",
-   "label": "Food service",
-   "picked": 2,
-   "provinces": [
-    "AB",
-    "BC",
-    "MB",
-    "NB",
-    "NL",
-    "ON",
-    "PE",
-    "QC",
-    "SK"
-   ],
-   "rule": "g_food",
-   "seen": 54,
-   "terminal": "portable",
-   "viable": 52
+   "viable": 53
   },
   {
    "family": "wellness",
@@ -7379,9 +7584,33 @@
     "YT"
    ],
    "rule": "sports_club",
-   "seen": 70,
+   "seen": 75,
    "terminal": "countertop",
-   "viable": 49
+   "viable": 50
+  },
+  {
+   "family": "spa",
+   "first_seen": "2026-10-19T19:05:40Z",
+   "fit": 90,
+   "key": "no_category_spa",
+   "kind": "business",
+   "label": "No category, the name suggests: Spas and massage",
+   "picked": 2,
+   "provinces": [
+    "AB",
+    "BC",
+    "MB",
+    "NB",
+    "NL",
+    "NS",
+    "ON",
+    "QC",
+    "SK"
+   ],
+   "rule": "spa",
+   "seen": 55,
+   "terminal": "portable",
+   "viable": 46
   },
   {
    "family": "professional",
@@ -7404,9 +7633,33 @@
     "SK"
    ],
    "rule": "g_professional",
-   "seen": 80,
+   "seen": 89,
    "terminal": "countertop",
-   "viable": 42
+   "viable": 45
+  },
+  {
+   "family": "professional",
+   "first_seen": "2026-10-19T18:44:47Z",
+   "fit": 46,
+   "key": "bookkeeper",
+   "kind": "business",
+   "label": "Bookkeeper",
+   "picked": 2,
+   "provinces": [
+    "AB",
+    "BC",
+    "MB",
+    "NB",
+    "NL",
+    "NS",
+    "ON",
+    "QC",
+    "SK"
+   ],
+   "rule": "tax_notary",
+   "seen": 49,
+   "terminal": "countertop",
+   "viable": 44
   },
   {
    "family": "professional",
@@ -7428,9 +7681,9 @@
     "SK"
    ],
    "rule": "g_professional",
-   "seen": 47,
+   "seen": 51,
    "terminal": "countertop",
-   "viable": 38
+   "viable": 40
   },
   {
    "family": "restaurant",
@@ -7452,9 +7705,32 @@
     "SK"
    ],
    "rule": "restaurant",
-   "seen": 50,
+   "seen": 55,
    "terminal": "portable",
-   "viable": 36
+   "viable": 38
+  },
+  {
+   "family": "other",
+   "first_seen": "2026-10-19T18:44:45Z",
+   "fit": 80,
+   "key": "bike_repair_maintenance",
+   "kind": "business",
+   "label": "Bike repair maintenance",
+   "picked": 2,
+   "provinces": [
+    "AB",
+    "BC",
+    "MB",
+    "NB",
+    "NS",
+    "ON",
+    "QC",
+    "SK"
+   ],
+   "rule": "repair",
+   "seen": 41,
+   "terminal": "countertop",
+   "viable": 34
   },
   {
    "family": "transport",
@@ -7479,27 +7755,53 @@
    "viable": 33
   },
   {
-   "family": "other",
+   "family": "vet",
    "first_seen": "2026-10-19T18:44:45Z",
-   "fit": 80,
-   "key": "bike_repair_maintenance",
+   "fit": 88,
+   "key": "dog_walker",
    "kind": "business",
-   "label": "Bike repair maintenance",
+   "label": "Dog walker",
+   "picked": 2,
+   "provinces": [
+    "AB",
+    "BC",
+    "NB",
+    "NL",
+    "NS",
+    "ON",
+    "PE",
+    "QC",
+    "SK"
+   ],
+   "rule": "pet_services",
+   "seen": 50,
+   "terminal": "portable",
+   "viable": 32
+  },
+  {
+   "family": "spa",
+   "first_seen": "2026-10-19T18:44:45Z",
+   "fit": 90,
+   "key": "reflexology",
+   "kind": "business",
+   "label": "Reflexology",
    "picked": 2,
    "provinces": [
     "AB",
     "BC",
     "MB",
     "NB",
+    "NL",
     "NS",
     "ON",
+    "PE",
     "QC",
     "SK"
    ],
-   "rule": "repair",
-   "seen": 39,
-   "terminal": "countertop",
-   "viable": 32
+   "rule": "spa",
+   "seen": 53,
+   "terminal": "portable",
+   "viable": 31
   },
   {
    "family": "restaurant",
@@ -7524,17 +7826,17 @@
     "YT"
    ],
    "rule": "restaurant",
-   "seen": 64,
+   "seen": 70,
    "terminal": "portable",
-   "viable": 28
+   "viable": 30
   },
   {
-   "family": "restaurant",
-   "first_seen": "2026-10-19T18:44:46Z",
-   "fit": 92,
-   "key": "beer_bar",
+   "family": "dental",
+   "first_seen": "2026-10-19T19:05:46Z",
+   "fit": 90,
+   "key": "no_category_dental",
    "kind": "business",
-   "label": "Beer bar",
+   "label": "No category, the name suggests: Dental",
    "picked": 2,
    "provinces": [
     "AB",
@@ -7544,14 +7846,12 @@
     "NL",
     "NS",
     "ON",
-    "PE",
-    "QC",
-    "SK"
+    "QC"
    ],
-   "rule": "bars",
-   "seen": 50,
-   "terminal": "portable",
-   "viable": 27
+   "rule": "dental",
+   "seen": 30,
+   "terminal": "countertop",
+   "viable": 25
   },
   {
    "family": "landscaper",
@@ -7570,7 +7870,7 @@
     "SK"
    ],
    "rule": "garden_center",
-   "seen": 27,
+   "seen": 29,
    "terminal": "countertop",
    "viable": 22
   },
@@ -7593,8 +7893,30 @@
     "SK"
    ],
    "rule": "golf_ski",
-   "seen": 23,
+   "seen": 26,
    "terminal": "portable",
+   "viable": 22
+  },
+  {
+   "family": "retail",
+   "first_seen": "2026-10-19T19:05:47Z",
+   "fit": 86,
+   "key": "clothing_rental",
+   "kind": "business",
+   "label": "Clothing rental",
+   "picked": 2,
+   "provinces": [
+    "AB",
+    "BC",
+    "MB",
+    "NB",
+    "NS",
+    "ON",
+    "QC"
+   ],
+   "rule": "fashion",
+   "seen": 24,
+   "terminal": "countertop",
    "viable": 21
   },
   {
@@ -7616,9 +7938,28 @@
     "SK"
    ],
    "rule": "culture",
-   "seen": 28,
+   "seen": 29,
    "terminal": "portable",
    "viable": 18
+  },
+  {
+   "family": "transport",
+   "first_seen": "2026-10-19T19:05:50Z",
+   "fit": 82,
+   "key": "roadside_assistance",
+   "kind": "business",
+   "label": "Roadside assistance",
+   "picked": 2,
+   "provinces": [
+    "AB",
+    "BC",
+    "MB",
+    "ON"
+   ],
+   "rule": "towing",
+   "seen": 19,
+   "terminal": "mobile",
+   "viable": 16
   },
   {
    "family": "retail",
@@ -7735,7 +8076,7 @@
     "NB"
    ],
    "rule": "tattoo",
-   "seen": 5,
+   "seen": 6,
    "terminal": "portable",
    "viable": 5
   },
@@ -7814,9 +8155,9 @@
     "YT"
    ],
    "rule": "g_professional",
-   "seen": 1369,
+   "seen": 1461,
    "terminal": "countertop",
-   "viable": 1137
+   "viable": 1188
   },
   {
    "family": "other",
@@ -7840,9 +8181,9 @@
     "YT"
    ],
    "rule": "b2b",
-   "seen": 919,
+   "seen": 976,
    "terminal": "countertop",
-   "viable": 695
+   "viable": 727
   },
   {
    "family": "retail",
@@ -7867,9 +8208,9 @@
     "YT"
    ],
    "rule": "fashion",
-   "seen": 749,
+   "seen": 857,
    "terminal": "countertop",
-   "viable": 448
+   "viable": 470
   },
   {
    "family": "other",
@@ -7894,9 +8235,9 @@
     "YT"
    ],
    "rule": "b2b",
-   "seen": 662,
+   "seen": 717,
    "terminal": "countertop",
-   "viable": 396
+   "viable": 410
   },
   {
    "family": "trades",
@@ -7919,17 +8260,17 @@
     "SK"
    ],
    "rule": "trades",
-   "seen": 424,
+   "seen": 467,
    "terminal": "mobile",
-   "viable": 367
+   "viable": 395
   },
   {
    "family": "retail",
-   "first_seen": "2026-10-19T18:44:45Z",
-   "fit": 78,
-   "key": "mobile_phone_store",
+   "first_seen": "2026-10-19T18:44:46Z",
+   "fit": 76,
+   "key": "food_and_beverage_store",
    "kind": "business",
-   "label": "Mobile phone store",
+   "label": "Food and beverage store",
    "picked": 1,
    "provinces": [
     "AB",
@@ -7944,10 +8285,10 @@
     "SK",
     "YT"
    ],
-   "rule": "electronics",
-   "seen": 871,
+   "rule": "retail_generic",
+   "seen": 428,
    "terminal": "countertop",
-   "viable": 300
+   "viable": 316
   },
   {
    "family": "automotive",
@@ -7970,9 +8311,9 @@
     "SK"
    ],
    "rule": "auto_sales",
-   "seen": 435,
+   "seen": 509,
    "terminal": "countertop",
-   "viable": 283
+   "viable": 288
   },
   {
    "family": "restaurant",
@@ -7996,9 +8337,9 @@
     "YT"
    ],
    "rule": "restaurant",
-   "seen": 561,
+   "seen": 682,
    "terminal": "portable",
-   "viable": 266
+   "viable": 278
   },
   {
    "family": "other",
@@ -8022,9 +8363,9 @@
     "YT"
    ],
    "rule": "child_care",
-   "seen": 276,
+   "seen": 326,
    "terminal": "countertop",
-   "viable": 251
+   "viable": 269
   },
   {
    "family": "restaurant",
@@ -8047,9 +8388,35 @@
     "SK"
    ],
    "rule": "restaurant",
-   "seen": 296,
+   "seen": 348,
    "terminal": "portable",
-   "viable": 202
+   "viable": 209
+  },
+  {
+   "family": "retail",
+   "first_seen": "2026-10-19T18:44:45Z",
+   "fit": 86,
+   "key": "mens_clothing_store",
+   "kind": "business",
+   "label": "Mens clothing store",
+   "picked": 1,
+   "provinces": [
+    "AB",
+    "BC",
+    "MB",
+    "NB",
+    "NL",
+    "NS",
+    "ON",
+    "PE",
+    "QC",
+    "SK",
+    "YT"
+   ],
+   "rule": "fashion",
+   "seen": 340,
+   "terminal": "countertop",
+   "viable": 207
   },
   {
    "family": "trades",
@@ -8072,9 +8439,9 @@
     "YT"
    ],
    "rule": "trades",
-   "seen": 168,
+   "seen": 176,
    "terminal": "mobile",
-   "viable": 163
+   "viable": 171
   },
   {
    "family": "other",
@@ -8097,35 +8464,9 @@
     "YT"
    ],
    "rule": "b2b",
-   "seen": 210,
+   "seen": 234,
    "terminal": "countertop",
-   "viable": 156
-  },
-  {
-   "family": "restaurant",
-   "first_seen": "2026-10-19T18:44:45Z",
-   "fit": 92,
-   "key": "cocktail_bar",
-   "kind": "business",
-   "label": "Cocktail bar",
-   "picked": 1,
-   "provinces": [
-    "AB",
-    "BC",
-    "MB",
-    "NB",
-    "NL",
-    "NS",
-    "ON",
-    "PE",
-    "QC",
-    "SK",
-    "YT"
-   ],
-   "rule": "bars",
-   "seen": 215,
-   "terminal": "portable",
-   "viable": 148
+   "viable": 166
   },
   {
    "family": "retail",
@@ -8148,9 +8489,9 @@
     "SK"
    ],
    "rule": "retail_generic",
-   "seen": 200,
+   "seen": 213,
    "terminal": "countertop",
-   "viable": 146
+   "viable": 152
   },
   {
    "family": "other",
@@ -8175,9 +8516,35 @@
     "YT"
    ],
    "rule": "entertainment",
-   "seen": 233,
+   "seen": 247,
    "terminal": "portable",
-   "viable": 145
+   "viable": 150
+  },
+  {
+   "family": "restaurant",
+   "first_seen": "2026-10-19T18:44:45Z",
+   "fit": 92,
+   "key": "cocktail_bar",
+   "kind": "business",
+   "label": "Cocktail bar",
+   "picked": 1,
+   "provinces": [
+    "AB",
+    "BC",
+    "MB",
+    "NB",
+    "NL",
+    "NS",
+    "ON",
+    "PE",
+    "QC",
+    "SK",
+    "YT"
+   ],
+   "rule": "bars",
+   "seen": 228,
+   "terminal": "portable",
+   "viable": 148
   },
   {
    "family": "trades",
@@ -8200,17 +8567,17 @@
     "SK"
    ],
    "rule": "construction",
-   "seen": 162,
+   "seen": 176,
    "terminal": "mobile",
-   "viable": 141
+   "viable": 148
   },
   {
-   "family": "retail",
-   "first_seen": "2026-10-19T18:44:44Z",
-   "fit": 76,
-   "key": "discount_store",
+   "family": "wellness",
+   "first_seen": "2026-10-19T18:44:45Z",
+   "fit": 60,
+   "key": "swimming_pool",
    "kind": "business",
-   "label": "Discount store",
+   "label": "Swimming pool",
    "picked": 1,
    "provinces": [
     "AB",
@@ -8221,15 +8588,13 @@
     "NS",
     "NT",
     "ON",
-    "PE",
     "QC",
-    "SK",
-    "YT"
+    "SK"
    ],
-   "rule": "retail_generic",
-   "seen": 531,
+   "rule": "sports_club",
+   "seen": 176,
    "terminal": "countertop",
-   "viable": 131
+   "viable": 136
   },
   {
    "family": "trades",
@@ -8253,9 +8618,9 @@
     "YT"
    ],
    "rule": "trades",
-   "seen": 204,
+   "seen": 218,
    "terminal": "mobile",
-   "viable": 129
+   "viable": 134
   },
   {
    "family": "other",
@@ -8278,59 +8643,9 @@
     "YT"
    ],
    "rule": "g_services",
-   "seen": 146,
+   "seen": 165,
    "terminal": "countertop",
-   "viable": 122
-  },
-  {
-   "family": "wellness",
-   "first_seen": "2026-10-19T18:44:45Z",
-   "fit": 60,
-   "key": "swimming_pool",
-   "kind": "business",
-   "label": "Swimming pool",
-   "picked": 1,
-   "provinces": [
-    "AB",
-    "BC",
-    "MB",
-    "NB",
-    "NL",
-    "NS",
-    "NT",
-    "ON",
-    "QC",
-    "SK"
-   ],
-   "rule": "sports_club",
-   "seen": 157,
-   "terminal": "countertop",
-   "viable": 121
-  },
-  {
-   "family": "restaurant",
-   "first_seen": "2026-10-19T18:44:45Z",
-   "fit": 93,
-   "key": "tea_room",
-   "kind": "business",
-   "label": "Tea room",
-   "picked": 1,
-   "provinces": [
-    "AB",
-    "BC",
-    "MB",
-    "NB",
-    "NL",
-    "NS",
-    "ON",
-    "PE",
-    "QC",
-    "SK"
-   ],
-   "rule": "cafe",
-   "seen": 151,
-   "terminal": "countertop",
-   "viable": 115
+   "viable": 130
   },
   {
    "family": "restaurant",
@@ -8354,17 +8669,17 @@
     "YT"
    ],
    "rule": "restaurant",
-   "seen": 204,
+   "seen": 228,
    "terminal": "portable",
-   "viable": 112
+   "viable": 118
   },
   {
-   "family": "automotive",
+   "family": "restaurant",
    "first_seen": "2026-10-19T18:44:45Z",
-   "fit": 68,
-   "key": "motorcycle_dealer",
+   "fit": 93,
+   "key": "tea_room",
    "kind": "business",
-   "label": "Motorcycle dealer",
+   "label": "Tea room",
    "picked": 1,
    "provinces": [
     "AB",
@@ -8373,16 +8688,15 @@
     "NB",
     "NL",
     "NS",
-    "NT",
     "ON",
+    "PE",
     "QC",
-    "SK",
-    "YT"
+    "SK"
    ],
-   "rule": "auto_sales",
-   "seen": 131,
+   "rule": "cafe",
+   "seen": 160,
    "terminal": "countertop",
-   "viable": 111
+   "viable": 118
   },
   {
    "family": "trades",
@@ -8406,17 +8720,17 @@
     "YT"
    ],
    "rule": "trades",
-   "seen": 172,
+   "seen": 189,
    "terminal": "mobile",
-   "viable": 108
+   "viable": 114
   },
   {
-   "family": "retail",
+   "family": "transport",
    "first_seen": "2026-10-19T18:44:45Z",
-   "fit": 72,
-   "key": "camera_and_photography_store",
+   "fit": 66,
+   "key": "shipping_center",
    "kind": "business",
-   "label": "Camera and photography store",
+   "label": "Shipping center",
    "picked": 1,
    "provinces": [
     "AB",
@@ -8425,22 +8739,24 @@
     "NB",
     "NL",
     "NS",
+    "NT",
     "ON",
+    "PE",
     "QC",
     "SK"
    ],
-   "rule": "photo_events",
-   "seen": 148,
+   "rule": "courier",
+   "seen": 279,
    "terminal": "mobile",
-   "viable": 104
+   "viable": 113
   },
   {
-   "family": "other",
+   "family": "automotive",
    "first_seen": "2026-10-19T18:44:45Z",
-   "fit": 55,
-   "key": "publisher",
+   "fit": 68,
+   "key": "motorcycle_dealer",
    "kind": "business",
-   "label": "Publisher",
+   "label": "Motorcycle dealer",
    "picked": 1,
    "provinces": [
     "AB",
@@ -8449,16 +8765,16 @@
     "NB",
     "NL",
     "NS",
+    "NT",
     "ON",
-    "PE",
     "QC",
     "SK",
     "YT"
    ],
-   "rule": "g_services",
-   "seen": 197,
+   "rule": "auto_sales",
+   "seen": 136,
    "terminal": "countertop",
-   "viable": 101
+   "viable": 112
   },
   {
    "family": "automotive",
@@ -8481,9 +8797,82 @@
     "YT"
    ],
    "rule": "auto_service",
-   "seen": 159,
+   "seen": 183,
    "terminal": "countertop",
-   "viable": 99
+   "viable": 109
+  },
+  {
+   "family": "retail",
+   "first_seen": "2026-10-19T18:44:45Z",
+   "fit": 72,
+   "key": "camera_and_photography_store",
+   "kind": "business",
+   "label": "Camera and photography store",
+   "picked": 1,
+   "provinces": [
+    "AB",
+    "BC",
+    "MB",
+    "NB",
+    "NL",
+    "NS",
+    "ON",
+    "QC",
+    "SK"
+   ],
+   "rule": "photo_events",
+   "seen": 160,
+   "terminal": "mobile",
+   "viable": 107
+  },
+  {
+   "family": "restaurant",
+   "first_seen": "2026-10-19T18:44:45Z",
+   "fit": 94,
+   "key": "mediterranean_restaurant",
+   "kind": "business",
+   "label": "Mediterranean restaurant",
+   "picked": 1,
+   "provinces": [
+    "AB",
+    "BC",
+    "MB",
+    "NB",
+    "NL",
+    "NS",
+    "ON",
+    "PE",
+    "QC",
+    "SK"
+   ],
+   "rule": "restaurant",
+   "seen": 174,
+   "terminal": "portable",
+   "viable": 105
+  },
+  {
+   "family": "trades",
+   "first_seen": "2026-10-19T18:44:47Z",
+   "fit": 45,
+   "key": "builder",
+   "kind": "business",
+   "label": "Builder",
+   "picked": 1,
+   "provinces": [
+    "AB",
+    "BC",
+    "MB",
+    "NB",
+    "NL",
+    "NS",
+    "ON",
+    "QC",
+    "SK"
+   ],
+   "rule": "construction",
+   "seen": 104,
+   "terminal": "mobile",
+   "viable": 101
   },
   {
    "family": "other",
@@ -8507,7 +8896,78 @@
     "YT"
    ],
    "rule": "golf_ski",
-   "seen": 206,
+   "seen": 212,
+   "terminal": "portable",
+   "viable": 100
+  },
+  {
+   "family": "restaurant",
+   "first_seen": "2026-10-19T18:44:45Z",
+   "fit": 92,
+   "key": "wine_bar",
+   "kind": "business",
+   "label": "Wine bar",
+   "picked": 1,
+   "provinces": [
+    "AB",
+    "BC",
+    "MB",
+    "NB",
+    "NS",
+    "ON",
+    "QC",
+    "SK"
+   ],
+   "rule": "bars",
+   "seen": 122,
+   "terminal": "portable",
+   "viable": 100
+  },
+  {
+   "family": "trades",
+   "first_seen": "2026-10-19T18:44:45Z",
+   "fit": 74,
+   "key": "pool_cleaning",
+   "kind": "business",
+   "label": "Pool cleaning",
+   "picked": 1,
+   "provinces": [
+    "AB",
+    "BC",
+    "MB",
+    "NB",
+    "NL",
+    "NS",
+    "ON",
+    "QC",
+    "SK"
+   ],
+   "rule": "cleaning",
+   "seen": 155,
+   "terminal": "mobile",
+   "viable": 99
+  },
+  {
+   "family": "other",
+   "first_seen": "2026-10-19T18:44:45Z",
+   "fit": 70,
+   "key": "event_venue",
+   "kind": "business",
+   "label": "Event venue",
+   "picked": 1,
+   "provinces": [
+    "AB",
+    "BC",
+    "MB",
+    "NB",
+    "NL",
+    "NS",
+    "ON",
+    "QC",
+    "SK"
+   ],
+   "rule": "entertainment",
+   "seen": 173,
    "terminal": "portable",
    "viable": 98
   },
@@ -8531,17 +8991,17 @@
     "SK"
    ],
    "rule": "restaurant",
-   "seen": 115,
+   "seen": 118,
    "terminal": "portable",
-   "viable": 97
+   "viable": 98
   },
   {
-   "family": "trades",
-   "first_seen": "2026-10-19T18:44:47Z",
-   "fit": 45,
-   "key": "builder",
+   "family": "retail",
+   "first_seen": "2026-10-19T18:44:46Z",
+   "fit": 72,
+   "key": "party_supply_store",
    "kind": "business",
-   "label": "Builder",
+   "label": "Party supply store",
    "picked": 1,
    "provinces": [
     "AB",
@@ -8551,36 +9011,14 @@
     "NL",
     "NS",
     "ON",
+    "PE",
     "QC",
     "SK"
    ],
-   "rule": "construction",
-   "seen": 94,
+   "rule": "photo_events",
+   "seen": 224,
    "terminal": "mobile",
    "viable": 94
-  },
-  {
-   "family": "restaurant",
-   "first_seen": "2026-10-19T18:44:45Z",
-   "fit": 92,
-   "key": "wine_bar",
-   "kind": "business",
-   "label": "Wine bar",
-   "picked": 1,
-   "provinces": [
-    "AB",
-    "BC",
-    "MB",
-    "NB",
-    "NS",
-    "ON",
-    "QC",
-    "SK"
-   ],
-   "rule": "bars",
-   "seen": 110,
-   "terminal": "portable",
-   "viable": 93
   },
   {
    "family": "retail",
@@ -8604,108 +9042,9 @@
     "YT"
    ],
    "rule": "home_goods",
-   "seen": 116,
+   "seen": 121,
    "terminal": "countertop",
    "viable": 91
-  },
-  {
-   "family": "retail",
-   "first_seen": "2026-10-19T18:44:46Z",
-   "fit": 72,
-   "key": "party_supply_store",
-   "kind": "business",
-   "label": "Party supply store",
-   "picked": 1,
-   "provinces": [
-    "AB",
-    "BC",
-    "MB",
-    "NB",
-    "NL",
-    "NS",
-    "ON",
-    "PE",
-    "QC",
-    "SK"
-   ],
-   "rule": "photo_events",
-   "seen": 200,
-   "terminal": "mobile",
-   "viable": 91
-  },
-  {
-   "family": "trades",
-   "first_seen": "2026-10-19T18:44:45Z",
-   "fit": 74,
-   "key": "pool_cleaning",
-   "kind": "business",
-   "label": "Pool cleaning",
-   "picked": 1,
-   "provinces": [
-    "AB",
-    "BC",
-    "MB",
-    "NB",
-    "NL",
-    "NS",
-    "ON",
-    "QC",
-    "SK"
-   ],
-   "rule": "cleaning",
-   "seen": 139,
-   "terminal": "mobile",
-   "viable": 91
-  },
-  {
-   "family": "restaurant",
-   "first_seen": "2026-10-19T18:44:45Z",
-   "fit": 92,
-   "key": "smoothie_juice_bar",
-   "kind": "business",
-   "label": "Smoothie juice bar",
-   "picked": 1,
-   "provinces": [
-    "AB",
-    "BC",
-    "MB",
-    "NB",
-    "NL",
-    "NS",
-    "ON",
-    "PE",
-    "QC",
-    "SK"
-   ],
-   "rule": "bars",
-   "seen": 317,
-   "terminal": "portable",
-   "viable": 91
-  },
-  {
-   "family": "dental",
-   "first_seen": "2026-10-19T18:44:45Z",
-   "fit": 90,
-   "key": "pediatric_dentistry",
-   "kind": "business",
-   "label": "Pediatric dentistry",
-   "picked": 1,
-   "provinces": [
-    "AB",
-    "BC",
-    "MB",
-    "NB",
-    "NL",
-    "NS",
-    "ON",
-    "PE",
-    "QC",
-    "SK"
-   ],
-   "rule": "dental",
-   "seen": 103,
-   "terminal": "countertop",
-   "viable": 87
   },
   {
    "family": "trades",
@@ -8730,17 +9069,17 @@
     "YT"
    ],
    "rule": "trades",
-   "seen": 116,
+   "seen": 129,
    "terminal": "mobile",
-   "viable": 83
+   "viable": 89
   },
   {
-   "family": "restaurant",
-   "first_seen": "2026-10-19T18:44:46Z",
-   "fit": 94,
-   "key": "vegetarian_restaurant",
+   "family": "dental",
+   "first_seen": "2026-10-19T18:44:45Z",
+   "fit": 90,
+   "key": "pediatric_dentistry",
    "kind": "business",
-   "label": "Vegetarian restaurant",
+   "label": "Pediatric dentistry",
    "picked": 1,
    "provinces": [
     "AB",
@@ -8752,38 +9091,12 @@
     "ON",
     "PE",
     "QC",
-    "SK",
-    "YT"
+    "SK"
    ],
-   "rule": "restaurant",
-   "seen": 110,
-   "terminal": "portable",
-   "viable": 78
-  },
-  {
-   "family": "other",
-   "first_seen": "2026-10-19T18:44:45Z",
-   "fit": 42,
-   "key": "passport_and_visa_service",
-   "kind": "business",
-   "label": "Passport and visa service",
-   "picked": 1,
-   "provinces": [
-    "AB",
-    "BC",
-    "MB",
-    "NB",
-    "NL",
-    "NS",
-    "ON",
-    "QC",
-    "SK",
-    "YT"
-   ],
-   "rule": "travel",
-   "seen": 153,
+   "rule": "dental",
+   "seen": 112,
    "terminal": "countertop",
-   "viable": 77
+   "viable": 89
   },
   {
    "family": "restaurant",
@@ -8807,17 +9120,17 @@
     "SK"
    ],
    "rule": "restaurant",
-   "seen": 217,
+   "seen": 256,
    "terminal": "portable",
-   "viable": 75
+   "viable": 79
   },
   {
-   "family": "trades",
+   "family": "other",
    "first_seen": "2026-10-19T18:44:45Z",
-   "fit": 74,
-   "key": "auto_restoration_service",
+   "fit": 42,
+   "key": "passport_and_visa_service",
    "kind": "business",
-   "label": "Auto restoration service",
+   "label": "Passport and visa service",
    "picked": 1,
    "provinces": [
     "AB",
@@ -8831,10 +9144,10 @@
     "SK",
     "YT"
    ],
-   "rule": "cleaning",
-   "seen": 108,
-   "terminal": "mobile",
-   "viable": 74
+   "rule": "travel",
+   "seen": 159,
+   "terminal": "countertop",
+   "viable": 79
   },
   {
    "family": "automotive",
@@ -8858,9 +9171,60 @@
     "YT"
    ],
    "rule": "auto_sales",
-   "seen": 92,
+   "seen": 101,
    "terminal": "countertop",
-   "viable": 73
+   "viable": 78
+  },
+  {
+   "family": "restaurant",
+   "first_seen": "2026-10-19T18:44:46Z",
+   "fit": 94,
+   "key": "vegetarian_restaurant",
+   "kind": "business",
+   "label": "Vegetarian restaurant",
+   "picked": 1,
+   "provinces": [
+    "AB",
+    "BC",
+    "MB",
+    "NB",
+    "NL",
+    "NS",
+    "ON",
+    "PE",
+    "QC",
+    "SK",
+    "YT"
+   ],
+   "rule": "restaurant",
+   "seen": 115,
+   "terminal": "portable",
+   "viable": 78
+  },
+  {
+   "family": "trades",
+   "first_seen": "2026-10-19T18:44:45Z",
+   "fit": 74,
+   "key": "auto_restoration_service",
+   "kind": "business",
+   "label": "Auto restoration service",
+   "picked": 1,
+   "provinces": [
+    "AB",
+    "BC",
+    "MB",
+    "NB",
+    "NL",
+    "NS",
+    "ON",
+    "QC",
+    "SK",
+    "YT"
+   ],
+   "rule": "cleaning",
+   "seen": 114,
+   "terminal": "mobile",
+   "viable": 77
   },
   {
    "family": "trades",
@@ -8883,9 +9247,9 @@
     "SK"
    ],
    "rule": "cleaning",
-   "seen": 88,
+   "seen": 95,
    "terminal": "mobile",
-   "viable": 70
+   "viable": 73
   },
   {
    "family": "trades",
@@ -8908,33 +9272,33 @@
     "YT"
    ],
    "rule": "cleaning",
-   "seen": 80,
+   "seen": 86,
    "terminal": "mobile",
-   "viable": 69
+   "viable": 72
   },
   {
-   "family": "trades",
-   "first_seen": "2026-10-19T18:44:46Z",
-   "fit": 76,
-   "key": "fence_and_gate_sales_service",
+   "family": "salon",
+   "first_seen": "2026-10-19T18:44:45Z",
+   "fit": 91,
+   "key": "hair_supply_store",
    "kind": "business",
-   "label": "Fence and gate sales service",
+   "label": "Hair supply store",
    "picked": 1,
    "provinces": [
     "AB",
     "BC",
     "MB",
     "NB",
+    "NL",
     "NS",
     "ON",
-    "PE",
     "QC",
     "SK"
    ],
-   "rule": "trades",
-   "seen": 109,
-   "terminal": "mobile",
-   "viable": 66
+   "rule": "salon",
+   "seen": 246,
+   "terminal": "portable",
+   "viable": 72
   },
   {
    "family": "other",
@@ -8959,58 +9323,9 @@
     "YT"
    ],
    "rule": "unknown",
-   "seen": 293,
+   "seen": 332,
    "terminal": "countertop",
-   "viable": 66
-  },
-  {
-   "family": "restaurant",
-   "first_seen": "2026-10-19T18:44:45Z",
-   "fit": 94,
-   "key": "ramen_restaurant",
-   "kind": "business",
-   "label": "Ramen restaurant",
-   "picked": 1,
-   "provinces": [
-    "AB",
-    "BC",
-    "MB",
-    "NB",
-    "NL",
-    "NS",
-    "ON",
-    "SK"
-   ],
-   "rule": "restaurant",
-   "seen": 72,
-   "terminal": "portable",
-   "viable": 66
-  },
-  {
-   "family": "other",
-   "first_seen": "2026-10-19T18:44:46Z",
-   "fit": 72,
-   "key": "resort",
-   "kind": "business",
-   "label": "Resort",
-   "picked": 1,
-   "provinces": [
-    "AB",
-    "BC",
-    "MB",
-    "NB",
-    "NL",
-    "NS",
-    "NU",
-    "ON",
-    "QC",
-    "SK",
-    "YT"
-   ],
-   "rule": "lodging",
-   "seen": 108,
-   "terminal": "countertop",
-   "viable": 66
+   "viable": 70
   },
   {
    "family": "restaurant",
@@ -9034,9 +9349,33 @@
     "YT"
    ],
    "rule": "cafe",
-   "seen": 123,
+   "seen": 137,
    "terminal": "countertop",
-   "viable": 65
+   "viable": 69
+  },
+  {
+   "family": "trades",
+   "first_seen": "2026-10-19T18:44:46Z",
+   "fit": 76,
+   "key": "fence_and_gate_sales_service",
+   "kind": "business",
+   "label": "Fence and gate sales service",
+   "picked": 1,
+   "provinces": [
+    "AB",
+    "BC",
+    "MB",
+    "NB",
+    "NS",
+    "ON",
+    "PE",
+    "QC",
+    "SK"
+   ],
+   "rule": "trades",
+   "seen": 120,
+   "terminal": "mobile",
+   "viable": 69
   },
   {
    "family": "trades",
@@ -9060,9 +9399,58 @@
     "YT"
    ],
    "rule": "trades",
-   "seen": 108,
+   "seen": 117,
    "terminal": "mobile",
-   "viable": 64
+   "viable": 67
+  },
+  {
+   "family": "other",
+   "first_seen": "2026-10-19T18:44:46Z",
+   "fit": 72,
+   "key": "resort",
+   "kind": "business",
+   "label": "Resort",
+   "picked": 1,
+   "provinces": [
+    "AB",
+    "BC",
+    "MB",
+    "NB",
+    "NL",
+    "NS",
+    "NU",
+    "ON",
+    "QC",
+    "SK",
+    "YT"
+   ],
+   "rule": "lodging",
+   "seen": 113,
+   "terminal": "countertop",
+   "viable": 67
+  },
+  {
+   "family": "restaurant",
+   "first_seen": "2026-10-19T18:44:45Z",
+   "fit": 94,
+   "key": "ramen_restaurant",
+   "kind": "business",
+   "label": "Ramen restaurant",
+   "picked": 1,
+   "provinces": [
+    "AB",
+    "BC",
+    "MB",
+    "NB",
+    "NL",
+    "NS",
+    "ON",
+    "SK"
+   ],
+   "rule": "restaurant",
+   "seen": 74,
+   "terminal": "portable",
+   "viable": 66
   },
   {
    "family": "retail",
@@ -9085,9 +9473,9 @@
     "SK"
    ],
    "rule": "retail_generic",
-   "seen": 113,
+   "seen": 118,
    "terminal": "countertop",
-   "viable": 62
+   "viable": 65
   },
   {
    "family": "automotive",
@@ -9110,9 +9498,34 @@
     "YT"
    ],
    "rule": "auto_service",
-   "seen": 73,
+   "seen": 78,
    "terminal": "countertop",
-   "viable": 61
+   "viable": 63
+  },
+  {
+   "family": "other",
+   "first_seen": "2026-10-19T18:44:45Z",
+   "fit": 70,
+   "key": "escape_room",
+   "kind": "business",
+   "label": "Escape room",
+   "picked": 1,
+   "provinces": [
+    "AB",
+    "BC",
+    "MB",
+    "NB",
+    "NL",
+    "NS",
+    "ON",
+    "PE",
+    "QC",
+    "SK"
+   ],
+   "rule": "entertainment",
+   "seen": 83,
+   "terminal": "portable",
+   "viable": 63
   },
   {
    "family": "restaurant",
@@ -9134,9 +9547,9 @@
     "SK"
    ],
    "rule": "bars",
-   "seen": 77,
+   "seen": 79,
    "terminal": "portable",
-   "viable": 61
+   "viable": 62
   },
   {
    "family": "automotive",
@@ -9158,9 +9571,9 @@
     "SK"
    ],
    "rule": "auto_sales",
-   "seen": 74,
+   "seen": 78,
    "terminal": "countertop",
-   "viable": 59
+   "viable": 60
   },
   {
    "family": "retail",
@@ -9185,59 +9598,9 @@
     "YT"
    ],
    "rule": "fashion",
-   "seen": 170,
+   "seen": 188,
    "terminal": "countertop",
-   "viable": 57
-  },
-  {
-   "family": "retail",
-   "first_seen": "2026-10-19T18:44:46Z",
-   "fit": 84,
-   "key": "comic_books_store",
-   "kind": "business",
-   "label": "Comic books store",
-   "picked": 1,
-   "provinces": [
-    "AB",
-    "BC",
-    "MB",
-    "NB",
-    "NL",
-    "NS",
-    "ON",
-    "PE",
-    "QC",
-    "SK"
-   ],
-   "rule": "hobby",
-   "seen": 82,
-   "terminal": "countertop",
-   "viable": 56
-  },
-  {
-   "family": "trades",
-   "first_seen": "2026-10-19T18:44:48Z",
-   "fit": 76,
-   "key": "fireplace_service",
-   "kind": "business",
-   "label": "Fireplace service",
-   "picked": 1,
-   "provinces": [
-    "AB",
-    "BC",
-    "MB",
-    "NB",
-    "NL",
-    "NS",
-    "ON",
-    "PE",
-    "QC",
-    "SK"
-   ],
-   "rule": "trades",
-   "seen": 63,
-   "terminal": "mobile",
-   "viable": 56
+   "viable": 60
   },
   {
    "family": "wellness",
@@ -9260,9 +9623,58 @@
     "YT"
    ],
    "rule": "g_health",
-   "seen": 77,
+   "seen": 84,
    "terminal": "countertop",
-   "viable": 56
+   "viable": 59
+  },
+  {
+   "family": "retail",
+   "first_seen": "2026-10-19T18:44:45Z",
+   "fit": 80,
+   "key": "b2b_surgical_appliances_and_supplies",
+   "kind": "business",
+   "label": "B2b surgical appliances and supplies",
+   "picked": 1,
+   "provinces": [
+    "AB",
+    "BC",
+    "MB",
+    "NB",
+    "NL",
+    "NS",
+    "ON",
+    "QC",
+    "SK"
+   ],
+   "rule": "home_goods",
+   "seen": 86,
+   "terminal": "countertop",
+   "viable": 58
+  },
+  {
+   "family": "trades",
+   "first_seen": "2026-10-19T18:44:48Z",
+   "fit": 76,
+   "key": "fireplace_service",
+   "kind": "business",
+   "label": "Fireplace service",
+   "picked": 1,
+   "provinces": [
+    "AB",
+    "BC",
+    "MB",
+    "NB",
+    "NL",
+    "NS",
+    "ON",
+    "PE",
+    "QC",
+    "SK"
+   ],
+   "rule": "trades",
+   "seen": 65,
+   "terminal": "mobile",
+   "viable": 57
   },
   {
    "family": "other",
@@ -9286,29 +9698,30 @@
     "YT"
    ],
    "rule": "entertainment",
-   "seen": 78,
+   "seen": 82,
    "terminal": "portable",
-   "viable": 52
+   "viable": 56
   },
   {
-   "family": "trades",
-   "first_seen": "2026-10-19T18:44:45Z",
-   "fit": 76,
-   "key": "car_window_tinting",
+   "family": "landscaper",
+   "first_seen": "2026-10-19T19:05:40Z",
+   "fit": 78,
+   "key": "lawn_service",
    "kind": "business",
-   "label": "Car window tinting",
+   "label": "Lawn service",
    "picked": 1,
    "provinces": [
     "AB",
     "BC",
     "MB",
     "NB",
-    "NL",
+    "NS",
     "ON",
+    "QC",
     "SK"
    ],
-   "rule": "trades",
-   "seen": 67,
+   "rule": "landscaping",
+   "seen": 64,
    "terminal": "mobile",
    "viable": 51
   },
@@ -9341,11 +9754,11 @@
   },
   {
    "family": "other",
-   "first_seen": "2026-10-19T18:44:45Z",
-   "fit": 84,
-   "key": "laundry_service",
+   "first_seen": "2026-10-19T19:05:46Z",
+   "fit": 72,
+   "key": "cabinet_sales_service",
    "kind": "business",
-   "label": "Laundry service",
+   "label": "Cabinet sales service",
    "picked": 1,
    "provinces": [
     "AB",
@@ -9356,13 +9769,35 @@
     "NS",
     "ON",
     "QC",
-    "SK",
-    "YT"
+    "SK"
    ],
-   "rule": "cleaners",
-   "seen": 66,
+   "rule": "lodging",
+   "seen": 49,
    "terminal": "countertop",
-   "viable": 50
+   "viable": 49
+  },
+  {
+   "family": "restaurant",
+   "first_seen": "2026-10-19T18:44:45Z",
+   "fit": 94,
+   "key": "taco_restaurant",
+   "kind": "business",
+   "label": "Taco restaurant",
+   "picked": 1,
+   "provinces": [
+    "AB",
+    "BC",
+    "MB",
+    "NB",
+    "NS",
+    "ON",
+    "QC",
+    "SK"
+   ],
+   "rule": "restaurant",
+   "seen": 126,
+   "terminal": "portable",
+   "viable": 49
   },
   {
    "family": "retail",
@@ -9385,7 +9820,7 @@
     "SK"
    ],
    "rule": "fashion",
-   "seen": 67,
+   "seen": 71,
    "terminal": "countertop",
    "viable": 48
   },
@@ -9408,7 +9843,7 @@
     "QC"
    ],
    "rule": "auto_sales",
-   "seen": 68,
+   "seen": 72,
    "terminal": "countertop",
    "viable": 48
   },
@@ -9432,7 +9867,7 @@
     "PE"
    ],
    "rule": "auto_sales",
-   "seen": 79,
+   "seen": 83,
    "terminal": "countertop",
    "viable": 47
   },
@@ -9457,102 +9892,9 @@
     "SK"
    ],
    "rule": "retail_generic",
-   "seen": 62,
+   "seen": 69,
    "terminal": "countertop",
    "viable": 47
-  },
-  {
-   "family": "restaurant",
-   "first_seen": "2026-10-19T18:44:45Z",
-   "fit": 94,
-   "key": "taco_restaurant",
-   "kind": "business",
-   "label": "Taco restaurant",
-   "picked": 1,
-   "provinces": [
-    "AB",
-    "BC",
-    "MB",
-    "NB",
-    "NS",
-    "ON",
-    "QC",
-    "SK"
-   ],
-   "rule": "restaurant",
-   "seen": 104,
-   "terminal": "portable",
-   "viable": 47
-  },
-  {
-   "family": "landscaper",
-   "first_seen": "2026-10-19T19:05:40Z",
-   "fit": 78,
-   "key": "lawn_service",
-   "kind": "business",
-   "label": "Lawn service",
-   "picked": 1,
-   "provinces": [
-    "AB",
-    "BC",
-    "MB",
-    "NS",
-    "ON",
-    "QC",
-    "SK"
-   ],
-   "rule": "landscaping",
-   "seen": 51,
-   "terminal": "mobile",
-   "viable": 46
-  },
-  {
-   "family": "other",
-   "first_seen": "2026-10-19T19:05:46Z",
-   "fit": 72,
-   "key": "cabinet_sales_service",
-   "kind": "business",
-   "label": "Cabinet sales service",
-   "picked": 1,
-   "provinces": [
-    "AB",
-    "BC",
-    "MB",
-    "NB",
-    "NL",
-    "NS",
-    "ON",
-    "QC",
-    "SK"
-   ],
-   "rule": "lodging",
-   "seen": 45,
-   "terminal": "countertop",
-   "viable": 45
-  },
-  {
-   "family": "spa",
-   "first_seen": "2026-10-19T19:05:40Z",
-   "fit": 90,
-   "key": "no_category_spa",
-   "kind": "business",
-   "label": "No category, the name suggests: Spas and massage",
-   "picked": 1,
-   "provinces": [
-    "AB",
-    "BC",
-    "MB",
-    "NB",
-    "NL",
-    "NS",
-    "ON",
-    "QC",
-    "SK"
-   ],
-   "rule": "spa",
-   "seen": 54,
-   "terminal": "portable",
-   "viable": 45
   },
   {
    "family": "trades",
@@ -9575,9 +9917,9 @@
     "SK"
    ],
    "rule": "trades",
-   "seen": 52,
+   "seen": 66,
    "terminal": "mobile",
-   "viable": 44
+   "viable": 46
   },
   {
    "family": "trades",
@@ -9598,54 +9940,9 @@
     "QC"
    ],
    "rule": "trades",
-   "seen": 44,
+   "seen": 52,
    "terminal": "mobile",
-   "viable": 42
-  },
-  {
-   "family": "professional",
-   "first_seen": "2026-10-19T18:44:47Z",
-   "fit": 46,
-   "key": "bookkeeper",
-   "kind": "business",
-   "label": "Bookkeeper",
-   "picked": 1,
-   "provinces": [
-    "AB",
-    "BC",
-    "MB",
-    "NB",
-    "NL",
-    "NS",
-    "ON",
-    "QC",
-    "SK"
-   ],
-   "rule": "tax_notary",
-   "seen": 44,
-   "terminal": "countertop",
-   "viable": 41
-  },
-  {
-   "family": "wellness",
-   "first_seen": "2026-10-19T18:44:45Z",
-   "fit": 58,
-   "key": "meditation_center",
-   "kind": "business",
-   "label": "Meditation center",
-   "picked": 1,
-   "provinces": [
-    "AB",
-    "BC",
-    "MB",
-    "NS",
-    "ON",
-    "SK"
-   ],
-   "rule": "g_health",
-   "seen": 55,
-   "terminal": "countertop",
-   "viable": 41
+   "viable": 44
   },
   {
    "family": "retail",
@@ -9667,9 +9964,55 @@
     "SK"
    ],
    "rule": "home_goods",
-   "seen": 78,
+   "seen": 87,
    "terminal": "countertop",
-   "viable": 40
+   "viable": 43
+  },
+  {
+   "family": "wellness",
+   "first_seen": "2026-10-19T18:44:45Z",
+   "fit": 58,
+   "key": "meditation_center",
+   "kind": "business",
+   "label": "Meditation center",
+   "picked": 1,
+   "provinces": [
+    "AB",
+    "BC",
+    "MB",
+    "NS",
+    "ON",
+    "SK"
+   ],
+   "rule": "g_health",
+   "seen": 58,
+   "terminal": "countertop",
+   "viable": 41
+  },
+  {
+   "family": "transport",
+   "first_seen": "2026-10-19T19:05:39Z",
+   "fit": 65,
+   "key": "canoe_and_kayak_hire_service",
+   "kind": "business",
+   "label": "Canoe and kayak hire service",
+   "picked": 1,
+   "provinces": [
+    "AB",
+    "BC",
+    "MB",
+    "NB",
+    "NS",
+    "NT",
+    "ON",
+    "QC",
+    "SK",
+    "YT"
+   ],
+   "rule": "rentals_auto",
+   "seen": 47,
+   "terminal": "countertop",
+   "viable": 39
   },
   {
    "family": "wellness",
@@ -9693,32 +10036,7 @@
     "YT"
    ],
    "rule": "g_sport",
-   "seen": 97,
-   "terminal": "countertop",
-   "viable": 38
-  },
-  {
-   "family": "transport",
-   "first_seen": "2026-10-19T19:05:39Z",
-   "fit": 65,
-   "key": "canoe_and_kayak_hire_service",
-   "kind": "business",
-   "label": "Canoe and kayak hire service",
-   "picked": 1,
-   "provinces": [
-    "AB",
-    "BC",
-    "MB",
-    "NB",
-    "NS",
-    "NT",
-    "ON",
-    "QC",
-    "SK",
-    "YT"
-   ],
-   "rule": "rentals_auto",
-   "seen": 45,
+   "seen": 108,
    "terminal": "countertop",
    "viable": 38
   },
@@ -9743,9 +10061,34 @@
     "YT"
    ],
    "rule": "g_services",
-   "seen": 101,
+   "seen": 111,
    "terminal": "countertop",
-   "viable": 37
+   "viable": 38
+  },
+  {
+   "family": "dental",
+   "first_seen": "2026-10-19T18:44:45Z",
+   "fit": 90,
+   "key": "periodontics",
+   "kind": "business",
+   "label": "Periodontics",
+   "picked": 1,
+   "provinces": [
+    "AB",
+    "BC",
+    "MB",
+    "NB",
+    "NL",
+    "NS",
+    "ON",
+    "PE",
+    "QC",
+    "SK"
+   ],
+   "rule": "dental",
+   "seen": 48,
+   "terminal": "countertop",
+   "viable": 38
   },
   {
    "family": "restaurant",
@@ -9766,110 +10109,9 @@
     "SK"
    ],
    "rule": "restaurant",
-   "seen": 50,
+   "seen": 51,
    "terminal": "portable",
    "viable": 37
-  },
-  {
-   "family": "wellness",
-   "first_seen": "2026-10-19T19:05:42Z",
-   "fit": 82,
-   "key": "race_track",
-   "kind": "business",
-   "label": "Race track",
-   "picked": 1,
-   "provinces": [
-    "AB",
-    "BC",
-    "MB",
-    "NB",
-    "NS",
-    "ON",
-    "PE",
-    "QC",
-    "SK",
-    "YT"
-   ],
-   "rule": "fitness",
-   "seen": 63,
-   "terminal": "countertop",
-   "viable": 36
-  },
-  {
-   "family": "retail",
-   "first_seen": "2026-10-19T19:05:44Z",
-   "fit": 76,
-   "key": "motorsports_store",
-   "kind": "business",
-   "label": "Motorsports store",
-   "picked": 1,
-   "provinces": [
-    "AB",
-    "BC",
-    "MB",
-    "NB",
-    "NL",
-    "NS",
-    "NU",
-    "ON",
-    "PE",
-    "QC",
-    "SK",
-    "YT"
-   ],
-   "rule": "retail_generic",
-   "seen": 44,
-   "terminal": "countertop",
-   "viable": 35
-  },
-  {
-   "family": "other",
-   "first_seen": "2026-10-19T19:05:49Z",
-   "fit": 80,
-   "key": "no_category_repair",
-   "kind": "business",
-   "label": "No category, the name suggests: Repair shops",
-   "picked": 1,
-   "provinces": [
-    "AB",
-    "BC",
-    "MB",
-    "NB",
-    "NL",
-    "NS",
-    "ON",
-    "QC",
-    "SK",
-    "YT"
-   ],
-   "rule": "repair",
-   "seen": 43,
-   "terminal": "countertop",
-   "viable": 35
-  },
-  {
-   "family": "retail",
-   "first_seen": "2026-10-19T18:44:46Z",
-   "fit": 78,
-   "key": "computer_coaching",
-   "kind": "business",
-   "label": "Computer coaching",
-   "picked": 1,
-   "provinces": [
-    "AB",
-    "BC",
-    "MB",
-    "NB",
-    "NL",
-    "ON",
-    "PE",
-    "QC",
-    "SK"
-   ],
-   "rule": "electronics",
-   "seen": 63,
-   "terminal": "countertop",
-   "viable": 34
   },
   {
    "family": "retail",
@@ -9891,381 +10133,141 @@
     "SK"
    ],
    "rule": "photo_events",
-   "seen": 61,
+   "seen": 66,
    "terminal": "mobile",
-   "viable": 34
-  },
-  {
-   "family": "retail",
-   "first_seen": "2026-10-19T18:44:45Z",
-   "fit": 76,
-   "key": "hot_tub_and_pool_store",
-   "kind": "business",
-   "label": "Hot tub and pool store",
-   "picked": 1,
-   "provinces": [
-    "AB",
-    "BC",
-    "MB",
-    "NB",
-    "NS",
-    "ON",
-    "QC",
-    "SK"
-   ],
-   "rule": "retail_generic",
-   "seen": 33,
-   "terminal": "countertop",
-   "viable": 33
-  },
-  {
-   "family": "other",
-   "first_seen": "2026-10-19T18:44:45Z",
-   "fit": 62,
-   "key": "cooking_school",
-   "kind": "business",
-   "label": "Cooking school",
-   "picked": 1,
-   "provinces": [
-    "AB",
-    "BC",
-    "MB",
-    "NS",
-    "ON",
-    "PE",
-    "QC",
-    "SK",
-    "YT"
-   ],
-   "rule": "lessons",
-   "seen": 46,
-   "terminal": "countertop",
-   "viable": 32
-  },
-  {
-   "family": "restaurant",
-   "first_seen": "2026-10-19T18:44:45Z",
-   "fit": 94,
-   "key": "halal_restaurant",
-   "kind": "business",
-   "label": "Halal restaurant",
-   "picked": 1,
-   "provinces": [
-    "AB",
-    "BC",
-    "MB",
-    "NL",
-    "NS",
-    "ON",
-    "SK"
-   ],
-   "rule": "restaurant",
-   "seen": 64,
-   "terminal": "portable",
-   "viable": 32
-  },
-  {
-   "family": "vet",
-   "first_seen": "2026-10-19T18:44:45Z",
-   "fit": 88,
-   "key": "dog_walker",
-   "kind": "business",
-   "label": "Dog walker",
-   "picked": 1,
-   "provinces": [
-    "AB",
-    "BC",
-    "NB",
-    "NL",
-    "NS",
-    "ON",
-    "PE",
-    "QC",
-    "SK"
-   ],
-   "rule": "pet_services",
-   "seen": 48,
-   "terminal": "portable",
-   "viable": 31
-  },
-  {
-   "family": "wellness",
-   "first_seen": "2026-10-19T19:05:40Z",
-   "fit": 60,
-   "key": "kids_recreation_and_party",
-   "kind": "business",
-   "label": "Kids recreation and party",
-   "picked": 1,
-   "provinces": [
-    "AB",
-    "BC",
-    "MB",
-    "NB",
-    "NL",
-    "NS",
-    "ON",
-    "PE",
-    "QC",
-    "SK"
-   ],
-   "rule": "sports_club",
-   "seen": 47,
-   "terminal": "countertop",
-   "viable": 31
-  },
-  {
-   "family": "wellness",
-   "first_seen": "2026-10-19T18:44:46Z",
-   "fit": 55,
-   "key": "career_counseling",
-   "kind": "business",
-   "label": "Career counseling",
-   "picked": 1,
-   "provinces": [
-    "AB",
-    "BC",
-    "MB",
-    "NB",
-    "NS",
-    "ON",
-    "PE",
-    "SK"
-   ],
-   "rule": "counselling",
-   "seen": 58,
-   "terminal": "countertop",
-   "viable": 30
-  },
-  {
-   "family": "dental",
-   "first_seen": "2026-10-19T19:05:40Z",
-   "fit": 90,
-   "key": "endodontics",
-   "kind": "business",
-   "label": "Endodontics",
-   "picked": 1,
-   "provinces": [
-    "AB",
-    "BC",
-    "MB",
-    "NB",
-    "NS",
-    "ON",
-    "PE",
-    "QC",
-    "SK"
-   ],
-   "rule": "dental",
-   "seen": 32,
-   "terminal": "countertop",
-   "viable": 29
-  },
-  {
-   "family": "spa",
-   "first_seen": "2026-10-19T18:44:45Z",
-   "fit": 90,
-   "key": "reflexology",
-   "kind": "business",
-   "label": "Reflexology",
-   "picked": 1,
-   "provinces": [
-    "AB",
-    "BC",
-    "MB",
-    "NB",
-    "NL",
-    "NS",
-    "ON",
-    "PE",
-    "QC",
-    "SK"
-   ],
-   "rule": "spa",
-   "seen": 48,
-   "terminal": "portable",
-   "viable": 28
-  },
-  {
-   "family": "wellness",
-   "first_seen": "2026-10-19T19:05:42Z",
-   "fit": 55,
-   "key": "speech_therapy",
-   "kind": "business",
-   "label": "Speech therapy",
-   "picked": 1,
-   "provinces": [
-    "AB",
-    "BC",
-    "MB",
-    "NB",
-    "NL",
-    "NS",
-    "ON",
-    "PE",
-    "QC",
-    "SK",
-    "YT"
-   ],
-   "rule": "counselling",
-   "seen": 59,
-   "terminal": "countertop",
-   "viable": 27
-  },
-  {
-   "family": "wellness",
-   "first_seen": "2026-10-19T19:05:55Z",
-   "fit": 82,
-   "key": "scuba_diving_center",
-   "kind": "business",
-   "label": "Scuba diving center",
-   "picked": 1,
-   "provinces": [
-    "AB",
-    "BC",
-    "MB",
-    "NB",
-    "NL",
-    "NS",
-    "ON",
-    "PE",
-    "QC"
-   ],
-   "rule": "fitness",
-   "seen": 32,
-   "terminal": "countertop",
-   "viable": 25
+   "viable": 36
   }
  ],
  "gaps": [
-  "Ontario: 34 of 2124 places searched so far",
+  "Ontario: 35 of 2124 places searched so far",
   "British Columbia: 6 of 1014 places searched so far",
-  "Alberta: 15 of 1146 places searched so far",
+  "Alberta: 17 of 1146 places searched so far",
   "Manitoba: 10 of 677 places searched so far",
-  "Saskatchewan: 6 of 1088 places searched so far",
+  "Saskatchewan: 7 of 1088 places searched so far",
   "Nova Scotia: 6 of 2405 places searched so far",
   "New Brunswick: 6 of 743 places searched so far",
-  "Newfoundland and Labrador: 2 of 528 places searched so far",
-  "Prince Edward Island: 4 of 492 places searched so far",
+  "Newfoundland and Labrador: 3 of 528 places searched so far",
+  "Prince Edward Island: 5 of 492 places searched so far",
   "Yukon: 3 of 72 places searched so far",
   "Northwest Territories: 3 of 56 places searched so far",
-  "B2b service: 516 good businesses seen, none handed over yet",
-  "Information technology company: 516 good businesses seen, none handed over yet",
-  "Vietnamese restaurant: 419 good businesses seen, none handed over yet",
-  "Interior design: 392 good businesses seen, none handed over yet",
-  "Food and beverage store: 307 good businesses seen, none handed over yet",
-  "Japanese restaurant: 293 good businesses seen, none handed over yet",
-  "Travel agent: 286 good businesses seen, none handed over yet",
-  "Immigration law: 283 good businesses seen, none handed over yet",
-  "Home cleaning: 282 good businesses seen, none handed over yet",
-  "Key and locksmith: 272 good businesses seen, none handed over yet",
-  "B2b business management service: 266 good businesses seen, none handed over yet",
-  "Telecommunications service: 252 good businesses seen, none handed over yet",
-  "Painting: 227 good businesses seen, none handed over yet",
-  "Mens clothing store: 197 good businesses seen, none handed over yet",
-  "Language school: 196 good businesses seen, none handed over yet",
-  "Psychology: 196 good businesses seen, none handed over yet",
-  "Theatre venue: 182 good businesses seen, none handed over yet",
-  "B2b mining: 181 good businesses seen, none handed over yet",
-  "Divorce and family law: 179 good businesses seen, none handed over yet",
-  "Office supply store: 179 good businesses seen, none handed over yet",
-  "Courier and delivery service: 176 good businesses seen, none handed over yet",
-  "Recycling center: 174 good businesses seen, none handed over yet",
-  "Warehouse club store: 168 good businesses seen, none handed over yet",
-  "Korean restaurant: 157 good businesses seen, none handed over yet",
-  "Tanning salon: 155 good businesses seen, none handed over yet",
-  "Radio station: 153 good businesses seen, none handed over yet",
-  "Pest control service: 150 good businesses seen, none handed over yet",
-  "Dance club: 146 good businesses seen, none handed over yet",
-  "Laboratory testing: 145 good businesses seen, none handed over yet",
-  "B2b oil and gas: 143 good businesses seen, none handed over yet",
-  "Lingerie store: 142 good businesses seen, none handed over yet",
-  "Legal service: 141 good businesses seen, none handed over yet",
-  "Toy store: 141 good businesses seen, none handed over yet",
-  "Commercial industrial: 139 good businesses seen, none handed over yet",
-  "Metal supplier: 131 good businesses seen, none handed over yet",
-  "Personal injury law: 127 good businesses seen, none handed over yet",
-  "Theatrical production: 123 good businesses seen, none handed over yet",
-  "Telecommunications company: 121 good businesses seen, none handed over yet",
-  "Home decor store: 117 good businesses seen, none handed over yet",
-  "Criminal defense law: 116 good businesses seen, none handed over yet",
-  "Beer wine spirits store: 113 good businesses seen, none handed over yet",
-  "Cosmetics and fragrance store: 110 good businesses seen, none handed over yet",
-  "Wholesaler: 107 good businesses seen, none handed over yet",
-  "Lebanese restaurant: 106 good businesses seen, none handed over yet",
-  "Shipping center: 106 good businesses seen, none handed over yet",
-  "No category, the name suggests: Counselling and therapy: 105 good businesses seen, none handed over yet",
-  "Video game store: 105 good businesses seen, none handed over yet",
-  "Mover: 104 good businesses seen, none handed over yet",
-  "Energy company: 99 good businesses seen, none handed over yet"
+  "B2b service: 550 good businesses seen, none handed over yet",
+  "Information technology company: 542 good businesses seen, none handed over yet",
+  "Vietnamese restaurant: 435 good businesses seen, none handed over yet",
+  "Interior design: 413 good businesses seen, none handed over yet",
+  "Travel agent: 306 good businesses seen, none handed over yet",
+  "Japanese restaurant: 299 good businesses seen, none handed over yet",
+  "Immigration law: 296 good businesses seen, none handed over yet",
+  "Home cleaning: 293 good businesses seen, none handed over yet",
+  "Key and locksmith: 291 good businesses seen, none handed over yet",
+  "B2b business management service: 277 good businesses seen, none handed over yet",
+  "Telecommunications service: 263 good businesses seen, none handed over yet",
+  "Painting: 235 good businesses seen, none handed over yet",
+  "Psychology: 217 good businesses seen, none handed over yet",
+  "Language school: 200 good businesses seen, none handed over yet",
+  "Divorce and family law: 190 good businesses seen, none handed over yet",
+  "Office supply store: 186 good businesses seen, none handed over yet",
+  "Theatre venue: 186 good businesses seen, none handed over yet",
+  "B2b mining: 183 good businesses seen, none handed over yet",
+  "Courier and delivery service: 182 good businesses seen, none handed over yet",
+  "Recycling center: 180 good businesses seen, none handed over yet",
+  "Tanning salon: 172 good businesses seen, none handed over yet",
+  "Warehouse club store: 170 good businesses seen, none handed over yet",
+  "Korean restaurant: 163 good businesses seen, none handed over yet",
+  "Radio station: 158 good businesses seen, none handed over yet",
+  "Pest control service: 157 good businesses seen, none handed over yet",
+  "Laboratory testing: 151 good businesses seen, none handed over yet",
+  "Dance club: 150 good businesses seen, none handed over yet",
+  "Legal service: 150 good businesses seen, none handed over yet",
+  "Toy store: 148 good businesses seen, none handed over yet",
+  "Lingerie store: 147 good businesses seen, none handed over yet",
+  "B2b oil and gas: 145 good businesses seen, none handed over yet",
+  "Commercial industrial: 143 good businesses seen, none handed over yet",
+  "Personal injury law: 138 good businesses seen, none handed over yet",
+  "Metal supplier: 136 good businesses seen, none handed over yet",
+  "Telecommunications company: 131 good businesses seen, none handed over yet",
+  "Home decor store: 126 good businesses seen, none handed over yet",
+  "Theatrical production: 124 good businesses seen, none handed over yet",
+  "Beer wine spirits store: 121 good businesses seen, none handed over yet",
+  "Criminal defense law: 117 good businesses seen, none handed over yet",
+  "Lebanese restaurant: 117 good businesses seen, none handed over yet",
+  "Wholesaler: 116 good businesses seen, none handed over yet",
+  "Cosmetics and fragrance store: 113 good businesses seen, none handed over yet",
+  "Video game store: 110 good businesses seen, none handed over yet",
+  "No category, the name suggests: Counselling and therapy: 108 good businesses seen, none handed over yet",
+  "Home inspector: 105 good businesses seen, none handed over yet",
+  "Mover: 105 good businesses seen, none handed over yet",
+  "Department store: 101 good businesses seen, none handed over yet",
+  "Energy company: 100 good businesses seen, none handed over yet",
+  "Medical research institute: 97 good businesses seen, none handed over yet"
  ],
  "markets_known": 12799,
  "markets_source": "divisions",
  "provinces": {
   "AB": {
-   "areas_searched": 22,
-   "businesses_seen": 34938,
+   "areas_searched": 24,
+   "businesses_seen": 37595,
    "markets_known": 1146,
-   "markets_searched": 15,
+   "markets_searched": 17,
    "name": "Alberta",
    "people_in_known_markets": 3494571,
-   "picked": 235,
+   "picked": 269,
    "status": "started",
-   "viable_seen": 17881
+   "viable_seen": 19105
   },
   "BC": {
-   "areas_searched": 12,
-   "businesses_seen": 60415,
+   "areas_searched": 13,
+   "businesses_seen": 61254,
    "markets_known": 1014,
    "markets_searched": 6,
    "name": "British Columbia",
    "people_in_known_markets": 4332376,
-   "picked": 234,
+   "picked": 250,
    "status": "started",
-   "viable_seen": 31264
+   "viable_seen": 31599
   },
   "MB": {
-   "areas_searched": 14,
-   "businesses_seen": 22862,
+   "areas_searched": 15,
+   "businesses_seen": 24194,
    "markets_known": 677,
    "markets_searched": 10,
    "name": "Manitoba",
    "people_in_known_markets": 904088,
-   "picked": 145,
+   "picked": 162,
    "status": "started",
-   "viable_seen": 11301
+   "viable_seen": 11893
   },
   "NB": {
-   "areas_searched": 8,
-   "businesses_seen": 11955,
+   "areas_searched": 9,
+   "businesses_seen": 12152,
    "markets_known": 743,
    "markets_searched": 6,
    "name": "New Brunswick",
    "people_in_known_markets": 353799,
-   "picked": 97,
+   "picked": 103,
    "status": "started",
-   "viable_seen": 5652
+   "viable_seen": 5746
   },
   "NL": {
-   "areas_searched": 9,
-   "businesses_seen": 6630,
+   "areas_searched": 10,
+   "businesses_seen": 6956,
    "markets_known": 528,
-   "markets_searched": 2,
+   "markets_searched": 3,
    "name": "Newfoundland and Labrador",
    "people_in_known_markets": 302569,
-   "picked": 73,
+   "picked": 83,
    "status": "started",
-   "viable_seen": 3100
+   "viable_seen": 3242
   },
   "NS": {
-   "areas_searched": 18,
-   "businesses_seen": 17841,
+   "areas_searched": 20,
+   "businesses_seen": 18849,
    "markets_known": 2405,
    "markets_searched": 6,
    "name": "Nova Scotia",
    "people_in_known_markets": 647740,
-   "picked": 184,
+   "picked": 201,
    "status": "started",
-   "viable_seen": 8267
+   "viable_seen": 8730
   },
   "NT": {
    "areas_searched": 3,
@@ -10290,26 +10292,26 @@
    "viable_seen": 59
   },
   "ON": {
-   "areas_searched": 126,
-   "businesses_seen": 71685,
+   "areas_searched": 134,
+   "businesses_seen": 79429,
    "markets_known": 2124,
-   "markets_searched": 34,
+   "markets_searched": 35,
    "name": "Ontario",
    "people_in_known_markets": 13845528,
-   "picked": 1879,
+   "picked": 2059,
    "status": "started",
-   "viable_seen": 33954
+   "viable_seen": 37197
   },
   "PE": {
-   "areas_searched": 4,
-   "businesses_seen": 3207,
+   "areas_searched": 5,
+   "businesses_seen": 3274,
    "markets_known": 492,
-   "markets_searched": 4,
+   "markets_searched": 5,
    "name": "Prince Edward Island",
    "people_in_known_markets": 67980,
-   "picked": 55,
+   "picked": 56,
    "status": "started",
-   "viable_seen": 1479
+   "viable_seen": 1513
   },
   "QC": {
    "areas_searched": 0,
@@ -10323,15 +10325,15 @@
    "viable_seen": 4786
   },
   "SK": {
-   "areas_searched": 10,
-   "businesses_seen": 17512,
+   "areas_searched": 13,
+   "businesses_seen": 17950,
    "markets_known": 1088,
-   "markets_searched": 6,
+   "markets_searched": 7,
    "name": "Saskatchewan",
    "people_in_known_markets": 696780,
-   "picked": 127,
+   "picked": 146,
    "status": "started",
-   "viable_seen": 8472
+   "viable_seen": 8642
   },
   "YT": {
    "areas_searched": 4,
@@ -10347,25 +10349,25 @@
  },
  "release": "2026-10-21.0",
  "totals": {
-  "business_types_picked": 469,
-  "business_types_seen": 1691,
-  "business_types_viable": 1315,
+  "business_types_picked": 487,
+  "business_types_seen": 1715,
+  "business_types_viable": 1318,
   "excluded": {
-   "chain or franchise": 26035,
-   "closed": 35,
-   "duplicate": 19280,
-   "low score": 16,
-   "no contact details": 2171,
-   "not a merchant prospect": 41114,
-   "outside Canada": 26178,
+   "chain or franchise": 27880,
+   "closed": 37,
+   "duplicate": 20632,
+   "low score": 17,
+   "no contact details": 2271,
+   "not a merchant prospect": 43207,
+   "outside Canada": 41612,
    "province not included (Quebec waits for French outreach)": 4786,
-   "rarely takes card payments in person": 25574,
-   "restricted industry": 2519,
-   "uncertain listing": 31838
+   "rarely takes card payments in person": 27361,
+   "restricted industry": 2641,
+   "uncertain listing": 33557
   },
-  "picked": 3120,
-  "places_scanned": 283732,
-  "runs": 11
+  "picked": 3420,
+  "places_scanned": 313780,
+  "runs": 12
  },
- "updated_at": "2026-11-08T17:06:15Z"
+ "updated_at": "2026-11-11T18:43:59Z"
 }
