@@ -1,98 +1,98 @@
 # Lead feed coverage
 
-Updated 2026-11-18T19:26:29Z (Overture release 2026-11-18.0). The outreach agent shows the same numbers in its Coverage tab.
+Updated 2026-11-22T18:32:37Z (Overture release 2026-11-18.0). The outreach agent shows the same numbers in its Coverage tab.
 
 ## Last run
 
-300 businesses handed over from 22 areas (39208 places read). 13530 left for later runs.
+300 businesses handed over from 28 areas (28811 places read). 9512 left for later runs.
 
 ## Provinces and territories
 
 | | Places known | Places searched | Businesses seen | Good fits | Handed over | Status |
 |---|---:|---:|---:|---:|---:|---|
-| Ontario | 2124 | 41 | 123357 | 56125 | 2419 | started |
-| Quebec | 2384 | 0 | 13187 | 6371 | 0 | waiting: outreach in French is not set up, so Quebec is counted but not searched |
-| British Columbia | 1017 | 8 | 62274 | 32148 | 284 | started |
-| Alberta | 1144 | 18 | 38633 | 19589 | 303 | started |
+| Ontario | 2124 | 42 | 146443 | 65809 | 2618 | started |
+| Quebec | 2384 | 0 | 15821 | 7647 | 0 | waiting: outreach in French is not set up, so Quebec is counted but not searched |
+| British Columbia | 1017 | 9 | 62745 | 32418 | 302 | started |
+| Alberta | 1144 | 18 | 40686 | 20794 | 322 | started |
 | Manitoba | 677 | 11 | 25449 | 12414 | 196 | started |
-| Saskatchewan | 1089 | 7 | 18477 | 8903 | 170 | started |
-| Nova Scotia | 2405 | 7 | 19157 | 8855 | 220 | started |
+| Saskatchewan | 1089 | 7 | 18622 | 8976 | 205 | started |
+| Nova Scotia | 2405 | 7 | 19525 | 9021 | 242 | started |
 | New Brunswick | 742 | 7 | 12666 | 5987 | 137 | started |
 | Newfoundland and Labrador | 528 | 4 | 7303 | 3424 | 116 | started |
 | Prince Edward Island | 492 | 6 | 3689 | 1710 | 81 | started |
-| Yukon | 72 | 3 | 1595 | 811 | 36 | started |
+| Yukon | 72 | 3 | 1602 | 811 | 36 | started |
 | Northwest Territories | 56 | 4 | 436 | 196 | 33 | started |
-| Nunavut | 70 | 8 | 186 | 60 | 25 | under way |
+| Nunavut | 70 | 14 | 227 | 69 | 32 | under way |
 
 ## Business types (top 60)
 
 | Type | Model rule | Fit | Seen | Good fits | Handed over |
 |---|---|---:|---:|---:|---:|
-| Veterinarian | vet | 90 | 768 | 585 | 82 |
-| Flowers and gifts store | florist | 86 | 1826 | 1220 | 65 |
-| Bakery | cafe | 93 | 1688 | 1066 | 63 |
-| Tattoo and piercing | tattoo | 90 | 1362 | 918 | 63 |
-| Pet store | pet_store | 85 | 1004 | 433 | 60 |
-| Dental clinic | dental | 90 | 2617 | 1923 | 55 |
-| Hair salon | salon | 91 | 4051 | 2901 | 51 |
-| Nursery and gardening store | garden_center | 84 | 499 | 357 | 51 |
-| Chiropractic | rehab | 88 | 1488 | 1194 | 49 |
-| Food truck stand | food_truck | 92 | 332 | 176 | 46 |
-| Martial arts club | martial_arts | 80 | 1259 | 1007 | 44 |
-| Convenience store | convenience | 82 | 2362 | 730 | 44 |
-| Gym | fitness | 82 | 2599 | 1467 | 42 |
-| Towing service | towing | 82 | 431 | 220 | 42 |
-| Automotive repair | auto_service | 90 | 4286 | 2559 | 41 |
-| Landscaping | landscaping | 78 | 908 | 407 | 39 |
-| Pet groomer | pet_services | 88 | 727 | 502 | 38 |
-| Auto body shop | auto_service | 90 | 743 | 396 | 38 |
-| Massage therapy | spa | 90 | 2335 | 1334 | 35 |
-| Auto dealer | auto_sales | 68 | 2649 | 1343 | 34 |
-| Beauty salon | salon | 91 | 4560 | 2898 | 32 |
-| Butcher shop | food_retail | 85 | 441 | 317 | 32 |
-| Day spa | spa | 90 | 350 | 259 | 32 |
-| Unknown | unknown | 40 | 6858 | 4077 | 31 |
-| Bar and grill restaurant | bars | 92 | 601 | 302 | 31 |
-| Contractor | trades | 76 | 3125 | 1709 | 30 |
-| It service and computer repair | repair | 80 | 1324 | 995 | 30 |
-| Audiology | eye_ear | 86 | 261 | 121 | 30 |
-| Clothing store | fashion | 86 | 3033 | 1632 | 29 |
-| Barber | salon | 91 | 1708 | 1088 | 29 |
-| General dentistry | dental | 90 | 1286 | 907 | 29 |
-| Caterer | catering | 78 | 615 | 354 | 29 |
-| Animal or pet service | pet_services | 88 | 385 | 223 | 29 |
-| Optometry | eye_ear | 86 | 1006 | 632 | 27 |
-| Pharmacy | pharmacy | 74 | 3145 | 1262 | 26 |
-| Building or construction service | construction | 45 | 1787 | 759 | 26 |
-| Bike store | sporting | 84 | 401 | 287 | 26 |
-| Building supply store | home_goods | 80 | 1991 | 1704 | 25 |
-| Sporting goods store | sporting | 84 | 943 | 554 | 25 |
-| Auto detailing | auto_service | 90 | 835 | 470 | 25 |
-| Brewery | bars | 92 | 462 | 341 | 25 |
-| Printing service | print | 76 | 1395 | 975 | 23 |
-| Spa | spa | 90 | 2166 | 1243 | 22 |
-| Golf course | golf_ski | 78 | 320 | 266 | 22 |
-| Cafe | cafe | 93 | 1681 | 1203 | 21 |
-| Travel service | travel | 42 | 1461 | 668 | 21 |
-| Acupuncture | rehab | 88 | 513 | 408 | 21 |
-| Self storage facility | courier | 66 | 497 | 341 | 21 |
-| Funeral service | funeral | 45 | 494 | 332 | 21 |
-| Florist | florist | 86 | 321 | 263 | 21 |
-| Naturopathic medicine | rehab | 88 | 1546 | 802 | 20 |
-| Antique store | hobby | 84 | 314 | 231 | 20 |
-| Food and drink | g_food | 86 | 139 | 65 | 20 |
-| Liquor store | liquor | 70 | 1130 | 528 | 19 |
-| Bar | bars | 92 | 940 | 492 | 19 |
-| Arts and entertainment | g_arts | 62 | 1111 | 486 | 19 |
-| Freight and cargo service | freight | 30 | 867 | 480 | 19 |
-| Farmers market | food_retail | 85 | 398 | 268 | 19 |
-| Laundromat | cleaners | 84 | 309 | 209 | 19 |
-| Accountant | accounting | 32 | 1740 | 1188 | 18 |
+| Veterinarian | vet | 90 | 819 | 621 | 88 |
+| Flowers and gifts store | florist | 86 | 1956 | 1305 | 68 |
+| Tattoo and piercing | tattoo | 90 | 1459 | 980 | 67 |
+| Bakery | cafe | 93 | 1826 | 1153 | 66 |
+| Pet store | pet_store | 85 | 1071 | 460 | 62 |
+| Nursery and gardening store | garden_center | 84 | 544 | 387 | 61 |
+| Dental clinic | dental | 90 | 2846 | 2054 | 59 |
+| Hair salon | salon | 91 | 4368 | 3144 | 53 |
+| Chiropractic | rehab | 88 | 1595 | 1273 | 52 |
+| Convenience store | convenience | 82 | 2532 | 788 | 47 |
+| Food truck stand | food_truck | 92 | 365 | 195 | 47 |
+| Automotive repair | auto_service | 90 | 4669 | 2801 | 44 |
+| Gym | fitness | 82 | 2782 | 1561 | 44 |
+| Martial arts club | martial_arts | 80 | 1361 | 1089 | 44 |
+| Towing service | towing | 82 | 462 | 239 | 44 |
+| Pet groomer | pet_services | 88 | 772 | 528 | 41 |
+| Landscaping | landscaping | 78 | 973 | 437 | 41 |
+| Auto body shop | auto_service | 90 | 795 | 415 | 41 |
+| Auto dealer | auto_sales | 68 | 2818 | 1422 | 37 |
+| Massage therapy | spa | 90 | 2474 | 1413 | 35 |
+| Day spa | spa | 90 | 365 | 270 | 35 |
+| Unknown | unknown | 40 | 7438 | 4443 | 34 |
+| Butcher shop | food_retail | 85 | 467 | 335 | 34 |
+| Bar and grill restaurant | bars | 92 | 638 | 327 | 33 |
+| Beauty salon | salon | 91 | 4831 | 3081 | 32 |
+| Contractor | trades | 76 | 3391 | 1882 | 32 |
+| Barber | salon | 91 | 1831 | 1183 | 32 |
+| Clothing store | fashion | 86 | 3257 | 1748 | 31 |
+| It service and computer repair | repair | 80 | 1431 | 1087 | 31 |
+| Animal or pet service | pet_services | 88 | 411 | 237 | 31 |
+| General dentistry | dental | 90 | 1391 | 949 | 30 |
+| Optometry | eye_ear | 86 | 1077 | 675 | 30 |
+| Caterer | catering | 78 | 662 | 378 | 30 |
+| Audiology | eye_ear | 86 | 269 | 122 | 30 |
+| Brewery | bars | 92 | 495 | 363 | 29 |
+| Bike store | sporting | 84 | 430 | 311 | 29 |
+| Pharmacy | pharmacy | 74 | 3362 | 1326 | 27 |
+| Building or construction service | construction | 45 | 1919 | 822 | 27 |
+| Sporting goods store | sporting | 84 | 1014 | 592 | 27 |
+| Building supply store | home_goods | 80 | 2173 | 1854 | 26 |
+| Auto detailing | auto_service | 90 | 890 | 505 | 25 |
+| Printing service | print | 76 | 1497 | 1060 | 24 |
+| Spa | spa | 90 | 2297 | 1326 | 23 |
+| Acupuncture | rehab | 88 | 545 | 429 | 23 |
+| Golf course | golf_ski | 78 | 339 | 282 | 23 |
+| Cafe | cafe | 93 | 1823 | 1298 | 22 |
+| Travel service | travel | 42 | 1558 | 723 | 22 |
+| Self storage facility | courier | 66 | 525 | 359 | 22 |
+| Funeral service | funeral | 45 | 522 | 350 | 22 |
+| Freight and cargo service | freight | 30 | 931 | 523 | 21 |
+| Florist | florist | 86 | 342 | 283 | 21 |
+| Antique store | hobby | 84 | 332 | 246 | 21 |
+| Food and drink | g_food | 86 | 148 | 70 | 21 |
+| Party and event planning | photo_events | 72 | 2016 | 1052 | 20 |
+| Naturopathic medicine | rehab | 88 | 1644 | 858 | 20 |
+| Liquor store | liquor | 70 | 1185 | 546 | 20 |
+| Arts and entertainment | g_arts | 62 | 1199 | 524 | 20 |
+| Bed and breakfast | lodging | 72 | 451 | 375 | 20 |
+| Accountant | accounting | 32 | 1854 | 1274 | 19 |
+| Jewelry store | fashion | 86 | 1606 | 1075 | 19 |
 
 ## Gaps
 
-- Ontario: 41 of 2124 places searched so far
-- British Columbia: 8 of 1017 places searched so far
+- Ontario: 42 of 2124 places searched so far
+- British Columbia: 9 of 1017 places searched so far
 - Alberta: 18 of 1144 places searched so far
 - Manitoba: 11 of 677 places searched so far
 - Saskatchewan: 7 of 1089 places searched so far
@@ -102,52 +102,52 @@ Updated 2026-11-18T19:26:29Z (Overture release 2026-11-18.0). The outreach agent
 - Prince Edward Island: 6 of 492 places searched so far
 - Yukon: 3 of 72 places searched so far
 - Northwest Territories: 4 of 56 places searched so far
-- Information technology company: 637 good businesses seen, none handed over yet
-- B2b service: 634 good businesses seen, none handed over yet
-- Vietnamese restaurant: 503 good businesses seen, none handed over yet
-- Interior design: 483 good businesses seen, none handed over yet
-- Travel agent: 370 good businesses seen, none handed over yet
-- B2b business management service: 332 good businesses seen, none handed over yet
-- Immigration law: 328 good businesses seen, none handed over yet
-- Japanese restaurant: 324 good businesses seen, none handed over yet
-- Telecommunications service: 315 good businesses seen, none handed over yet
-- Painting: 287 good businesses seen, none handed over yet
-- Psychology: 278 good businesses seen, none handed over yet
-- Language school: 251 good businesses seen, none handed over yet
-- Divorce and family law: 232 good businesses seen, none handed over yet
-- Courier and delivery service: 225 good businesses seen, none handed over yet
-- Theatre venue: 216 good businesses seen, none handed over yet
-- Office supply store: 209 good businesses seen, none handed over yet
-- Recycling center: 199 good businesses seen, none handed over yet
-- Dance club: 195 good businesses seen, none handed over yet
-- Legal service: 190 good businesses seen, none handed over yet
-- B2b mining: 189 good businesses seen, none handed over yet
-- Pest control service: 189 good businesses seen, none handed over yet
-- Korean restaurant: 188 good businesses seen, none handed over yet
-- Warehouse club store: 188 good businesses seen, none handed over yet
-- Toy store: 184 good businesses seen, none handed over yet
-- Personal injury law: 177 good businesses seen, none handed over yet
-- Lingerie store: 165 good businesses seen, none handed over yet
-- Commercial industrial: 164 good businesses seen, none handed over yet
-- Criminal defense law: 154 good businesses seen, none handed over yet
-- Metal supplier: 152 good businesses seen, none handed over yet
-- Telecommunications company: 152 good businesses seen, none handed over yet
-- B2b oil and gas: 149 good businesses seen, none handed over yet
-- Theatrical production: 147 good businesses seen, none handed over yet
-- Home decor store: 142 good businesses seen, none handed over yet
-- Beer wine spirits store: 137 good businesses seen, none handed over yet
-- Cosmetics and fragrance store: 137 good businesses seen, none handed over yet
-- Home inspector: 133 good businesses seen, none handed over yet
-- Video game store: 133 good businesses seen, none handed over yet
-- Wholesaler: 132 good businesses seen, none handed over yet
-- No category, the name suggests: Counselling and therapy: 128 good businesses seen, none handed over yet
-- Mover: 120 good businesses seen, none handed over yet
-- Behavioral or mental health clinic: 117 good businesses seen, none handed over yet
-- Security systems: 111 good businesses seen, none handed over yet
-- Medical research institute: 109 good businesses seen, none handed over yet
-- Complementary and alternative medicine: 108 good businesses seen, none handed over yet
-- Energy company: 108 good businesses seen, none handed over yet
-- No category, the name suggests: Health (general): 107 good businesses seen, none handed over yet
-- Psychotherapy: 107 good businesses seen, none handed over yet
-- No category, the name suggests: Photography and events: 106 good businesses seen, none handed over yet
-- Windows installation: 106 good businesses seen, none handed over yet
+- Information technology company: 691 good businesses seen, none handed over yet
+- Vietnamese restaurant: 542 good businesses seen, none handed over yet
+- Interior design: 515 good businesses seen, none handed over yet
+- B2b business management service: 367 good businesses seen, none handed over yet
+- Telecommunications service: 351 good businesses seen, none handed over yet
+- Immigration law: 345 good businesses seen, none handed over yet
+- Japanese restaurant: 342 good businesses seen, none handed over yet
+- Painting: 331 good businesses seen, none handed over yet
+- Psychology: 312 good businesses seen, none handed over yet
+- Language school: 292 good businesses seen, none handed over yet
+- Courier and delivery service: 252 good businesses seen, none handed over yet
+- Divorce and family law: 249 good businesses seen, none handed over yet
+- Theatre venue: 233 good businesses seen, none handed over yet
+- Office supply store: 231 good businesses seen, none handed over yet
+- Warehouse club store: 211 good businesses seen, none handed over yet
+- Legal service: 208 good businesses seen, none handed over yet
+- Toy store: 207 good businesses seen, none handed over yet
+- Korean restaurant: 203 good businesses seen, none handed over yet
+- Personal injury law: 194 good businesses seen, none handed over yet
+- B2b mining: 192 good businesses seen, none handed over yet
+- Lingerie store: 179 good businesses seen, none handed over yet
+- Criminal defense law: 177 good businesses seen, none handed over yet
+- Commercial industrial: 175 good businesses seen, none handed over yet
+- B2b oil and gas: 173 good businesses seen, none handed over yet
+- Telecommunications company: 161 good businesses seen, none handed over yet
+- Theatrical production: 161 good businesses seen, none handed over yet
+- Metal supplier: 159 good businesses seen, none handed over yet
+- Cosmetics and fragrance store: 152 good businesses seen, none handed over yet
+- Home decor store: 149 good businesses seen, none handed over yet
+- Beer wine spirits store: 147 good businesses seen, none handed over yet
+- Video game store: 145 good businesses seen, none handed over yet
+- Wholesaler: 145 good businesses seen, none handed over yet
+- No category, the name suggests: Counselling and therapy: 143 good businesses seen, none handed over yet
+- Home inspector: 142 good businesses seen, none handed over yet
+- Mover: 138 good businesses seen, none handed over yet
+- Behavioral or mental health clinic: 128 good businesses seen, none handed over yet
+- Psychotherapy: 125 good businesses seen, none handed over yet
+- Security systems: 122 good businesses seen, none handed over yet
+- Complementary and alternative medicine: 120 good businesses seen, none handed over yet
+- Energy company: 119 good businesses seen, none handed over yet
+- Medical research institute: 115 good businesses seen, none handed over yet
+- Windows installation: 115 good businesses seen, none handed over yet
+- No category, the name suggests: Hair, nail and beauty: 108 good businesses seen, none handed over yet
+- Session photography service: 107 good businesses seen, none handed over yet
+- T shirt store: 107 good businesses seen, none handed over yet
+- Filipino restaurant: 106 good businesses seen, none handed over yet
+- Photography service: 106 good businesses seen, none handed over yet
+- Nutrition service: 104 good businesses seen, none handed over yet
+- Chemical plant: 101 good businesses seen, none handed over yet
